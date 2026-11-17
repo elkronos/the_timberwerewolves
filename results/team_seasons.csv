@@ -1,0 +1,1801 @@
+"measure","team","season","outcome","estimate","se"
+"window","Atlanta Hawks","2016-17","offense",5.9306,4.0967
+"window","Atlanta Hawks","2017-18","offense",-3.1695,3.9108
+"window","Atlanta Hawks","2018-19","offense",-5.1112,3.9201
+"window","Atlanta Hawks","2019-20","offense",3.0709,4.1561
+"window","Atlanta Hawks","2020-21","offense",-1.846,3.6034
+"window","Atlanta Hawks","2021-22","offense",3.2046,3.7219
+"window","Atlanta Hawks","2022-23","offense",-0.3439,4.1082
+"window","Atlanta Hawks","2023-24","offense",5.223,3.5918
+"window","Atlanta Hawks","2024-25","offense",2.5244,4.0989
+"window","Atlanta Hawks","2025-26","offense",2.0833,4.1211
+"window","Atlanta Hawks","2016-17","defense",-1.4617,4.0987
+"window","Atlanta Hawks","2017-18","defense",-2.827,3.9128
+"window","Atlanta Hawks","2018-19","defense",-3.1992,3.9214
+"window","Atlanta Hawks","2019-20","defense",3.5517,4.1584
+"window","Atlanta Hawks","2020-21","defense",5.557,3.6047
+"window","Atlanta Hawks","2021-22","defense",-2.2691,3.7237
+"window","Atlanta Hawks","2022-23","defense",-1.7793,4.1099
+"window","Atlanta Hawks","2023-24","defense",-2.9038,3.5929
+"window","Atlanta Hawks","2024-25","defense",0.8877,4.1012
+"window","Atlanta Hawks","2025-26","defense",5.0369,4.1208
+"window","Atlanta Hawks","2016-17","net",7.3923,4.8996
+"window","Atlanta Hawks","2017-18","net",-0.3425,4.6751
+"window","Atlanta Hawks","2018-19","net",-1.912,4.6785
+"window","Atlanta Hawks","2019-20","net",-0.4808,4.9686
+"window","Atlanta Hawks","2020-21","net",-7.403,4.2832
+"window","Atlanta Hawks","2021-22","net",5.4737,4.4335
+"window","Atlanta Hawks","2022-23","net",1.4354,4.9103
+"window","Atlanta Hawks","2023-24","net",8.1268,4.2809
+"window","Atlanta Hawks","2024-25","net",1.6367,4.9085
+"window","Atlanta Hawks","2025-26","net",-2.9536,4.9327
+"window","Boston Celtics","2016-17","offense",4.3036,3.876
+"window","Boston Celtics","2017-18","offense",9.2851,3.7086
+"window","Boston Celtics","2018-19","offense",-2.1206,3.8921
+"window","Boston Celtics","2019-20","offense",4.3175,3.354
+"window","Boston Celtics","2020-21","offense",-0.6519,3.9359
+"window","Boston Celtics","2021-22","offense",4.8505,3.3015
+"window","Boston Celtics","2022-23","offense",-5.0618,3.7086
+"window","Boston Celtics","2023-24","offense",6.0055,3.7075
+"window","Boston Celtics","2024-25","offense",-2.4492,3.8929
+"window","Boston Celtics","2025-26","offense",7.5757,3.582
+"window","Boston Celtics","2016-17","defense",-3.1823,3.8778
+"window","Boston Celtics","2017-18","defense",-0.4973,3.7093
+"window","Boston Celtics","2018-19","defense",-1.3154,3.8935
+"window","Boston Celtics","2019-20","defense",6.9039,3.3554
+"window","Boston Celtics","2020-21","defense",3.6544,3.9369
+"window","Boston Celtics","2021-22","defense",-0.6703,3.3028
+"window","Boston Celtics","2022-23","defense",-11.1071,3.71
+"window","Boston Celtics","2023-24","defense",4.8759,3.7087
+"window","Boston Celtics","2024-25","defense",1.6552,3.8951
+"window","Boston Celtics","2025-26","defense",-2.3424,3.5833
+"window","Boston Celtics","2016-17","net",7.4859,4.6173
+"window","Boston Celtics","2017-18","net",9.7823,4.4173
+"window","Boston Celtics","2018-19","net",-0.8052,4.6417
+"window","Boston Celtics","2019-20","net",-2.5864,3.9657
+"window","Boston Celtics","2020-21","net",-4.3064,4.6933
+"window","Boston Celtics","2021-22","net",5.5207,3.9029
+"window","Boston Celtics","2022-23","net",6.0453,4.4102
+"window","Boston Celtics","2023-24","net",1.1296,4.4165
+"window","Boston Celtics","2024-25","net",-4.1043,4.6526
+"window","Boston Celtics","2025-26","net",9.9181,4.2552
+"window","Brooklyn Nets","2016-17","offense",-1.0102,3.9043
+"window","Brooklyn Nets","2017-18","offense",-1.8085,3.7551
+"window","Brooklyn Nets","2018-19","offense",0.2558,3.9116
+"window","Brooklyn Nets","2019-20","offense",4.1657,4.1409
+"window","Brooklyn Nets","2020-21","offense",6.3818,3.7508
+"window","Brooklyn Nets","2021-22","offense",-1.971,3.718
+"window","Brooklyn Nets","2022-23","offense",-1.3126,4.1182
+"window","Brooklyn Nets","2023-24","offense",-1.9239,4.1079
+"window","Brooklyn Nets","2024-25","offense",5.647,4.1169
+"window","Brooklyn Nets","2025-26","offense",-5.9895,3.9086
+"window","Brooklyn Nets","2016-17","defense",-1.8861,3.906
+"window","Brooklyn Nets","2017-18","defense",-1.2453,3.7563
+"window","Brooklyn Nets","2018-19","defense",0.3463,3.9131
+"window","Brooklyn Nets","2019-20","defense",0.7829,4.142
+"window","Brooklyn Nets","2020-21","defense",2.449,3.7521
+"window","Brooklyn Nets","2021-22","defense",4.8128,3.7196
+"window","Brooklyn Nets","2022-23","defense",-3.1513,4.1194
+"window","Brooklyn Nets","2023-24","defense",-3.7707,4.1094
+"window","Brooklyn Nets","2024-25","defense",2.3235,4.1179
+"window","Brooklyn Nets","2025-26","defense",1.76,3.9098
+"window","Brooklyn Nets","2016-17","net",0.8759,4.6555
+"window","Brooklyn Nets","2017-18","net",-0.5632,4.4804
+"window","Brooklyn Nets","2018-19","net",-0.0905,4.6645
+"window","Brooklyn Nets","2019-20","net",3.3829,4.9593
+"window","Brooklyn Nets","2020-21","net",3.9329,4.4636
+"window","Brooklyn Nets","2021-22","net",-6.7838,4.4287
+"window","Brooklyn Nets","2022-23","net",1.8388,4.9246
+"window","Brooklyn Nets","2023-24","net",1.8469,4.9179
+"window","Brooklyn Nets","2024-25","net",3.3235,4.9313
+"window","Brooklyn Nets","2025-26","net",-7.7495,4.6672
+"window","Charlotte Hornets","2016-17","offense",-5.9302,3.5985
+"window","Charlotte Hornets","2017-18","offense",-0.0558,3.9022
+"window","Charlotte Hornets","2018-19","offense",2.3138,3.9138
+"window","Charlotte Hornets","2019-20","offense",4.6308,4.7095
+"window","Charlotte Hornets","2020-21","offense",0.2444,4.4013
+"window","Charlotte Hornets","2021-22","offense",-6.7561,3.9042
+"window","Charlotte Hornets","2022-23","offense",2.7665,4.665
+"window","Charlotte Hornets","2023-24","offense",-6.7216,3.9098
+"window","Charlotte Hornets","2024-25","offense",1.457,4.1229
+"window","Charlotte Hornets","2025-26","offense",-2.3774,3.735
+"window","Charlotte Hornets","2016-17","defense",0.4658,3.5999
+"window","Charlotte Hornets","2017-18","defense",4.4237,3.9036
+"window","Charlotte Hornets","2018-19","defense",1.4583,3.9149
+"window","Charlotte Hornets","2019-20","defense",4.6773,4.7118
+"window","Charlotte Hornets","2020-21","defense",-5.8411,4.4034
+"window","Charlotte Hornets","2021-22","defense",-3.971,3.9057
+"window","Charlotte Hornets","2022-23","defense",-3.5964,4.6671
+"window","Charlotte Hornets","2023-24","defense",0.8529,3.9114
+"window","Charlotte Hornets","2024-25","defense",0.6239,4.1249
+"window","Charlotte Hornets","2025-26","defense",-7.6438,3.7365
+"window","Charlotte Hornets","2016-17","net",-6.3961,4.2773
+"window","Charlotte Hornets","2017-18","net",-4.4795,4.6613
+"window","Charlotte Hornets","2018-19","net",0.8555,4.6685
+"window","Charlotte Hornets","2019-20","net",-0.0465,5.6585
+"window","Charlotte Hornets","2020-21","net",6.0855,5.274
+"window","Charlotte Hornets","2021-22","net",-2.7851,4.6613
+"window","Charlotte Hornets","2022-23","net",6.3629,5.5964
+"window","Charlotte Hornets","2023-24","net",-7.5745,4.6803
+"window","Charlotte Hornets","2024-25","net",0.8332,4.9456
+"window","Charlotte Hornets","2025-26","net",5.2664,4.4502
+"window","Chicago Bulls","2016-17","offense",-5.5863,4.3537
+"window","Chicago Bulls","2017-18","offense",-1.5896,3.9249
+"window","Chicago Bulls","2018-19","offense",2.4422,4.1229
+"window","Chicago Bulls","2019-20","offense",7.5281,4.4119
+"window","Chicago Bulls","2020-21","offense",-4.671,5.1146
+"window","Chicago Bulls","2021-22","offense",-4.4962,3.8872
+"window","Chicago Bulls","2022-23","offense",1.359,4.1337
+"window","Chicago Bulls","2023-24","offense",-0.8944,3.9161
+"window","Chicago Bulls","2024-25","offense",-4.7916,3.916
+"window","Chicago Bulls","2025-26","offense",-6.5521,3.9136
+"window","Chicago Bulls","2016-17","defense",-4.6889,4.3554
+"window","Chicago Bulls","2017-18","defense",-8.4738,3.9265
+"window","Chicago Bulls","2018-19","defense",-5.8317,4.1238
+"window","Chicago Bulls","2019-20","defense",-0.0442,4.4132
+"window","Chicago Bulls","2020-21","defense",-1.8614,5.1157
+"window","Chicago Bulls","2021-22","defense",-0.9445,3.889
+"window","Chicago Bulls","2022-23","defense",-0.7216,4.1341
+"window","Chicago Bulls","2023-24","defense",4.6157,3.9167
+"window","Chicago Bulls","2024-25","defense",-0.6373,3.9176
+"window","Chicago Bulls","2025-26","defense",0.8911,3.915
+"window","Chicago Bulls","2016-17","net",-0.8974,5.2202
+"window","Chicago Bulls","2017-18","net",6.8841,4.6855
+"window","Chicago Bulls","2018-19","net",8.274,4.9293
+"window","Chicago Bulls","2019-20","net",7.5723,5.2991
+"window","Chicago Bulls","2020-21","net",-2.8096,6.1551
+"window","Chicago Bulls","2021-22","net",-3.5517,4.6448
+"window","Chicago Bulls","2022-23","net",2.0806,4.9457
+"window","Chicago Bulls","2023-24","net",-5.5101,4.6894
+"window","Chicago Bulls","2024-25","net",-4.1543,4.6853
+"window","Chicago Bulls","2025-26","net",-7.4432,4.679
+"window","Cleveland Cavaliers","2016-17","offense",-0.9333,3.3279
+"window","Cleveland Cavaliers","2017-18","offense",1.8735,3.7111
+"window","Cleveland Cavaliers","2018-19","offense",-2.809,3.9186
+"window","Cleveland Cavaliers","2019-20","offense",-0.0302,4.1739
+"window","Cleveland Cavaliers","2020-21","offense",-6.7324,4.145
+"window","Cleveland Cavaliers","2021-22","offense",2.5587,3.8997
+"window","Cleveland Cavaliers","2022-23","offense",3.3764,3.9235
+"window","Cleveland Cavaliers","2023-24","offense",-5.7318,3.4391
+"window","Cleveland Cavaliers","2024-25","offense",-6.0692,3.7488
+"window","Cleveland Cavaliers","2025-26","offense",1.2789,3.7022
+"window","Cleveland Cavaliers","2016-17","defense",-1.888,3.3297
+"window","Cleveland Cavaliers","2017-18","defense",-2.4142,3.7115
+"window","Cleveland Cavaliers","2018-19","defense",-1.6453,3.9196
+"window","Cleveland Cavaliers","2019-20","defense",-5.3958,4.1755
+"window","Cleveland Cavaliers","2020-21","defense",-6.3512,4.1465
+"window","Cleveland Cavaliers","2021-22","defense",3.3092,3.9016
+"window","Cleveland Cavaliers","2022-23","defense",-3.2044,3.9254
+"window","Cleveland Cavaliers","2023-24","defense",-2.3648,3.4403
+"window","Cleveland Cavaliers","2024-25","defense",0.7567,3.75
+"window","Cleveland Cavaliers","2025-26","defense",0.2369,3.704
+"window","Cleveland Cavaliers","2016-17","net",0.9548,3.9341
+"window","Cleveland Cavaliers","2017-18","net",4.2877,4.4207
+"window","Cleveland Cavaliers","2018-19","net",-1.1636,4.6779
+"window","Cleveland Cavaliers","2019-20","net",5.3656,5.0002
+"window","Cleveland Cavaliers","2020-21","net",-0.3811,4.9557
+"window","Cleveland Cavaliers","2021-22","net",-0.7505,4.6526
+"window","Cleveland Cavaliers","2022-23","net",6.5807,4.6884
+"window","Cleveland Cavaliers","2023-24","net",-3.367,4.0881
+"window","Cleveland Cavaliers","2024-25","net",-6.8259,4.4683
+"window","Cleveland Cavaliers","2025-26","net",1.042,4.4093
+"window","Dallas Mavericks","2016-17","offense",-4.3095,3.755
+"window","Dallas Mavericks","2017-18","offense",-4.679,3.5946
+"window","Dallas Mavericks","2018-19","offense",1.4745,4.1205
+"window","Dallas Mavericks","2019-20","offense",-2.6586,3.7542
+"window","Dallas Mavericks","2020-21","offense",-0.1587,3.7575
+"window","Dallas Mavericks","2021-22","offense",-0.4949,3.5569
+"window","Dallas Mavericks","2022-23","offense",-3.8047,3.7483
+"window","Dallas Mavericks","2023-24","offense",-2.0694,3.5514
+"window","Dallas Mavericks","2024-25","offense",-3.2794,3.5914
+"window","Dallas Mavericks","2025-26","offense",-8.7637,3.9358
+"window","Dallas Mavericks","2016-17","defense",-2.1302,3.7568
+"window","Dallas Mavericks","2017-18","defense",-5.3363,3.5961
+"window","Dallas Mavericks","2018-19","defense",3.5745,4.1218
+"window","Dallas Mavericks","2019-20","defense",-0.0782,3.7556
+"window","Dallas Mavericks","2020-21","defense",0.4378,3.7596
+"window","Dallas Mavericks","2021-22","defense",0.3732,3.5585
+"window","Dallas Mavericks","2022-23","defense",-2.978,3.7499
+"window","Dallas Mavericks","2023-24","defense",2.395,3.5531
+"window","Dallas Mavericks","2024-25","defense",1.6783,3.593
+"window","Dallas Mavericks","2025-26","defense",-5.5382,3.9362
+"window","Dallas Mavericks","2016-17","net",-2.1793,4.4707
+"window","Dallas Mavericks","2017-18","net",0.6573,4.2725
+"window","Dallas Mavericks","2018-19","net",-2.1,4.9301
+"window","Dallas Mavericks","2019-20","net",-2.5805,4.4772
+"window","Dallas Mavericks","2020-21","net",-0.5965,4.4775
+"window","Dallas Mavericks","2021-22","net",-0.8681,4.2344
+"window","Dallas Mavericks","2022-23","net",-0.8267,4.4589
+"window","Dallas Mavericks","2023-24","net",-4.4644,4.2243
+"window","Dallas Mavericks","2024-25","net",-4.9576,4.2741
+"window","Dallas Mavericks","2025-26","net",-3.2255,4.7035
+"window","Denver Nuggets","2016-17","offense",0.796,3.7417
+"window","Denver Nuggets","2017-18","offense",2.7769,3.9052
+"window","Denver Nuggets","2018-19","offense",4.2125,3.8981
+"window","Denver Nuggets","2019-20","offense",-5.325,4.0986
+"window","Denver Nuggets","2020-21","offense",4.0657,3.9212
+"window","Denver Nuggets","2021-22","offense",1.7703,3.8881
+"window","Denver Nuggets","2022-23","offense",-0.9942,3.4283
+"window","Denver Nuggets","2023-24","offense",4.3119,3.4541
+"window","Denver Nuggets","2024-25","offense",-2.1353,3.4423
+"window","Denver Nuggets","2025-26","offense",-0.0693,3.7192
+"window","Denver Nuggets","2016-17","defense",-1.6887,3.7425
+"window","Denver Nuggets","2017-18","defense",5.1842,3.9066
+"window","Denver Nuggets","2018-19","defense",4.4895,3.8991
+"window","Denver Nuggets","2019-20","defense",-5.1746,4.1011
+"window","Denver Nuggets","2020-21","defense",-4.3681,3.922
+"window","Denver Nuggets","2021-22","defense",2.4567,3.89
+"window","Denver Nuggets","2022-23","defense",3.5232,3.4297
+"window","Denver Nuggets","2023-24","defense",0.8414,3.4545
+"window","Denver Nuggets","2024-25","defense",-7.5444,3.4444
+"window","Denver Nuggets","2025-26","defense",5.3141,3.7205
+"window","Denver Nuggets","2016-17","net",2.4847,4.4571
+"window","Denver Nuggets","2017-18","net",-2.4074,4.6633
+"window","Denver Nuggets","2018-19","net",-0.277,4.6491
+"window","Denver Nuggets","2019-20","net",-0.1504,4.8972
+"window","Denver Nuggets","2020-21","net",8.4338,4.6767
+"window","Denver Nuggets","2021-22","net",-0.6865,4.6425
+"window","Denver Nuggets","2022-23","net",-4.5174,4.0499
+"window","Denver Nuggets","2023-24","net",3.4706,4.1107
+"window","Denver Nuggets","2024-25","net",5.4091,4.0891
+"window","Denver Nuggets","2025-26","net",-5.3834,4.4268
+"window","Detroit Pistons","2016-17","offense",0.3374,3.9156
+"window","Detroit Pistons","2017-18","offense",3.4901,3.7362
+"window","Detroit Pistons","2018-19","offense",-3.0042,3.7439
+"window","Detroit Pistons","2019-20","offense",-5.717,4.1633
+"window","Detroit Pistons","2020-21","offense",-0.3841,4.1631
+"window","Detroit Pistons","2021-22","offense",1.1764,3.9022
+"window","Detroit Pistons","2022-23","offense",-5.3588,3.7566
+"window","Detroit Pistons","2023-24","offense",-0.9772,4.1239
+"window","Detroit Pistons","2024-25","offense",5.7545,4.3837
+"window","Detroit Pistons","2025-26","offense",-2.2343,3.7018
+"window","Detroit Pistons","2016-17","defense",-6.7497,3.9165
+"window","Detroit Pistons","2017-18","defense",-0.1975,3.7378
+"window","Detroit Pistons","2018-19","defense",-1.5268,3.7453
+"window","Detroit Pistons","2019-20","defense",0.6441,4.1656
+"window","Detroit Pistons","2020-21","defense",-2.1733,4.1638
+"window","Detroit Pistons","2021-22","defense",-4.7486,3.9037
+"window","Detroit Pistons","2022-23","defense",-5.992,3.7573
+"window","Detroit Pistons","2023-24","defense",-1.4116,4.1249
+"window","Detroit Pistons","2024-25","defense",1.176,4.3861
+"window","Detroit Pistons","2025-26","defense",-3.3949,3.7037
+"window","Detroit Pistons","2016-17","net",7.0871,4.6745
+"window","Detroit Pistons","2017-18","net",3.6876,4.4519
+"window","Detroit Pistons","2018-19","net",-1.4774,4.4583
+"window","Detroit Pistons","2019-20","net",-6.3611,4.9826
+"window","Detroit Pistons","2020-21","net",1.7892,4.9805
+"window","Detroit Pistons","2021-22","net",5.925,4.659
+"window","Detroit Pistons","2022-23","net",0.6332,4.4732
+"window","Detroit Pistons","2023-24","net",0.4344,4.9478
+"window","Detroit Pistons","2024-25","net",4.5784,5.2671
+"window","Detroit Pistons","2025-26","net",1.1606,4.4064
+"window","Golden State Warriors","2016-17","offense",0.6288,3.8779
+"window","Golden State Warriors","2017-18","offense",3.3304,3.425
+"window","Golden State Warriors","2018-19","offense",5.858,3.7005
+"window","Golden State Warriors","2019-20","offense",5.4736,5.1166
+"window","Golden State Warriors","2020-21","offense",0.1147,4.387
+"window","Golden State Warriors","2021-22","offense",-1.8706,3.4315
+"window","Golden State Warriors","2022-23","offense",2.4388,3.9143
+"window","Golden State Warriors","2023-24","offense",0.17,3.9423
+"window","Golden State Warriors","2024-25","offense",1.801,3.879
+"window","Golden State Warriors","2025-26","offense",-5.5475,4.1111
+"window","Golden State Warriors","2016-17","defense",7.9583,3.8793
+"window","Golden State Warriors","2017-18","defense",-1.0181,3.4261
+"window","Golden State Warriors","2018-19","defense",-0.4778,3.7017
+"window","Golden State Warriors","2019-20","defense",7.9129,5.1186
+"window","Golden State Warriors","2020-21","defense",3.8376,4.3887
+"window","Golden State Warriors","2021-22","defense",2.4299,3.4324
+"window","Golden State Warriors","2022-23","defense",2.1294,3.9156
+"window","Golden State Warriors","2023-24","defense",-3.2907,3.9419
+"window","Golden State Warriors","2024-25","defense",0.9332,3.8806
+"window","Golden State Warriors","2025-26","defense",1.5999,4.1123
+"window","Golden State Warriors","2016-17","net",-7.3296,4.6196
+"window","Golden State Warriors","2017-18","net",4.3484,4.0617
+"window","Golden State Warriors","2018-19","net",6.3358,4.3979
+"window","Golden State Warriors","2019-20","net",-2.4392,6.1604
+"window","Golden State Warriors","2020-21","net",-3.7229,5.2573
+"window","Golden State Warriors","2021-22","net",-4.3005,4.0702
+"window","Golden State Warriors","2022-23","net",0.3094,4.6603
+"window","Golden State Warriors","2023-24","net",3.4607,4.7273
+"window","Golden State Warriors","2024-25","net",0.8677,4.6312
+"window","Golden State Warriors","2025-26","net",-7.1474,4.9231
+"window","Houston Rockets","2016-17","offense",-2.0541,3.4582
+"window","Houston Rockets","2017-18","offense",-3.9956,3.7142
+"window","Houston Rockets","2018-19","offense",0.1125,3.9049
+"window","Houston Rockets","2019-20","offense",-7.0637,3.3678
+"window","Houston Rockets","2020-21","offense",1.5522,4.7067
+"window","Houston Rockets","2021-22","offense",1.7927,4.112
+"window","Houston Rockets","2022-23","offense",4.5649,4.3612
+"window","Houston Rockets","2023-24","offense",2.3126,3.6096
+"window","Houston Rockets","2024-25","offense",-0.0247,3.8899
+"window","Houston Rockets","2025-26","offense",-0.99,3.5886
+"window","Houston Rockets","2016-17","defense",0.7477,3.4595
+"window","Houston Rockets","2017-18","defense",-1.9024,3.7159
+"window","Houston Rockets","2018-19","defense",4.2281,3.9066
+"window","Houston Rockets","2019-20","defense",-1.6981,3.3689
+"window","Houston Rockets","2020-21","defense",-2.4488,4.7083
+"window","Houston Rockets","2021-22","defense",3.6618,4.1136
+"window","Houston Rockets","2022-23","defense",8.6997,4.3625
+"window","Houston Rockets","2023-24","defense",5.5674,3.6095
+"window","Houston Rockets","2024-25","defense",2.7733,3.8926
+"window","Houston Rockets","2025-26","defense",-1.3125,3.5905
+"window","Houston Rockets","2016-17","net",-2.8018,4.0981
+"window","Houston Rockets","2017-18","net",-2.0932,4.423
+"window","Houston Rockets","2018-19","net",-4.1155,4.6572
+"window","Houston Rockets","2019-20","net",-5.3656,3.9886
+"window","Houston Rockets","2020-21","net",4.001,5.6499
+"window","Houston Rockets","2021-22","net",-1.869,4.9246
+"window","Houston Rockets","2022-23","net",-4.1349,5.2239
+"window","Houston Rockets","2023-24","net",-3.2548,4.3122
+"window","Houston Rockets","2024-25","net",-2.798,4.6517
+"window","Houston Rockets","2025-26","net",0.3225,4.2661
+"window","Indiana Pacers","2016-17","offense",-2.8898,4.1053
+"window","Indiana Pacers","2017-18","offense",-0.2677,3.8864
+"window","Indiana Pacers","2018-19","offense",0.2167,3.7376
+"window","Indiana Pacers","2019-20","offense",7.0265,3.9436
+"window","Indiana Pacers","2020-21","offense",1.1087,4.1576
+"window","Indiana Pacers","2021-22","offense",5.5031,4.3736
+"window","Indiana Pacers","2022-23","offense",6.3491,4.6698
+"window","Indiana Pacers","2023-24","offense",9.6245,3.6888
+"window","Indiana Pacers","2024-25","offense",1.012,3.3314
+"window","Indiana Pacers","2025-26","offense",10.2617,4.1322
+"window","Indiana Pacers","2016-17","defense",-0.1176,4.1075
+"window","Indiana Pacers","2017-18","defense",2.4684,3.8878
+"window","Indiana Pacers","2018-19","defense",-0.1147,3.7388
+"window","Indiana Pacers","2019-20","defense",0.8212,3.9446
+"window","Indiana Pacers","2020-21","defense",3.557,4.1592
+"window","Indiana Pacers","2021-22","defense",6.0125,4.3746
+"window","Indiana Pacers","2022-23","defense",6.227,4.6718
+"window","Indiana Pacers","2023-24","defense",3.4155,3.6906
+"window","Indiana Pacers","2024-25","defense",-2.8412,3.333
+"window","Indiana Pacers","2025-26","defense",4.9615,4.1328
+"window","Indiana Pacers","2016-17","net",-2.7722,4.9074
+"window","Indiana Pacers","2017-18","net",-2.7361,4.6382
+"window","Indiana Pacers","2018-19","net",0.3314,4.4436
+"window","Indiana Pacers","2019-20","net",6.2053,4.7142
+"window","Indiana Pacers","2020-21","net",-2.4483,4.9706
+"window","Indiana Pacers","2021-22","net",-0.5094,5.2535
+"window","Indiana Pacers","2022-23","net",0.1221,5.6064
+"window","Indiana Pacers","2023-24","net",6.2089,4.3966
+"window","Indiana Pacers","2024-25","net",3.8532,3.9417
+"window","Indiana Pacers","2025-26","net",5.3002,4.9469
+"window","LA Clippers","2016-17","offense",4.3957,4.0945
+"window","LA Clippers","2017-18","offense",-5.6334,3.7402
+"window","LA Clippers","2018-19","offense",1.2985,4.3483
+"window","LA Clippers","2019-20","offense",-3.9497,3.9373
+"window","LA Clippers","2020-21","offense",2.3405,3.5924
+"window","LA Clippers","2021-22","offense",0.5211,3.7308
+"window","LA Clippers","2022-23","offense",3.3392,3.7318
+"window","LA Clippers","2023-24","offense",-5.8531,3.5757
+"window","LA Clippers","2024-25","offense",0.4439,4.0987
+"window","LA Clippers","2025-26","offense",-0.2745,3.4573
+"window","LA Clippers","2016-17","defense",0.3113,4.0963
+"window","LA Clippers","2017-18","defense",-1.1404,3.7414
+"window","LA Clippers","2018-19","defense",-1.0409,4.3499
+"window","LA Clippers","2019-20","defense",-4.3349,3.9385
+"window","LA Clippers","2020-21","defense",-1.0783,3.5941
+"window","LA Clippers","2021-22","defense",4.0217,3.7322
+"window","LA Clippers","2022-23","defense",4.8934,3.7334
+"window","LA Clippers","2023-24","defense",-3.9579,3.5767
+"window","LA Clippers","2024-25","defense",-1.0198,4.1005
+"window","LA Clippers","2025-26","defense",0.9291,3.4591
+"window","LA Clippers","2016-17","net",4.0844,4.8912
+"window","LA Clippers","2017-18","net",-4.493,4.4595
+"window","LA Clippers","2018-19","net",2.3394,5.2049
+"window","LA Clippers","2019-20","net",0.3851,4.6953
+"window","LA Clippers","2020-21","net",3.4188,4.2598
+"window","LA Clippers","2021-22","net",-3.5006,4.4446
+"window","LA Clippers","2022-23","net",-1.5542,4.4343
+"window","LA Clippers","2023-24","net",-1.8952,4.2617
+"window","LA Clippers","2024-25","net",1.4638,4.9047
+"window","LA Clippers","2025-26","net",-1.2036,4.103
+"window","Los Angeles Lakers","2016-17","offense",-3.9506,3.7414
+"window","Los Angeles Lakers","2017-18","offense",5.7272,3.9304
+"window","Los Angeles Lakers","2018-19","offense",0.6335,3.9153
+"window","Los Angeles Lakers","2019-20","offense",6.0071,3.5845
+"window","Los Angeles Lakers","2020-21","offense",-3.1747,4.1439
+"window","Los Angeles Lakers","2021-22","offense",-2.4406,3.9075
+"window","Los Angeles Lakers","2022-23","offense",4.1188,3.5707
+"window","Los Angeles Lakers","2023-24","offense",3.9413,3.7206
+"window","Los Angeles Lakers","2024-25","offense",-1.7799,3.5821
+"window","Los Angeles Lakers","2025-26","offense",1.1268,3.5719
+"window","Los Angeles Lakers","2016-17","defense",4.7075,3.743
+"window","Los Angeles Lakers","2017-18","defense",8.9182,3.9312
+"window","Los Angeles Lakers","2018-19","defense",-1.1332,3.9165
+"window","Los Angeles Lakers","2019-20","defense",1.267,3.5861
+"window","Los Angeles Lakers","2020-21","defense",-1.5571,4.1449
+"window","Los Angeles Lakers","2021-22","defense",-2.3134,3.9094
+"window","Los Angeles Lakers","2022-23","defense",5.3124,3.5724
+"window","Los Angeles Lakers","2023-24","defense",9.5137,3.7218
+"window","Los Angeles Lakers","2024-25","defense",3.3196,3.5843
+"window","Los Angeles Lakers","2025-26","defense",-0.9823,3.5736
+"window","Los Angeles Lakers","2016-17","net",-8.6581,4.4562
+"window","Los Angeles Lakers","2017-18","net",-3.191,4.6969
+"window","Los Angeles Lakers","2018-19","net",1.7668,4.674
+"window","Los Angeles Lakers","2019-20","net",4.7401,4.2534
+"window","Los Angeles Lakers","2020-21","net",-1.6177,4.952
+"window","Los Angeles Lakers","2021-22","net",-0.1272,4.6689
+"window","Los Angeles Lakers","2022-23","net",-1.1935,4.2339
+"window","Los Angeles Lakers","2023-24","net",-5.5724,4.441
+"window","Los Angeles Lakers","2024-25","net",-5.0995,4.263
+"window","Los Angeles Lakers","2025-26","net",2.1091,4.2467
+"window","Memphis Grizzlies","2016-17","offense",-3.2322,4.1092
+"window","Memphis Grizzlies","2017-18","offense",5.5718,3.7427
+"window","Memphis Grizzlies","2018-19","offense",-4.9645,4.1193
+"window","Memphis Grizzlies","2019-20","offense",-0.4966,3.958
+"window","Memphis Grizzlies","2020-21","offense",0.919,3.9423
+"window","Memphis Grizzlies","2021-22","offense",2.1542,3.883
+"window","Memphis Grizzlies","2022-23","offense",0.3258,4.1042
+"window","Memphis Grizzlies","2023-24","offense",-1.1612,4.1227
+"window","Memphis Grizzlies","2024-25","offense",0.6907,3.7168
+"window","Memphis Grizzlies","2025-26","offense",6.3718,4.3681
+"window","Memphis Grizzlies","2016-17","defense",0.0831,4.1117
+"window","Memphis Grizzlies","2017-18","defense",-0.5643,3.7437
+"window","Memphis Grizzlies","2018-19","defense",-2.7607,4.1206
+"window","Memphis Grizzlies","2019-20","defense",-1.153,3.9591
+"window","Memphis Grizzlies","2020-21","defense",2.6188,3.9432
+"window","Memphis Grizzlies","2021-22","defense",7.2626,3.8844
+"window","Memphis Grizzlies","2022-23","defense",0.7122,4.1062
+"window","Memphis Grizzlies","2023-24","defense",-2.3653,4.1237
+"window","Memphis Grizzlies","2024-25","defense",1.7212,3.7184
+"window","Memphis Grizzlies","2025-26","defense",2.7894,4.3695
+"window","Memphis Grizzlies","2016-17","net",-3.3153,4.9128
+"window","Memphis Grizzlies","2017-18","net",6.1361,4.4622
+"window","Memphis Grizzlies","2018-19","net",-2.2038,4.9277
+"window","Memphis Grizzlies","2019-20","net",0.6563,4.7254
+"window","Memphis Grizzlies","2020-21","net",-1.6998,4.7101
+"window","Memphis Grizzlies","2021-22","net",-5.1085,4.6359
+"window","Memphis Grizzlies","2022-23","net",-0.3864,4.9039
+"window","Memphis Grizzlies","2023-24","net",1.204,4.9443
+"window","Memphis Grizzlies","2024-25","net",-1.0305,4.4312
+"window","Memphis Grizzlies","2025-26","net",3.5824,5.2339
+"window","Miami Heat","2016-17","offense",-2.4036,3.7348
+"window","Miami Heat","2017-18","offense",-7.7574,4.671
+"window","Miami Heat","2018-19","offense",3.3441,4.3725
+"window","Miami Heat","2019-20","offense",-0.1616,3.4526
+"window","Miami Heat","2020-21","offense",-2.3277,4.1602
+"window","Miami Heat","2021-22","offense",0.3853,3.7001
+"window","Miami Heat","2022-23","offense",2.0594,3.5493
+"window","Miami Heat","2023-24","offense",2.6801,3.8998
+"window","Miami Heat","2024-25","offense",5.7654,4.1113
+"window","Miami Heat","2025-26","offense",-1.4762,3.7311
+"window","Miami Heat","2016-17","defense",-4.8084,3.7365
+"window","Miami Heat","2017-18","defense",0.6892,4.672
+"window","Miami Heat","2018-19","defense",-8.3656,4.3736
+"window","Miami Heat","2019-20","defense",1.631,3.4536
+"window","Miami Heat","2020-21","defense",4.279,4.1618
+"window","Miami Heat","2021-22","defense",-3.7119,3.7013
+"window","Miami Heat","2022-23","defense",-1.4142,3.5508
+"window","Miami Heat","2023-24","defense",-0.0233,3.9008
+"window","Miami Heat","2024-25","defense",2.8999,4.1126
+"window","Miami Heat","2025-26","defense",-1.5308,3.7325
+"window","Miami Heat","2016-17","net",2.4048,4.4458
+"window","Miami Heat","2017-18","net",-8.4466,5.6148
+"window","Miami Heat","2018-19","net",11.7097,5.2397
+"window","Miami Heat","2019-20","net",-1.7927,4.0901
+"window","Miami Heat","2020-21","net",-6.6067,4.9805
+"window","Miami Heat","2021-22","net",4.0972,4.4085
+"window","Miami Heat","2022-23","net",3.4735,4.2031
+"window","Miami Heat","2023-24","net",2.7034,4.6613
+"window","Miami Heat","2024-25","net",2.8656,4.923
+"window","Miami Heat","2025-26","net",0.0546,4.4468
+"window","Milwaukee Bucks","2016-17","offense",0.8708,4.358
+"window","Milwaukee Bucks","2017-18","offense",-0.5386,3.581
+"window","Milwaukee Bucks","2018-19","offense",-0.1194,3.4361
+"window","Milwaukee Bucks","2019-20","offense",0.772,3.7674
+"window","Milwaukee Bucks","2020-21","offense",2.6461,3.4797
+"window","Milwaukee Bucks","2021-22","offense",-5.8526,3.4338
+"window","Milwaukee Bucks","2022-23","offense",2.3319,4.1109
+"window","Milwaukee Bucks","2023-24","offense",0.4163,3.7199
+"window","Milwaukee Bucks","2024-25","offense",4.8167,4.1079
+"window","Milwaukee Bucks","2025-26","offense",-2.6929,4.1062
+"window","Milwaukee Bucks","2016-17","defense",1.7629,4.3596
+"window","Milwaukee Bucks","2017-18","defense",4.0601,3.5819
+"window","Milwaukee Bucks","2018-19","defense",-2.5375,3.4376
+"window","Milwaukee Bucks","2019-20","defense",3.3907,3.7676
+"window","Milwaukee Bucks","2020-21","defense",0.44,3.4814
+"window","Milwaukee Bucks","2021-22","defense",2.6264,3.4352
+"window","Milwaukee Bucks","2022-23","defense",2.9971,4.1122
+"window","Milwaukee Bucks","2023-24","defense",-2.0216,3.7217
+"window","Milwaukee Bucks","2024-25","defense",2.8221,4.11
+"window","Milwaukee Bucks","2025-26","defense",-2.0968,4.108
+"window","Milwaukee Bucks","2016-17","net",-0.8922,5.2254
+"window","Milwaukee Bucks","2017-18","net",-4.5987,4.2607
+"window","Milwaukee Bucks","2018-19","net",2.4181,4.0656
+"window","Milwaukee Bucks","2019-20","net",-2.6187,4.4936
+"window","Milwaukee Bucks","2020-21","net",2.206,4.1204
+"window","Milwaukee Bucks","2021-22","net",-8.479,4.0753
+"window","Milwaukee Bucks","2022-23","net",-0.6652,4.9131
+"window","Milwaukee Bucks","2023-24","net",2.4379,4.4391
+"window","Milwaukee Bucks","2024-25","net",1.9946,4.9179
+"window","Milwaukee Bucks","2025-26","net",-0.5961,4.9129
+"window","Minnesota Timberwolves","2016-17","offense",1.2234,3.9166
+"window","Minnesota Timberwolves","2017-18","offense",-3.2421,3.5953
+"window","Minnesota Timberwolves","2018-19","offense",-3.6912,4.1176
+"window","Minnesota Timberwolves","2019-20","offense",7.1021,4.171
+"window","Minnesota Timberwolves","2020-21","offense",-6.5911,4.149
+"window","Minnesota Timberwolves","2021-22","offense",-0.7199,3.5736
+"window","Minnesota Timberwolves","2022-23","offense",-2.0373,4.6577
+"window","Minnesota Timberwolves","2023-24","offense",-4.1359,3.564
+"window","Minnesota Timberwolves","2024-25","offense",-1.068,3.5523
+"window","Minnesota Timberwolves","2025-26","offense",2.4938,4.1021
+"window","Minnesota Timberwolves","2016-17","defense",-0.6299,3.9179
+"window","Minnesota Timberwolves","2017-18","defense",-4.8932,3.5962
+"window","Minnesota Timberwolves","2018-19","defense",-1.2796,4.1187
+"window","Minnesota Timberwolves","2019-20","defense",1.9392,4.1722
+"window","Minnesota Timberwolves","2020-21","defense",-0.0807,4.1504
+"window","Minnesota Timberwolves","2021-22","defense",-10.4117,3.5752
+"window","Minnesota Timberwolves","2022-23","defense",-3.7499,4.66
+"window","Minnesota Timberwolves","2023-24","defense",-2.6726,3.5656
+"window","Minnesota Timberwolves","2024-25","defense",-6.2994,3.5537
+"window","Minnesota Timberwolves","2025-26","defense",3.0222,4.1032
+"window","Minnesota Timberwolves","2016-17","net",1.8534,4.6728
+"window","Minnesota Timberwolves","2017-18","net",1.651,4.2723
+"window","Minnesota Timberwolves","2018-19","net",-2.4115,4.9213
+"window","Minnesota Timberwolves","2019-20","net",5.1628,4.9938
+"window","Minnesota Timberwolves","2020-21","net",-6.5104,4.9555
+"window","Minnesota Timberwolves","2021-22","net",9.6919,4.2519
+"window","Minnesota Timberwolves","2022-23","net",1.7126,5.5893
+"window","Minnesota Timberwolves","2023-24","net",-1.4633,4.2391
+"window","Minnesota Timberwolves","2024-25","net",5.2314,4.2217
+"window","Minnesota Timberwolves","2025-26","net",-0.5284,4.8978
+"window","New Orleans Pelicans","2016-17","offense",3.1979,4.6629
+"window","New Orleans Pelicans","2017-18","offense",-4.0408,3.8906
+"window","New Orleans Pelicans","2018-19","offense",-4.9432,4.3661
+"window","New Orleans Pelicans","2019-20","offense",1.9498,4.3833
+"window","New Orleans Pelicans","2020-21","offense",3.0325,4.1515
+"window","New Orleans Pelicans","2021-22","offense",-2.1112,3.7125
+"window","New Orleans Pelicans","2022-23","offense",0.567,3.7618
+"window","New Orleans Pelicans","2023-24","offense",-11.9229,3.7367
+"window","New Orleans Pelicans","2024-25","offense",-0.5473,3.7459
+"window","New Orleans Pelicans","2025-26","offense",-5.5104,3.9041
+"window","New Orleans Pelicans","2016-17","defense",-1.8584,4.6653
+"window","New Orleans Pelicans","2017-18","defense",0.5604,3.8921
+"window","New Orleans Pelicans","2018-19","defense",-4.3347,4.3675
+"window","New Orleans Pelicans","2019-20","defense",1.3389,4.3854
+"window","New Orleans Pelicans","2020-21","defense",-3.6979,4.1532
+"window","New Orleans Pelicans","2021-22","defense",-3.6673,3.714
+"window","New Orleans Pelicans","2022-23","defense",3.1785,3.7627
+"window","New Orleans Pelicans","2023-24","defense",-2.8314,3.738
+"window","New Orleans Pelicans","2024-25","defense",-1.0268,3.7476
+"window","New Orleans Pelicans","2025-26","defense",-3.0793,3.9057
+"window","New Orleans Pelicans","2016-17","net",5.0563,5.598
+"window","New Orleans Pelicans","2017-18","net",-4.6011,4.6442
+"window","New Orleans Pelicans","2018-19","net",-0.6085,5.2356
+"window","New Orleans Pelicans","2019-20","net",0.611,5.2574
+"window","New Orleans Pelicans","2020-21","net",6.7304,4.9641
+"window","New Orleans Pelicans","2021-22","net",1.5561,4.4206
+"window","New Orleans Pelicans","2022-23","net",-2.6115,4.4773
+"window","New Orleans Pelicans","2023-24","net",-9.0915,4.4599
+"window","New Orleans Pelicans","2024-25","net",0.4795,4.4718
+"window","New Orleans Pelicans","2025-26","net",-2.4311,4.6584
+"window","New York Knicks","2016-17","offense",-2.3362,4.3546
+"window","New York Knicks","2017-18","offense",-3.3383,4.1243
+"window","New York Knicks","2018-19","offense",3.5724,4.6764
+"window","New York Knicks","2019-20","offense",-3.5869,4.1801
+"window","New York Knicks","2020-21","offense",-0.6193,4.1306
+"window","New York Knicks","2021-22","offense",-1.5123,4.1092
+"window","New York Knicks","2022-23","offense",-2.7947,4.0952
+"window","New York Knicks","2023-24","offense",2.8102,3.8868
+"window","New York Knicks","2024-25","offense",7.817,3.6974
+"window","New York Knicks","2025-26","offense",4.8423,3.6989
+"window","New York Knicks","2016-17","defense",-2.9984,4.3563
+"window","New York Knicks","2017-18","defense",3.4546,4.1249
+"window","New York Knicks","2018-19","defense",4.6392,4.678
+"window","New York Knicks","2019-20","defense",0.2606,4.1814
+"window","New York Knicks","2020-21","defense",-4.1256,4.1323
+"window","New York Knicks","2021-22","defense",0.7597,4.1111
+"window","New York Knicks","2022-23","defense",-3.3726,4.0967
+"window","New York Knicks","2023-24","defense",-0.7264,3.8879
+"window","New York Knicks","2024-25","defense",3.3332,3.6989
+"window","New York Knicks","2025-26","defense",-0.3986,3.7002
+"window","New York Knicks","2016-17","net",0.6621,5.2154
+"window","New York Knicks","2017-18","net",-6.7929,4.9387
+"window","New York Knicks","2018-19","net",-1.0668,5.6158
+"window","New York Knicks","2019-20","net",-3.8475,5.0097
+"window","New York Knicks","2020-21","net",3.5063,4.9369
+"window","New York Knicks","2021-22","net",-2.2721,4.9239
+"window","New York Knicks","2022-23","net",0.578,4.883
+"window","New York Knicks","2023-24","net",3.5366,4.6488
+"window","New York Knicks","2024-25","net",4.4837,4.403
+"window","New York Knicks","2025-26","net",5.2409,4.4025
+"window","Oklahoma City Thunder","2016-17","offense",-1.0224,3.7293
+"window","Oklahoma City Thunder","2017-18","offense",-1.7263,4.0992
+"window","Oklahoma City Thunder","2018-19","offense",1.242,3.8973
+"window","Oklahoma City Thunder","2019-20","offense",-4.5974,3.7576
+"window","Oklahoma City Thunder","2020-21","offense",2.7937,3.7816
+"window","Oklahoma City Thunder","2021-22","offense",-0.4587,4.1097
+"window","Oklahoma City Thunder","2022-23","offense",4.0366,4.135
+"window","Oklahoma City Thunder","2023-24","offense",4.3562,3.4522
+"window","Oklahoma City Thunder","2024-25","offense",-4.7827,3.4134
+"window","Oklahoma City Thunder","2025-26","offense",2.878,3.8691
+"window","Oklahoma City Thunder","2016-17","defense",3.2555,3.7309
+"window","Oklahoma City Thunder","2017-18","defense",1.3906,4.101
+"window","Oklahoma City Thunder","2018-19","defense",-3.4395,3.8986
+"window","Oklahoma City Thunder","2019-20","defense",-2.085,3.7589
+"window","Oklahoma City Thunder","2020-21","defense",3.0621,3.7826
+"window","Oklahoma City Thunder","2021-22","defense",-4.8894,4.1115
+"window","Oklahoma City Thunder","2022-23","defense",4.2269,4.1357
+"window","Oklahoma City Thunder","2023-24","defense",-1.824,3.4528
+"window","Oklahoma City Thunder","2024-25","defense",-5.227,3.4141
+"window","Oklahoma City Thunder","2025-26","defense",-3.4121,3.8706
+"window","Oklahoma City Thunder","2016-17","net",-4.278,4.4391
+"window","Oklahoma City Thunder","2017-18","net",-3.1169,4.8997
+"window","Oklahoma City Thunder","2018-19","net",4.6814,4.646
+"window","Oklahoma City Thunder","2019-20","net",-2.5124,4.475
+"window","Oklahoma City Thunder","2020-21","net",-0.2685,4.5083
+"window","Oklahoma City Thunder","2021-22","net",4.4307,4.9158
+"window","Oklahoma City Thunder","2022-23","net",-0.1903,4.9415
+"window","Oklahoma City Thunder","2023-24","net",6.1802,4.1087
+"window","Oklahoma City Thunder","2024-25","net",0.4443,4.0503
+"window","Oklahoma City Thunder","2025-26","net",6.2901,4.615
+"window","Orlando Magic","2016-17","offense",0.5994,3.7403
+"window","Orlando Magic","2017-18","offense",-5.9924,3.7419
+"window","Orlando Magic","2018-19","offense",-4.0143,4.101
+"window","Orlando Magic","2019-20","offense",2.4349,4.1393
+"window","Orlando Magic","2020-21","offense",-1.8934,4.1474
+"window","Orlando Magic","2021-22","offense",1.0822,4.1079
+"window","Orlando Magic","2022-23","offense",-0.0831,3.9371
+"window","Orlando Magic","2023-24","offense",-5.0623,3.8829
+"window","Orlando Magic","2024-25","offense",-0.122,4.0967
+"window","Orlando Magic","2025-26","offense",-4.4589,3.7225
+"window","Orlando Magic","2016-17","defense",5.9391,3.7421
+"window","Orlando Magic","2017-18","defense",-5.9465,3.7431
+"window","Orlando Magic","2018-19","defense",0.9013,4.1022
+"window","Orlando Magic","2019-20","defense",-2.4056,4.1408
+"window","Orlando Magic","2020-21","defense",4.9336,4.1491
+"window","Orlando Magic","2021-22","defense",3.3405,4.1098
+"window","Orlando Magic","2022-23","defense",0.9912,3.9387
+"window","Orlando Magic","2023-24","defense",1.7821,3.8846
+"window","Orlando Magic","2024-25","defense",-3.6684,4.0982
+"window","Orlando Magic","2025-26","defense",1.6371,3.7236
+"window","Orlando Magic","2016-17","net",-5.3397,4.454
+"window","Orlando Magic","2017-18","net",-0.0459,4.4619
+"window","Orlando Magic","2018-19","net",-4.9157,4.8983
+"window","Orlando Magic","2019-20","net",4.8404,4.9582
+"window","Orlando Magic","2020-21","net",-6.827,4.9619
+"window","Orlando Magic","2021-22","net",-2.2583,4.9133
+"window","Orlando Magic","2022-23","net",-1.0743,4.7004
+"window","Orlando Magic","2023-24","net",-6.8445,4.6409
+"window","Orlando Magic","2024-25","net",3.5464,4.9017
+"window","Orlando Magic","2025-26","net",-6.096,4.4312
+"window","Philadelphia 76ers","2016-17","offense",3.8685,4.1072
+"window","Philadelphia 76ers","2017-18","offense",-0.4736,3.7429
+"window","Philadelphia 76ers","2018-19","offense",6.1575,3.5759
+"window","Philadelphia 76ers","2019-20","offense",-0.888,3.9296
+"window","Philadelphia 76ers","2020-21","offense",-3.6733,4.1168
+"window","Philadelphia 76ers","2021-22","offense",3.7941,4.0919
+"window","Philadelphia 76ers","2022-23","offense",-3.7036,4.104
+"window","Philadelphia 76ers","2023-24","offense",2.7576,3.4463
+"window","Philadelphia 76ers","2024-25","offense",-9.2179,3.741
+"window","Philadelphia 76ers","2025-26","offense",4.3079,3.326
+"window","Philadelphia 76ers","2016-17","defense",4.1184,4.1091
+"window","Philadelphia 76ers","2017-18","defense",1.6811,3.7438
+"window","Philadelphia 76ers","2018-19","defense",2.512,3.5774
+"window","Philadelphia 76ers","2019-20","defense",0.1329,3.9312
+"window","Philadelphia 76ers","2020-21","defense",-7.7508,4.1186
+"window","Philadelphia 76ers","2021-22","defense",4.1532,4.093
+"window","Philadelphia 76ers","2022-23","defense",2.2911,4.1048
+"window","Philadelphia 76ers","2023-24","defense",-3.5076,3.4474
+"window","Philadelphia 76ers","2024-25","defense",-2.4279,3.7423
+"window","Philadelphia 76ers","2025-26","defense",-1.3449,3.3277
+"window","Philadelphia 76ers","2016-17","net",-0.2499,4.9106
+"window","Philadelphia 76ers","2017-18","net",-2.1547,4.4632
+"window","Philadelphia 76ers","2018-19","net",3.6455,4.2461
+"window","Philadelphia 76ers","2019-20","net",-1.0209,4.6842
+"window","Philadelphia 76ers","2020-21","net",4.0776,4.9199
+"window","Philadelphia 76ers","2021-22","net",-0.3591,4.8964
+"window","Philadelphia 76ers","2022-23","net",-5.9947,4.8995
+"window","Philadelphia 76ers","2023-24","net",6.2652,4.0999
+"window","Philadelphia 76ers","2024-25","net",-6.7899,4.461
+"window","Philadelphia 76ers","2025-26","net",5.6528,3.9387
+"window","Phoenix Suns","2016-17","offense",1.113,3.7535
+"window","Phoenix Suns","2017-18","offense",5.9142,3.747
+"window","Phoenix Suns","2018-19","offense",6.0637,4.1161
+"window","Phoenix Suns","2019-20","offense",2.1897,3.9511
+"window","Phoenix Suns","2020-21","offense",-6.9608,3.89
+"window","Phoenix Suns","2021-22","offense",2.7424,3.4364
+"window","Phoenix Suns","2022-23","offense",-6.9339,4.3582
+"window","Phoenix Suns","2023-24","offense",4.3972,3.5817
+"window","Phoenix Suns","2024-25","offense",-1.2535,3.5926
+"window","Phoenix Suns","2025-26","offense",-3.4905,4.3474
+"window","Phoenix Suns","2016-17","defense",3.2733,3.755
+"window","Phoenix Suns","2017-18","defense",-2.5957,3.7486
+"window","Phoenix Suns","2018-19","defense",6.9139,4.1175
+"window","Phoenix Suns","2019-20","defense",-0.9284,3.9514
+"window","Phoenix Suns","2020-21","defense",-6.0838,3.8915
+"window","Phoenix Suns","2021-22","defense",1.098,3.4382
+"window","Phoenix Suns","2022-23","defense",-4.775,4.3594
+"window","Phoenix Suns","2023-24","defense",-0.9602,3.5834
+"window","Phoenix Suns","2024-25","defense",-4.7204,3.594
+"window","Phoenix Suns","2025-26","defense",5.0488,4.3494
+"window","Phoenix Suns","2016-17","net",-2.1603,4.4699
+"window","Phoenix Suns","2017-18","net",8.5099,4.468
+"window","Phoenix Suns","2018-19","net",-0.8502,4.9248
+"window","Phoenix Suns","2019-20","net",3.118,4.7306
+"window","Phoenix Suns","2020-21","net",-0.877,4.6286
+"window","Phoenix Suns","2021-22","net",1.6444,4.0793
+"window","Phoenix Suns","2022-23","net",-2.1589,5.2223
+"window","Phoenix Suns","2023-24","net",5.3574,4.2669
+"window","Phoenix Suns","2024-25","net",3.4669,4.275
+"window","Phoenix Suns","2025-26","net",-8.5394,5.2142
+"window","Portland Trail Blazers","2016-17","offense",0.2845,3.8934
+"window","Portland Trail Blazers","2017-18","offense",3.2476,4.155
+"window","Portland Trail Blazers","2018-19","offense",-2.5095,3.8825
+"window","Portland Trail Blazers","2019-20","offense",-4.4675,3.5978
+"window","Portland Trail Blazers","2020-21","offense",-3.2883,4.1411
+"window","Portland Trail Blazers","2021-22","offense",7.9182,4.1135
+"window","Portland Trail Blazers","2022-23","offense",-2.662,3.9257
+"window","Portland Trail Blazers","2023-24","offense",3.7038,3.7435
+"window","Portland Trail Blazers","2024-25","offense",-1.2104,4.1391
+"window","Portland Trail Blazers","2025-26","offense",4.9677,3.8955
+"window","Portland Trail Blazers","2016-17","defense",-6.6317,3.8951
+"window","Portland Trail Blazers","2017-18","defense",4.3798,4.1547
+"window","Portland Trail Blazers","2018-19","defense",9.5014,3.8837
+"window","Portland Trail Blazers","2019-20","defense",-6.5704,3.5997
+"window","Portland Trail Blazers","2020-21","defense",0.881,4.142
+"window","Portland Trail Blazers","2021-22","defense",-2.0299,4.1151
+"window","Portland Trail Blazers","2022-23","defense",-1.4181,3.9266
+"window","Portland Trail Blazers","2023-24","defense",-0.9849,3.7446
+"window","Portland Trail Blazers","2024-25","defense",3.8465,4.1399
+"window","Portland Trail Blazers","2025-26","defense",-2.247,3.8972
+"window","Portland Trail Blazers","2016-17","net",6.9163,4.6441
+"window","Portland Trail Blazers","2017-18","net",-1.1322,4.9784
+"window","Portland Trail Blazers","2018-19","net",-12.011,4.6224
+"window","Portland Trail Blazers","2019-20","net",2.1029,4.2749
+"window","Portland Trail Blazers","2020-21","net",-4.1693,4.9559
+"window","Portland Trail Blazers","2021-22","net",9.9481,4.9241
+"window","Portland Trail Blazers","2022-23","net",-1.2439,4.6907
+"window","Portland Trail Blazers","2023-24","net",4.6887,4.4715
+"window","Portland Trail Blazers","2024-25","net",-5.0569,4.9647
+"window","Portland Trail Blazers","2025-26","net",7.2147,4.6515
+"window","Sacramento Kings","2016-17","offense",5.4598,3.9332
+"window","Sacramento Kings","2017-18","offense",4.7846,4.1246
+"window","Sacramento Kings","2018-19","offense",-2.3226,3.9233
+"window","Sacramento Kings","2019-20","offense",-1.9008,4.1528
+"window","Sacramento Kings","2020-21","offense",6.9204,3.9361
+"window","Sacramento Kings","2021-22","offense",-0.3652,3.9012
+"window","Sacramento Kings","2022-23","offense",2.1343,4.1212
+"window","Sacramento Kings","2023-24","offense",3.0814,4.3887
+"window","Sacramento Kings","2024-25","offense",-1.096,3.7497
+"window","Sacramento Kings","2025-26","offense",1.5075,3.9
+"window","Sacramento Kings","2016-17","defense",5.2891,3.9331
+"window","Sacramento Kings","2017-18","defense",6.6948,4.1251
+"window","Sacramento Kings","2018-19","defense",-1.8389,3.9243
+"window","Sacramento Kings","2019-20","defense",-3.1785,4.154
+"window","Sacramento Kings","2020-21","defense",0.3202,3.9377
+"window","Sacramento Kings","2021-22","defense",5.236,3.9031
+"window","Sacramento Kings","2022-23","defense",3.0655,4.1228
+"window","Sacramento Kings","2023-24","defense",7.2125,4.3888
+"window","Sacramento Kings","2024-25","defense",4.7641,3.7511
+"window","Sacramento Kings","2025-26","defense",1.8307,3.9017
+"window","Sacramento Kings","2016-17","net",0.1708,4.7091
+"window","Sacramento Kings","2017-18","net",-1.9102,4.939
+"window","Sacramento Kings","2018-19","net",-0.4837,4.6796
+"window","Sacramento Kings","2019-20","net",1.2777,4.984
+"window","Sacramento Kings","2020-21","net",6.6002,4.6949
+"window","Sacramento Kings","2021-22","net",-5.6012,4.6592
+"window","Sacramento Kings","2022-23","net",-0.9312,4.9284
+"window","Sacramento Kings","2023-24","net",-4.1311,5.2762
+"window","Sacramento Kings","2024-25","net",-5.8601,4.4738
+"window","Sacramento Kings","2025-26","net",-0.3233,4.654
+"window","San Antonio Spurs","2016-17","offense",0.0557,3.7125
+"window","San Antonio Spurs","2017-18","offense",-4.0167,3.9111
+"window","San Antonio Spurs","2018-19","offense",-1.0048,3.9035
+"window","San Antonio Spurs","2019-20","offense",-0.6991,3.9741
+"window","San Antonio Spurs","2020-21","offense",7.8376,4.3903
+"window","San Antonio Spurs","2021-22","offense",-1.8587,4.1062
+"window","San Antonio Spurs","2022-23","offense",-1.5448,4.3882
+"window","San Antonio Spurs","2023-24","offense",0.048,3.7461
+"window","San Antonio Spurs","2024-25","offense",0.1394,3.7356
+"window","San Antonio Spurs","2025-26","offense",0.8829,3.5547
+"window","San Antonio Spurs","2016-17","defense",-7.2714,3.7144
+"window","San Antonio Spurs","2017-18","defense",-3.0434,3.912
+"window","San Antonio Spurs","2018-19","defense",1.3844,3.9051
+"window","San Antonio Spurs","2019-20","defense",7.8573,3.9747
+"window","San Antonio Spurs","2020-21","defense",5.8877,4.3918
+"window","San Antonio Spurs","2021-22","defense",6.2555,4.1078
+"window","San Antonio Spurs","2022-23","defense",-4.0374,4.3883
+"window","San Antonio Spurs","2023-24","defense",5.444,3.7477
+"window","San Antonio Spurs","2024-25","defense",2.4471,3.7371
+"window","San Antonio Spurs","2025-26","defense",-1.0244,3.5562
+"window","San Antonio Spurs","2016-17","net",7.3271,4.4169
+"window","San Antonio Spurs","2017-18","net",-0.9733,4.6691
+"window","San Antonio Spurs","2018-19","net",-2.3892,4.6523
+"window","San Antonio Spurs","2019-20","net",-8.5564,4.7493
+"window","San Antonio Spurs","2020-21","net",1.9499,5.2631
+"window","San Antonio Spurs","2021-22","net",-8.1142,4.9134
+"window","San Antonio Spurs","2022-23","net",2.4926,5.2641
+"window","San Antonio Spurs","2023-24","net",-5.396,4.4826
+"window","San Antonio Spurs","2024-25","net",-2.3077,4.4543
+"window","San Antonio Spurs","2025-26","net",1.9073,4.2319
+"window","Toronto Raptors","2016-17","offense",5.8726,4.6658
+"window","Toronto Raptors","2017-18","offense",1.8226,4.3669
+"window","Toronto Raptors","2018-19","offense",0.7342,3.6987
+"window","Toronto Raptors","2019-20","offense",-3.0841,3.932
+"window","Toronto Raptors","2020-21","offense",-2.4174,4.139
+"window","Toronto Raptors","2021-22","offense",-3.4222,3.8817
+"window","Toronto Raptors","2022-23","offense",-3.7478,4.3664
+"window","Toronto Raptors","2023-24","offense",-5.4127,4.1202
+"window","Toronto Raptors","2024-25","offense",-0.8019,3.9192
+"window","Toronto Raptors","2025-26","offense",-2.8245,3.893
+"window","Toronto Raptors","2016-17","defense",1.4655,4.6666
+"window","Toronto Raptors","2017-18","defense",3.0394,4.3672
+"window","Toronto Raptors","2018-19","defense",0.8502,3.7002
+"window","Toronto Raptors","2019-20","defense",-2.4445,3.9323
+"window","Toronto Raptors","2020-21","defense",1.3357,4.1405
+"window","Toronto Raptors","2021-22","defense",-1.9159,3.8835
+"window","Toronto Raptors","2022-23","defense",-6.1976,4.3675
+"window","Toronto Raptors","2023-24","defense",-9.9145,4.1211
+"window","Toronto Raptors","2024-25","defense",-1.1517,3.9199
+"window","Toronto Raptors","2025-26","defense",2.7775,3.8948
+"window","Toronto Raptors","2016-17","net",4.4071,5.5992
+"window","Toronto Raptors","2017-18","net",-1.2168,5.2363
+"window","Toronto Raptors","2018-19","net",-0.116,4.3921
+"window","Toronto Raptors","2019-20","net",-0.6396,4.6968
+"window","Toronto Raptors","2020-21","net",-3.7531,4.9473
+"window","Toronto Raptors","2021-22","net",-1.5063,4.6355
+"window","Toronto Raptors","2022-23","net",2.4498,5.2303
+"window","Toronto Raptors","2023-24","net",4.5019,4.9448
+"window","Toronto Raptors","2024-25","net",0.3498,4.6851
+"window","Toronto Raptors","2025-26","net",-5.6019,4.6523
+"window","Utah Jazz","2016-17","offense",2.825,4.0955
+"window","Utah Jazz","2017-18","offense",8.3491,4.3554
+"window","Utah Jazz","2018-19","offense",-2.4051,3.8987
+"window","Utah Jazz","2019-20","offense",-0.7121,3.925
+"window","Utah Jazz","2020-21","offense",3.7872,3.9218
+"window","Utah Jazz","2021-22","offense",-0.3248,3.7143
+"window","Utah Jazz","2022-23","offense",1.6584,3.9232
+"window","Utah Jazz","2023-24","offense",-1.069,3.9205
+"window","Utah Jazz","2024-25","offense",5.9343,3.7412
+"window","Utah Jazz","2025-26","offense",-2.9217,4.1103
+"window","Utah Jazz","2016-17","defense",3.4416,4.0972
+"window","Utah Jazz","2017-18","defense",-3.0065,4.3566
+"window","Utah Jazz","2018-19","defense",-1.7583,3.9001
+"window","Utah Jazz","2019-20","defense",-1.2187,3.9265
+"window","Utah Jazz","2020-21","defense",2.1186,3.9235
+"window","Utah Jazz","2021-22","defense",-3.9592,3.7161
+"window","Utah Jazz","2022-23","defense",0.9544,3.9239
+"window","Utah Jazz","2023-24","defense",-0.9609,3.9219
+"window","Utah Jazz","2024-25","defense",4.2737,3.7428
+"window","Utah Jazz","2025-26","defense",-3.4708,4.1119
+"window","Utah Jazz","2016-17","net",-0.6166,4.8938
+"window","Utah Jazz","2017-18","net",11.3556,5.2261
+"window","Utah Jazz","2018-19","net",-0.6468,4.6468
+"window","Utah Jazz","2019-20","net",0.5067,4.6824
+"window","Utah Jazz","2020-21","net",1.6686,4.6725
+"window","Utah Jazz","2021-22","net",3.6344,4.4213
+"window","Utah Jazz","2022-23","net",0.704,4.6801
+"window","Utah Jazz","2023-24","net",-0.1082,4.694
+"window","Utah Jazz","2024-25","net",1.6607,4.4667
+"window","Utah Jazz","2025-26","net",0.5491,4.9186
+"window","Washington Wizards","2016-17","offense",-0.8889,3.7168
+"window","Washington Wizards","2017-18","offense",-4.3122,3.9027
+"window","Washington Wizards","2018-19","offense",-2.2839,4.363
+"window","Washington Wizards","2019-20","offense",-4.336,3.9531
+"window","Washington Wizards","2020-21","offense",-2.169,3.7468
+"window","Washington Wizards","2021-22","offense",-2.9119,3.9011
+"window","Washington Wizards","2022-23","offense",-0.0537,3.9245
+"window","Washington Wizards","2023-24","offense",-4.7934,3.4646
+"window","Washington Wizards","2024-25","offense",2.6874,3.9065
+"window","Washington Wizards","2025-26","offense",4.1554,4.354
+"window","Washington Wizards","2016-17","defense",4.2678,3.718
+"window","Washington Wizards","2017-18","defense",2.807,3.9045
+"window","Washington Wizards","2018-19","defense",0.9975,4.3645
+"window","Washington Wizards","2019-20","defense",-3.9938,3.954
+"window","Washington Wizards","2020-21","defense",-0.8313,3.7485
+"window","Washington Wizards","2021-22","defense",-9.1467,3.9026
+"window","Washington Wizards","2022-23","defense",6.5864,3.9253
+"window","Washington Wizards","2023-24","defense",0.3077,3.4659
+"window","Washington Wizards","2024-25","defense",0.0412,3.9079
+"window","Washington Wizards","2025-26","defense",8.0529,4.356
+"window","Washington Wizards","2016-17","net",-5.1568,4.423
+"window","Washington Wizards","2017-18","net",-7.1191,4.659
+"window","Washington Wizards","2018-19","net",-3.2814,5.2228
+"window","Washington Wizards","2019-20","net",-0.3422,4.7314
+"window","Washington Wizards","2020-21","net",-1.3377,4.4551
+"window","Washington Wizards","2021-22","net",6.2348,4.6613
+"window","Washington Wizards","2022-23","net",-6.6401,4.6836
+"window","Washington Wizards","2023-24","net",-5.1011,4.1202
+"window","Washington Wizards","2024-25","net",2.6462,4.6697
+"window","Washington Wizards","2025-26","net",-3.8975,5.2232
+"smooth","Atlanta Hawks","2016-17","offense",10.1039,3.3357
+"smooth","Atlanta Hawks","2017-18","offense",-1.6093,3.5329
+"smooth","Atlanta Hawks","2018-19","offense",-2.6417,3.5964
+"smooth","Atlanta Hawks","2019-20","offense",-0.536,3.694
+"smooth","Atlanta Hawks","2020-21","offense",-1.3512,3.3562
+"smooth","Atlanta Hawks","2021-22","offense",-0.6666,3.3463
+"smooth","Atlanta Hawks","2022-23","offense",-2.07,3.3834
+"smooth","Atlanta Hawks","2023-24","offense",6.255,3.418
+"smooth","Atlanta Hawks","2024-25","offense",-0.0303,3.5017
+"smooth","Atlanta Hawks","2025-26","offense",2.2613,3.3929
+"smooth","Atlanta Hawks","2016-17","defense",1.1943,3.3369
+"smooth","Atlanta Hawks","2017-18","defense",0.2876,3.5341
+"smooth","Atlanta Hawks","2018-19","defense",-3.4933,3.5951
+"smooth","Atlanta Hawks","2019-20","defense",3.8871,3.6935
+"smooth","Atlanta Hawks","2020-21","defense",0.2751,3.358
+"smooth","Atlanta Hawks","2021-22","defense",-2.7315,3.3476
+"smooth","Atlanta Hawks","2022-23","defense",-3.5535,3.3836
+"smooth","Atlanta Hawks","2023-24","defense",1.3359,3.4178
+"smooth","Atlanta Hawks","2024-25","defense",-2.9877,3.5015
+"smooth","Atlanta Hawks","2025-26","defense",-7.9094,3.3939
+"smooth","Atlanta Hawks","2016-17","net",8.9096,3.9735
+"smooth","Atlanta Hawks","2017-18","net",-1.897,4.2164
+"smooth","Atlanta Hawks","2018-19","net",0.8516,4.3035
+"smooth","Atlanta Hawks","2019-20","net",-4.4231,4.4157
+"smooth","Atlanta Hawks","2020-21","net",-1.6263,3.9992
+"smooth","Atlanta Hawks","2021-22","net",2.0649,3.9793
+"smooth","Atlanta Hawks","2022-23","net",1.4835,4.0354
+"smooth","Atlanta Hawks","2023-24","net",4.9191,4.0795
+"smooth","Atlanta Hawks","2024-25","net",2.9574,4.1843
+"smooth","Atlanta Hawks","2025-26","net",10.1707,4.0369
+"smooth","Boston Celtics","2016-17","offense",-5.9919,3.1447
+"smooth","Boston Celtics","2017-18","offense",3.5281,3.197
+"smooth","Boston Celtics","2018-19","offense",-7.7574,3.3214
+"smooth","Boston Celtics","2019-20","offense",1.1045,3.2728
+"smooth","Boston Celtics","2020-21","offense",3.5222,3.6371
+"smooth","Boston Celtics","2021-22","offense",2.0251,3.0311
+"smooth","Boston Celtics","2022-23","offense",-2.2421,3.208
+"smooth","Boston Celtics","2023-24","offense",3.6847,3.1373
+"smooth","Boston Celtics","2024-25","offense",-6.2931,3.2938
+"smooth","Boston Celtics","2025-26","offense",1.489,3.4072
+"smooth","Boston Celtics","2016-17","defense",-7.463,3.1464
+"smooth","Boston Celtics","2017-18","defense",-4.3601,3.1978
+"smooth","Boston Celtics","2018-19","defense",-0.185,3.3216
+"smooth","Boston Celtics","2019-20","defense",4.4231,3.274
+"smooth","Boston Celtics","2020-21","defense",3.5331,3.6371
+"smooth","Boston Celtics","2021-22","defense",2.2423,3.0317
+"smooth","Boston Celtics","2022-23","defense",-4.2542,3.2094
+"smooth","Boston Celtics","2023-24","defense",1.1373,3.1389
+"smooth","Boston Celtics","2024-25","defense",-0.2739,3.2946
+"smooth","Boston Celtics","2025-26","defense",-1.1162,3.4079
+"smooth","Boston Celtics","2016-17","net",1.4712,3.7392
+"smooth","Boston Celtics","2017-18","net",7.8882,3.7916
+"smooth","Boston Celtics","2018-19","net",-7.5724,3.955
+"smooth","Boston Celtics","2019-20","net",-3.3186,3.8876
+"smooth","Boston Celtics","2020-21","net",-0.0109,4.3457
+"smooth","Boston Celtics","2021-22","net",-0.2172,3.5883
+"smooth","Boston Celtics","2022-23","net",2.012,3.8136
+"smooth","Boston Celtics","2023-24","net",2.5474,3.729
+"smooth","Boston Celtics","2024-25","net",-6.0191,3.9195
+"smooth","Boston Celtics","2025-26","net",2.6051,4.0602
+"smooth","Brooklyn Nets","2016-17","offense",3.0801,3.3948
+"smooth","Brooklyn Nets","2017-18","offense",-5.3259,3.5136
+"smooth","Brooklyn Nets","2018-19","offense",1.141,3.4375
+"smooth","Brooklyn Nets","2019-20","offense",2.8889,3.5735
+"smooth","Brooklyn Nets","2020-21","offense",1.8952,3.4798
+"smooth","Brooklyn Nets","2021-22","offense",6.6707,3.4067
+"smooth","Brooklyn Nets","2022-23","offense",-1.1222,3.3851
+"smooth","Brooklyn Nets","2023-24","offense",3.7661,3.4733
+"smooth","Brooklyn Nets","2024-25","offense",1.4391,3.4216
+"smooth","Brooklyn Nets","2025-26","offense",0.7784,3.5313
+"smooth","Brooklyn Nets","2016-17","defense",5.0122,3.3948
+"smooth","Brooklyn Nets","2017-18","defense",-7.9173,3.5148
+"smooth","Brooklyn Nets","2018-19","defense",4.2864,3.4382
+"smooth","Brooklyn Nets","2019-20","defense",-3.5303,3.5741
+"smooth","Brooklyn Nets","2020-21","defense",3.4877,3.4804
+"smooth","Brooklyn Nets","2021-22","defense",1.4282,3.4078
+"smooth","Brooklyn Nets","2022-23","defense",-5.1364,3.3848
+"smooth","Brooklyn Nets","2023-24","defense",0.359,3.4732
+"smooth","Brooklyn Nets","2024-25","defense",1.7698,3.4216
+"smooth","Brooklyn Nets","2025-26","defense",5.0187,3.5327
+"smooth","Brooklyn Nets","2016-17","net",-1.9321,4.0537
+"smooth","Brooklyn Nets","2017-18","net",2.5913,4.1986
+"smooth","Brooklyn Nets","2018-19","net",-3.1453,4.0997
+"smooth","Brooklyn Nets","2019-20","net",6.4193,4.2664
+"smooth","Brooklyn Nets","2020-21","net",-1.5925,4.1451
+"smooth","Brooklyn Nets","2021-22","net",5.2425,4.0578
+"smooth","Brooklyn Nets","2022-23","net",4.0142,4.0345
+"smooth","Brooklyn Nets","2023-24","net",3.4071,4.15
+"smooth","Brooklyn Nets","2024-25","net",-0.3307,4.0817
+"smooth","Brooklyn Nets","2025-26","net",-4.2403,4.2149
+"smooth","Charlotte Hornets","2016-17","offense",-6.2148,3.3714
+"smooth","Charlotte Hornets","2017-18","offense",0.7158,3.4606
+"smooth","Charlotte Hornets","2018-19","offense",2.6241,3.524
+"smooth","Charlotte Hornets","2019-20","offense",2.8519,3.8672
+"smooth","Charlotte Hornets","2020-21","offense",3.5335,3.5803
+"smooth","Charlotte Hornets","2021-22","offense",-1.4311,3.5039
+"smooth","Charlotte Hornets","2022-23","offense",-4.199,3.5861
+"smooth","Charlotte Hornets","2023-24","offense",2.6974,3.453
+"smooth","Charlotte Hornets","2024-25","offense",7.1574,3.5567
+"smooth","Charlotte Hornets","2025-26","offense",-2.011,3.4616
+"smooth","Charlotte Hornets","2016-17","defense",-2.205,3.3715
+"smooth","Charlotte Hornets","2017-18","defense",4.8927,3.4617
+"smooth","Charlotte Hornets","2018-19","defense",-3.4301,3.5219
+"smooth","Charlotte Hornets","2019-20","defense",-5.3675,3.8662
+"smooth","Charlotte Hornets","2020-21","defense",0.9908,3.5795
+"smooth","Charlotte Hornets","2021-22","defense",-8.6384,3.5052
+"smooth","Charlotte Hornets","2022-23","defense",2.5032,3.5852
+"smooth","Charlotte Hornets","2023-24","defense",1.172,3.4523
+"smooth","Charlotte Hornets","2024-25","defense",4.1487,3.5572
+"smooth","Charlotte Hornets","2025-26","defense",-6.1431,3.4627
+"smooth","Charlotte Hornets","2016-17","net",-4.0098,4.0199
+"smooth","Charlotte Hornets","2017-18","net",-4.1769,4.128
+"smooth","Charlotte Hornets","2018-19","net",6.0542,4.2181
+"smooth","Charlotte Hornets","2019-20","net",8.2194,4.636
+"smooth","Charlotte Hornets","2020-21","net",2.5427,4.2756
+"smooth","Charlotte Hornets","2021-22","net",7.2073,4.1812
+"smooth","Charlotte Hornets","2022-23","net",-6.7021,4.2974
+"smooth","Charlotte Hornets","2023-24","net",1.5254,4.1292
+"smooth","Charlotte Hornets","2024-25","net",3.0087,4.2612
+"smooth","Charlotte Hornets","2025-26","net",4.1321,4.1242
+"smooth","Chicago Bulls","2016-17","offense",-4.167,3.3442
+"smooth","Chicago Bulls","2017-18","offense",-2.5273,3.5299
+"smooth","Chicago Bulls","2018-19","offense",0.8846,3.5924
+"smooth","Chicago Bulls","2019-20","offense",2.3636,3.8089
+"smooth","Chicago Bulls","2020-21","offense",-1.1086,3.7843
+"smooth","Chicago Bulls","2021-22","offense",-5.3001,3.4346
+"smooth","Chicago Bulls","2022-23","offense",1.3051,3.5289
+"smooth","Chicago Bulls","2023-24","offense",-5.2435,3.4165
+"smooth","Chicago Bulls","2024-25","offense",-5.7732,3.5024
+"smooth","Chicago Bulls","2025-26","offense",-9.8897,3.5178
+"smooth","Chicago Bulls","2016-17","defense",-4.9181,3.3451
+"smooth","Chicago Bulls","2017-18","defense",-4.5579,3.5312
+"smooth","Chicago Bulls","2018-19","defense",-2.4354,3.5913
+"smooth","Chicago Bulls","2019-20","defense",-1.0232,3.8076
+"smooth","Chicago Bulls","2020-21","defense",4.9938,3.7829
+"smooth","Chicago Bulls","2021-22","defense",-3.096,3.435
+"smooth","Chicago Bulls","2022-23","defense",2.1641,3.527
+"smooth","Chicago Bulls","2023-24","defense",-1.2911,3.4168
+"smooth","Chicago Bulls","2024-25","defense",-3.2968,3.5026
+"smooth","Chicago Bulls","2025-26","defense",-0.1615,3.519
+"smooth","Chicago Bulls","2016-17","net",0.7511,3.9879
+"smooth","Chicago Bulls","2017-18","net",2.0306,4.2119
+"smooth","Chicago Bulls","2018-19","net",3.32,4.2991
+"smooth","Chicago Bulls","2019-20","net",3.3868,4.5605
+"smooth","Chicago Bulls","2020-21","net",-6.1024,4.5322
+"smooth","Chicago Bulls","2021-22","net",-2.2041,4.0989
+"smooth","Chicago Bulls","2022-23","net",-0.8591,4.2246
+"smooth","Chicago Bulls","2023-24","net",-3.9524,4.0755
+"smooth","Chicago Bulls","2024-25","net",-2.4764,4.1842
+"smooth","Chicago Bulls","2025-26","net",-9.7282,4.1961
+"smooth","Cleveland Cavaliers","2016-17","offense",1.0663,3.1296
+"smooth","Cleveland Cavaliers","2017-18","offense",-0.7525,3.1397
+"smooth","Cleveland Cavaliers","2018-19","offense",2.2428,3.5059
+"smooth","Cleveland Cavaliers","2019-20","offense",-1.3226,3.8558
+"smooth","Cleveland Cavaliers","2020-21","offense",1.7188,3.6477
+"smooth","Cleveland Cavaliers","2021-22","offense",1.6177,3.4069
+"smooth","Cleveland Cavaliers","2022-23","offense",1.4406,3.4416
+"smooth","Cleveland Cavaliers","2023-24","offense",-5.3789,3.2408
+"smooth","Cleveland Cavaliers","2024-25","offense",-6.5679,3.3595
+"smooth","Cleveland Cavaliers","2025-26","offense",2.3765,3.2685
+"smooth","Cleveland Cavaliers","2016-17","defense",-2.4784,3.1301
+"smooth","Cleveland Cavaliers","2017-18","defense",-0.4303,3.1404
+"smooth","Cleveland Cavaliers","2018-19","defense",-2.4078,3.5047
+"smooth","Cleveland Cavaliers","2019-20","defense",-1.7762,3.8556
+"smooth","Cleveland Cavaliers","2020-21","defense",-4.6922,3.6458
+"smooth","Cleveland Cavaliers","2021-22","defense",-1.1712,3.4077
+"smooth","Cleveland Cavaliers","2022-23","defense",-0.0982,3.4424
+"smooth","Cleveland Cavaliers","2023-24","defense",1.9377,3.2412
+"smooth","Cleveland Cavaliers","2024-25","defense",3.5037,3.3604
+"smooth","Cleveland Cavaliers","2025-26","defense",-0.2059,3.2701
+"smooth","Cleveland Cavaliers","2016-17","net",3.5447,3.7153
+"smooth","Cleveland Cavaliers","2017-18","net",-0.3222,3.7245
+"smooth","Cleveland Cavaliers","2018-19","net",4.6505,4.1877
+"smooth","Cleveland Cavaliers","2019-20","net",0.4536,4.6193
+"smooth","Cleveland Cavaliers","2020-21","net",6.411,4.3624
+"smooth","Cleveland Cavaliers","2021-22","net",2.789,4.0601
+"smooth","Cleveland Cavaliers","2022-23","net",1.5388,4.1083
+"smooth","Cleveland Cavaliers","2023-24","net",-7.3166,3.8563
+"smooth","Cleveland Cavaliers","2024-25","net",-10.0716,4.0019
+"smooth","Cleveland Cavaliers","2025-26","net",2.5824,3.8825
+"smooth","Dallas Mavericks","2016-17","offense",-2.6152,3.4432
+"smooth","Dallas Mavericks","2017-18","offense",0.6075,3.5265
+"smooth","Dallas Mavericks","2018-19","offense",6.2908,3.5474
+"smooth","Dallas Mavericks","2019-20","offense",-2.8422,3.4858
+"smooth","Dallas Mavericks","2020-21","offense",0.2099,3.4776
+"smooth","Dallas Mavericks","2021-22","offense",-3.3287,3.1844
+"smooth","Dallas Mavericks","2022-23","offense",-0.2042,3.5857
+"smooth","Dallas Mavericks","2023-24","offense",-4.1781,3.0947
+"smooth","Dallas Mavericks","2024-25","offense",1.9858,3.4408
+"smooth","Dallas Mavericks","2025-26","offense",-5.2013,3.5173
+"smooth","Dallas Mavericks","2016-17","defense",1.7899,3.4431
+"smooth","Dallas Mavericks","2017-18","defense",-1.8047,3.527
+"smooth","Dallas Mavericks","2018-19","defense",5.3886,3.546
+"smooth","Dallas Mavericks","2019-20","defense",0.4806,3.4864
+"smooth","Dallas Mavericks","2020-21","defense",-2.7822,3.4786
+"smooth","Dallas Mavericks","2021-22","defense",-3.822,3.1858
+"smooth","Dallas Mavericks","2022-23","defense",3.9215,3.5847
+"smooth","Dallas Mavericks","2023-24","defense",1.0646,3.096
+"smooth","Dallas Mavericks","2024-25","defense",3.459,3.4405
+"smooth","Dallas Mavericks","2025-26","defense",-2.0666,3.5177
+"smooth","Dallas Mavericks","2016-17","net",-4.4051,4.1116
+"smooth","Dallas Mavericks","2017-18","net",2.4122,4.2073
+"smooth","Dallas Mavericks","2018-19","net",0.9022,4.2436
+"smooth","Dallas Mavericks","2019-20","net",-3.3228,4.1608
+"smooth","Dallas Mavericks","2020-21","net",2.9921,4.1482
+"smooth","Dallas Mavericks","2021-22","net",0.4933,3.7792
+"smooth","Dallas Mavericks","2022-23","net",-4.1258,4.2906
+"smooth","Dallas Mavericks","2023-24","net",-5.2427,3.6738
+"smooth","Dallas Mavericks","2024-25","net",-1.4732,4.1098
+"smooth","Dallas Mavericks","2025-26","net",-3.1347,4.1951
+"smooth","Denver Nuggets","2016-17","offense",3.4824,3.5094
+"smooth","Denver Nuggets","2017-18","offense",4.8051,3.4816
+"smooth","Denver Nuggets","2018-19","offense",0.7646,3.3503
+"smooth","Denver Nuggets","2019-20","offense",-1.585,3.277
+"smooth","Denver Nuggets","2020-21","offense",2.208,3.3971
+"smooth","Denver Nuggets","2021-22","offense",2.684,3.4274
+"smooth","Denver Nuggets","2022-23","offense",2.8432,3.1331
+"smooth","Denver Nuggets","2023-24","offense",-1.0429,3.2393
+"smooth","Denver Nuggets","2024-25","offense",-1.3232,3.3266
+"smooth","Denver Nuggets","2025-26","offense",-0.1699,3.3703
+"smooth","Denver Nuggets","2016-17","defense",-1.7807,3.5093
+"smooth","Denver Nuggets","2017-18","defense",4.0857,3.4826
+"smooth","Denver Nuggets","2018-19","defense",-3.185,3.3504
+"smooth","Denver Nuggets","2019-20","defense",-1.9133,3.2768
+"smooth","Denver Nuggets","2020-21","defense",-1.1361,3.3972
+"smooth","Denver Nuggets","2021-22","defense",7.2733,3.4286
+"smooth","Denver Nuggets","2022-23","defense",5.2229,3.1344
+"smooth","Denver Nuggets","2023-24","defense",-1.9037,3.2401
+"smooth","Denver Nuggets","2024-25","defense",-6.8342,3.3276
+"smooth","Denver Nuggets","2025-26","defense",2.1945,3.3715
+"smooth","Denver Nuggets","2016-17","net",5.2631,4.1971
+"smooth","Denver Nuggets","2017-18","net",0.7194,4.1535
+"smooth","Denver Nuggets","2018-19","net",3.9496,3.9932
+"smooth","Denver Nuggets","2019-20","net",0.3283,3.8881
+"smooth","Denver Nuggets","2020-21","net",3.344,4.0416
+"smooth","Denver Nuggets","2021-22","net",-4.5893,4.0874
+"smooth","Denver Nuggets","2022-23","net",-2.3797,3.722
+"smooth","Denver Nuggets","2023-24","net",0.8608,3.8535
+"smooth","Denver Nuggets","2024-25","net",5.511,3.9636
+"smooth","Denver Nuggets","2025-26","net",-2.3644,4.0096
+"smooth","Detroit Pistons","2016-17","offense",-3.4486,3.3844
+"smooth","Detroit Pistons","2017-18","offense",1.8056,3.4397
+"smooth","Detroit Pistons","2018-19","offense",0.0482,3.3869
+"smooth","Detroit Pistons","2019-20","offense",-4.1292,3.8082
+"smooth","Detroit Pistons","2020-21","offense",1.3375,3.72
+"smooth","Detroit Pistons","2021-22","offense",2.5168,3.4753
+"smooth","Detroit Pistons","2022-23","offense",-2.3097,3.5598
+"smooth","Detroit Pistons","2023-24","offense",-0.4094,3.4289
+"smooth","Detroit Pistons","2024-25","offense",3.0665,3.3711
+"smooth","Detroit Pistons","2025-26","offense",-0.4068,3.2616
+"smooth","Detroit Pistons","2016-17","defense",-1.1084,3.3841
+"smooth","Detroit Pistons","2017-18","defense",1.0534,3.441
+"smooth","Detroit Pistons","2018-19","defense",0.6788,3.3879
+"smooth","Detroit Pistons","2019-20","defense",-2.8026,3.8073
+"smooth","Detroit Pistons","2020-21","defense",3.3689,3.7189
+"smooth","Detroit Pistons","2021-22","defense",2.9617,3.4762
+"smooth","Detroit Pistons","2022-23","defense",-4.1314,3.5574
+"smooth","Detroit Pistons","2023-24","defense",-2.4705,3.4285
+"smooth","Detroit Pistons","2024-25","defense",1.2027,3.3723
+"smooth","Detroit Pistons","2025-26","defense",-1.4367,3.2627
+"smooth","Detroit Pistons","2016-17","net",-2.3402,4.0404
+"smooth","Detroit Pistons","2017-18","net",0.7522,4.1001
+"smooth","Detroit Pistons","2018-19","net",-0.6307,4.0366
+"smooth","Detroit Pistons","2019-20","net",-1.3265,4.56
+"smooth","Detroit Pistons","2020-21","net",-2.0314,4.4528
+"smooth","Detroit Pistons","2021-22","net",-0.445,4.1428
+"smooth","Detroit Pistons","2022-23","net",1.8217,4.2628
+"smooth","Detroit Pistons","2023-24","net",2.0611,4.0963
+"smooth","Detroit Pistons","2024-25","net",1.8638,4.014
+"smooth","Detroit Pistons","2025-26","net",1.0299,3.8761
+"smooth","Golden State Warriors","2016-17","offense",-0.5569,3.2042
+"smooth","Golden State Warriors","2017-18","offense",3.1978,3.1689
+"smooth","Golden State Warriors","2018-19","offense",0.23,3.1887
+"smooth","Golden State Warriors","2019-20","offense",-0.9984,3.8865
+"smooth","Golden State Warriors","2020-21","offense",-3.1401,3.7206
+"smooth","Golden State Warriors","2021-22","offense",-1.2952,3.1355
+"smooth","Golden State Warriors","2022-23","offense",-0.5821,3.3657
+"smooth","Golden State Warriors","2023-24","offense",1.2843,3.4463
+"smooth","Golden State Warriors","2024-25","offense",-1.0544,3.3311
+"smooth","Golden State Warriors","2025-26","offense",-10.0891,3.4758
+"smooth","Golden State Warriors","2016-17","defense",2.7099,3.2051
+"smooth","Golden State Warriors","2017-18","defense",0.2519,3.1697
+"smooth","Golden State Warriors","2018-19","defense",0.492,3.1893
+"smooth","Golden State Warriors","2019-20","defense",0.3857,3.8867
+"smooth","Golden State Warriors","2020-21","defense",6.5963,3.7205
+"smooth","Golden State Warriors","2021-22","defense",-0.8628,3.1361
+"smooth","Golden State Warriors","2022-23","defense",-5.4289,3.3652
+"smooth","Golden State Warriors","2023-24","defense",-2.6102,3.4459
+"smooth","Golden State Warriors","2024-25","defense",-0.1965,3.3319
+"smooth","Golden State Warriors","2025-26","defense",-3.6355,3.477
+"smooth","Golden State Warriors","2016-17","net",-3.2668,3.8089
+"smooth","Golden State Warriors","2017-18","net",2.9459,3.76
+"smooth","Golden State Warriors","2018-19","net",-0.262,3.7936
+"smooth","Golden State Warriors","2019-20","net",-1.3841,4.656
+"smooth","Golden State Warriors","2020-21","net",-9.7365,4.4484
+"smooth","Golden State Warriors","2021-22","net",-0.4324,3.7208
+"smooth","Golden State Warriors","2022-23","net",4.8468,4.013
+"smooth","Golden State Warriors","2023-24","net",3.8945,4.1168
+"smooth","Golden State Warriors","2024-25","net",-0.858,3.9659
+"smooth","Golden State Warriors","2025-26","net",-6.4537,4.1402
+"smooth","Houston Rockets","2016-17","offense",-3.6378,3.2104
+"smooth","Houston Rockets","2017-18","offense",-0.9126,3.2485
+"smooth","Houston Rockets","2018-19","offense",-2.0975,3.3614
+"smooth","Houston Rockets","2019-20","offense",-6.8284,3.3427
+"smooth","Houston Rockets","2020-21","offense",-2.1654,3.6519
+"smooth","Houston Rockets","2021-22","offense",-1.5241,3.4331
+"smooth","Houston Rockets","2022-23","offense",2.3012,3.6144
+"smooth","Houston Rockets","2023-24","offense",3.5728,3.4473
+"smooth","Houston Rockets","2024-25","offense",2.4211,3.4191
+"smooth","Houston Rockets","2025-26","offense",1.0586,3.3799
+"smooth","Houston Rockets","2016-17","defense",-3.9327,3.2112
+"smooth","Houston Rockets","2017-18","defense",-1.0911,3.249
+"smooth","Houston Rockets","2018-19","defense",5.793,3.3623
+"smooth","Houston Rockets","2019-20","defense",-7.7417,3.3422
+"smooth","Houston Rockets","2020-21","defense",-6.4633,3.6516
+"smooth","Houston Rockets","2021-22","defense",2.717,3.4339
+"smooth","Houston Rockets","2022-23","defense",-0.4857,3.6129
+"smooth","Houston Rockets","2023-24","defense",2.7038,3.447
+"smooth","Houston Rockets","2024-25","defense",2.0247,3.4205
+"smooth","Houston Rockets","2025-26","defense",-0.0708,3.3807
+"smooth","Houston Rockets","2016-17","net",0.2948,3.8205
+"smooth","Houston Rockets","2017-18","net",0.1785,3.8624
+"smooth","Houston Rockets","2018-19","net",-7.8905,4.0096
+"smooth","Houston Rockets","2019-20","net",0.9134,3.9737
+"smooth","Houston Rockets","2020-21","net",4.2979,4.3627
+"smooth","Houston Rockets","2021-22","net",-4.2411,4.0957
+"smooth","Houston Rockets","2022-23","net",2.787,4.3291
+"smooth","Houston Rockets","2023-24","net",0.869,4.12
+"smooth","Houston Rockets","2024-25","net",0.3964,4.0738
+"smooth","Houston Rockets","2025-26","net",1.1293,4.0197
+"smooth","Indiana Pacers","2016-17","offense",-3.7798,3.4105
+"smooth","Indiana Pacers","2017-18","offense",-1.1465,3.3164
+"smooth","Indiana Pacers","2018-19","offense",0.6481,3.4032
+"smooth","Indiana Pacers","2019-20","offense",1.8657,3.5213
+"smooth","Indiana Pacers","2020-21","offense",1.2119,3.6376
+"smooth","Indiana Pacers","2021-22","offense",0.4745,3.4533
+"smooth","Indiana Pacers","2022-23","offense",1.1938,3.5293
+"smooth","Indiana Pacers","2023-24","offense",2.1166,3.1555
+"smooth","Indiana Pacers","2024-25","offense",-3.7665,3.0894
+"smooth","Indiana Pacers","2025-26","offense",4.1355,3.6331
+"smooth","Indiana Pacers","2016-17","defense",-3.2203,3.4107
+"smooth","Indiana Pacers","2017-18","defense",0.9535,3.3172
+"smooth","Indiana Pacers","2018-19","defense",-3.3967,3.4031
+"smooth","Indiana Pacers","2019-20","defense",-1.4926,3.5216
+"smooth","Indiana Pacers","2020-21","defense",3.5473,3.6359
+"smooth","Indiana Pacers","2021-22","defense",-3.6685,3.4541
+"smooth","Indiana Pacers","2022-23","defense",0.6097,3.5277
+"smooth","Indiana Pacers","2023-24","defense",1.1427,3.1573
+"smooth","Indiana Pacers","2024-25","defense",-4.8305,3.0916
+"smooth","Indiana Pacers","2025-26","defense",1.8943,3.6344
+"smooth","Indiana Pacers","2016-17","net",-0.5596,4.0726
+"smooth","Indiana Pacers","2017-18","net",-2.1,3.9442
+"smooth","Indiana Pacers","2018-19","net",4.0448,4.059
+"smooth","Indiana Pacers","2019-20","net",3.3583,4.1981
+"smooth","Indiana Pacers","2020-21","net",-2.3354,4.3545
+"smooth","Indiana Pacers","2021-22","net",4.1429,4.1218
+"smooth","Indiana Pacers","2022-23","net",0.5841,4.2283
+"smooth","Indiana Pacers","2023-24","net",0.9739,3.7514
+"smooth","Indiana Pacers","2024-25","net",1.064,3.6688
+"smooth","Indiana Pacers","2025-26","net",2.2412,4.3365
+"smooth","LA Clippers","2016-17","offense",6.1827,3.3058
+"smooth","LA Clippers","2017-18","offense",0.5673,3.4677
+"smooth","LA Clippers","2018-19","offense",3.1489,3.4931
+"smooth","LA Clippers","2019-20","offense",0.8624,3.4064
+"smooth","LA Clippers","2020-21","offense",-6.3648,3.3063
+"smooth","LA Clippers","2021-22","offense",-5.4552,3.3964
+"smooth","LA Clippers","2022-23","offense",-2.0035,3.3895
+"smooth","LA Clippers","2023-24","offense",-1.8497,3.2785
+"smooth","LA Clippers","2024-25","offense",5.9407,3.3913
+"smooth","LA Clippers","2025-26","offense",0.509,3.4568
+"smooth","LA Clippers","2016-17","defense",-4.5325,3.3065
+"smooth","LA Clippers","2017-18","defense",5.0711,3.4693
+"smooth","LA Clippers","2018-19","defense",-1.5979,3.493
+"smooth","LA Clippers","2019-20","defense",-1.8872,3.4058
+"smooth","LA Clippers","2020-21","defense",-2.687,3.308
+"smooth","LA Clippers","2021-22","defense",-1.8386,3.3971
+"smooth","LA Clippers","2022-23","defense",-0.4114,3.3896
+"smooth","LA Clippers","2023-24","defense",-1.2277,3.2794
+"smooth","LA Clippers","2024-25","defense",-1.2927,3.3921
+"smooth","LA Clippers","2025-26","defense",-1.1011,3.4583
+"smooth","LA Clippers","2016-17","net",10.7152,3.9362
+"smooth","LA Clippers","2017-18","net",-4.5037,4.1408
+"smooth","LA Clippers","2018-19","net",4.7468,4.1678
+"smooth","LA Clippers","2019-20","net",2.7496,4.0526
+"smooth","LA Clippers","2020-21","net",-3.6777,3.9358
+"smooth","LA Clippers","2021-22","net",-3.6166,4.0436
+"smooth","LA Clippers","2022-23","net",-1.5921,4.0387
+"smooth","LA Clippers","2023-24","net",-0.622,3.9036
+"smooth","LA Clippers","2024-25","net",7.2334,4.0416
+"smooth","LA Clippers","2025-26","net",1.6101,4.1183
+"smooth","Los Angeles Lakers","2016-17","offense",3.8362,3.4035
+"smooth","Los Angeles Lakers","2017-18","offense",1.0102,3.4864
+"smooth","Los Angeles Lakers","2018-19","offense",2.9272,3.5614
+"smooth","Los Angeles Lakers","2019-20","offense",2.4447,3.3069
+"smooth","Los Angeles Lakers","2020-21","offense",-6.3552,3.5152
+"smooth","Los Angeles Lakers","2021-22","offense",0.0423,3.5093
+"smooth","Los Angeles Lakers","2022-23","offense",4.2592,3.1951
+"smooth","Los Angeles Lakers","2023-24","offense",-0.1386,3.3249
+"smooth","Los Angeles Lakers","2024-25","offense",-0.3044,3.4094
+"smooth","Los Angeles Lakers","2025-26","offense",-1.5178,3.4111
+"smooth","Los Angeles Lakers","2016-17","defense",4.4242,3.4037
+"smooth","Los Angeles Lakers","2017-18","defense",2.6153,3.4878
+"smooth","Los Angeles Lakers","2018-19","defense",0.8139,3.5597
+"smooth","Los Angeles Lakers","2019-20","defense",0.1426,3.3079
+"smooth","Los Angeles Lakers","2020-21","defense",-2.1911,3.5154
+"smooth","Los Angeles Lakers","2021-22","defense",3.2679,3.5102
+"smooth","Los Angeles Lakers","2022-23","defense",1.8101,3.197
+"smooth","Los Angeles Lakers","2023-24","defense",0.0716,3.3272
+"smooth","Los Angeles Lakers","2024-25","defense",0.5351,3.4106
+"smooth","Los Angeles Lakers","2025-26","defense",0.5035,3.4121
+"smooth","Los Angeles Lakers","2016-17","net",-0.5879,4.0624
+"smooth","Los Angeles Lakers","2017-18","net",-1.6051,4.1545
+"smooth","Los Angeles Lakers","2018-19","net",2.1133,4.2622
+"smooth","Los Angeles Lakers","2019-20","net",2.3021,3.9216
+"smooth","Los Angeles Lakers","2020-21","net",-4.1641,4.192
+"smooth","Los Angeles Lakers","2021-22","net",-3.2256,4.1896
+"smooth","Los Angeles Lakers","2022-23","net",2.4491,3.8008
+"smooth","Los Angeles Lakers","2023-24","net",-0.2102,3.9657
+"smooth","Los Angeles Lakers","2024-25","net",-0.8395,4.0677
+"smooth","Los Angeles Lakers","2025-26","net",-2.0213,4.0611
+"smooth","Memphis Grizzlies","2016-17","offense",-3.476,3.3323
+"smooth","Memphis Grizzlies","2017-18","offense",2.6209,3.5126
+"smooth","Memphis Grizzlies","2018-19","offense",1.8173,3.5154
+"smooth","Memphis Grizzlies","2019-20","offense",1.5465,3.594
+"smooth","Memphis Grizzlies","2020-21","offense",1.6284,3.5898
+"smooth","Memphis Grizzlies","2021-22","offense",2.8707,3.3088
+"smooth","Memphis Grizzlies","2022-23","offense",-1.905,3.3978
+"smooth","Memphis Grizzlies","2023-24","offense",-2.4002,3.5058
+"smooth","Memphis Grizzlies","2024-25","offense",-0.0586,3.3703
+"smooth","Memphis Grizzlies","2025-26","offense",1.3957,3.6023
+"smooth","Memphis Grizzlies","2016-17","defense",-4.5871,3.333
+"smooth","Memphis Grizzlies","2017-18","defense",1.3706,3.5135
+"smooth","Memphis Grizzlies","2018-19","defense",3.6909,3.5148
+"smooth","Memphis Grizzlies","2019-20","defense",-5.8522,3.5936
+"smooth","Memphis Grizzlies","2020-21","defense",0.9702,3.5909
+"smooth","Memphis Grizzlies","2021-22","defense",10.128,3.3099
+"smooth","Memphis Grizzlies","2022-23","defense",-5.1915,3.398
+"smooth","Memphis Grizzlies","2023-24","defense",1.1447,3.5048
+"smooth","Memphis Grizzlies","2024-25","defense",-5.1517,3.3708
+"smooth","Memphis Grizzlies","2025-26","defense",2.5099,3.6022
+"smooth","Memphis Grizzlies","2016-17","net",1.1112,3.971
+"smooth","Memphis Grizzlies","2017-18","net",1.2503,4.1932
+"smooth","Memphis Grizzlies","2018-19","net",-1.8736,4.2015
+"smooth","Memphis Grizzlies","2019-20","net",7.3987,4.2894
+"smooth","Memphis Grizzlies","2020-21","net",0.6582,4.2874
+"smooth","Memphis Grizzlies","2021-22","net",-7.2573,3.9347
+"smooth","Memphis Grizzlies","2022-23","net",3.2864,4.0566
+"smooth","Memphis Grizzlies","2023-24","net",-3.5449,4.1952
+"smooth","Memphis Grizzlies","2024-25","net",5.0931,4.0215
+"smooth","Memphis Grizzlies","2025-26","net",-1.1142,4.3007
+"smooth","Miami Heat","2016-17","offense",0.7709,3.3655
+"smooth","Miami Heat","2017-18","offense",-5.7972,3.3981
+"smooth","Miami Heat","2018-19","offense",-1.7269,3.5378
+"smooth","Miami Heat","2019-20","offense",-0.6819,3.2192
+"smooth","Miami Heat","2020-21","offense",-6.6977,3.5941
+"smooth","Miami Heat","2021-22","offense",-1.1876,3.1599
+"smooth","Miami Heat","2022-23","offense",-0.0623,3.2015
+"smooth","Miami Heat","2023-24","offense",2.8076,3.3381
+"smooth","Miami Heat","2024-25","offense",0.0976,3.3608
+"smooth","Miami Heat","2025-26","offense",0.4185,3.4706
+"smooth","Miami Heat","2016-17","defense",1.1579,3.3655
+"smooth","Miami Heat","2017-18","defense",-2.5079,3.3992
+"smooth","Miami Heat","2018-19","defense",-2.23,3.5368
+"smooth","Miami Heat","2019-20","defense",-2.4612,3.2201
+"smooth","Miami Heat","2020-21","defense",-2.807,3.5954
+"smooth","Miami Heat","2021-22","defense",-2.0395,3.1607
+"smooth","Miami Heat","2022-23","defense",-1.5383,3.2023
+"smooth","Miami Heat","2023-24","defense",3.4885,3.3389
+"smooth","Miami Heat","2024-25","defense",1.4972,3.3624
+"smooth","Miami Heat","2025-26","defense",2.9804,3.4721
+"smooth","Miami Heat","2016-17","net",-0.387,4.0153
+"smooth","Miami Heat","2017-18","net",-3.2893,4.0498
+"smooth","Miami Heat","2018-19","net",0.5032,4.2299
+"smooth","Miami Heat","2019-20","net",1.7793,3.8232
+"smooth","Miami Heat","2020-21","net",-3.8907,4.2909
+"smooth","Miami Heat","2021-22","net",0.8519,3.7497
+"smooth","Miami Heat","2022-23","net",1.476,3.8083
+"smooth","Miami Heat","2023-24","net",-0.6808,3.9774
+"smooth","Miami Heat","2024-25","net",-1.3996,4.0066
+"smooth","Miami Heat","2025-26","net",-2.562,4.1388
+"smooth","Milwaukee Bucks","2016-17","offense",-1.1211,3.301
+"smooth","Milwaukee Bucks","2017-18","offense",1.3481,3.2983
+"smooth","Milwaukee Bucks","2018-19","offense",-3.5721,3.1857
+"smooth","Milwaukee Bucks","2019-20","offense",-1.0786,3.4363
+"smooth","Milwaukee Bucks","2020-21","offense",4.0041,3.2247
+"smooth","Milwaukee Bucks","2021-22","offense",-4.5635,3.2413
+"smooth","Milwaukee Bucks","2022-23","offense",-6.917,3.4651
+"smooth","Milwaukee Bucks","2023-24","offense",3.8265,3.3298
+"smooth","Milwaukee Bucks","2024-25","offense",2.2377,3.4042
+"smooth","Milwaukee Bucks","2025-26","offense",2.7051,3.6148
+"smooth","Milwaukee Bucks","2016-17","defense",-0.0389,3.3017
+"smooth","Milwaukee Bucks","2017-18","defense",-6.071,3.2992
+"smooth","Milwaukee Bucks","2018-19","defense",-5.1279,3.1868
+"smooth","Milwaukee Bucks","2019-20","defense",2.7076,3.4363
+"smooth","Milwaukee Bucks","2020-21","defense",-1.701,3.2256
+"smooth","Milwaukee Bucks","2021-22","defense",-0.4179,3.242
+"smooth","Milwaukee Bucks","2022-23","defense",-4.5871,3.4659
+"smooth","Milwaukee Bucks","2023-24","defense",-1.6009,3.3311
+"smooth","Milwaukee Bucks","2024-25","defense",-6.0214,3.407
+"smooth","Milwaukee Bucks","2025-26","defense",3.3308,3.6156
+"smooth","Milwaukee Bucks","2016-17","net",-1.0822,3.9297
+"smooth","Milwaukee Bucks","2017-18","net",7.419,3.9211
+"smooth","Milwaukee Bucks","2018-19","net",1.5558,3.7925
+"smooth","Milwaukee Bucks","2019-20","net",-3.7862,4.0969
+"smooth","Milwaukee Bucks","2020-21","net",5.7051,3.8259
+"smooth","Milwaukee Bucks","2021-22","net",-4.1456,3.8523
+"smooth","Milwaukee Bucks","2022-23","net",-2.3299,4.137
+"smooth","Milwaukee Bucks","2023-24","net",5.4275,3.9704
+"smooth","Milwaukee Bucks","2024-25","net",8.2591,4.0596
+"smooth","Milwaukee Bucks","2025-26","net",-0.6257,4.3199
+"smooth","Minnesota Timberwolves","2016-17","offense",0.8843,3.3718
+"smooth","Minnesota Timberwolves","2017-18","offense",-3.6161,3.3593
+"smooth","Minnesota Timberwolves","2018-19","offense",-1.9581,3.5486
+"smooth","Minnesota Timberwolves","2019-20","offense",5.7922,3.8139
+"smooth","Minnesota Timberwolves","2020-21","offense",-8.7264,3.6744
+"smooth","Minnesota Timberwolves","2021-22","offense",1.6655,3.3508
+"smooth","Minnesota Timberwolves","2022-23","offense",2.1449,3.4135
+"smooth","Minnesota Timberwolves","2023-24","offense",-3.754,3.1978
+"smooth","Minnesota Timberwolves","2024-25","offense",-0.0405,3.1746
+"smooth","Minnesota Timberwolves","2025-26","offense",3.2265,3.3511
+"smooth","Minnesota Timberwolves","2016-17","defense",0.7739,3.3719
+"smooth","Minnesota Timberwolves","2017-18","defense",-5.8877,3.3601
+"smooth","Minnesota Timberwolves","2018-19","defense",-4.3039,3.5471
+"smooth","Minnesota Timberwolves","2019-20","defense",7.8092,3.8129
+"smooth","Minnesota Timberwolves","2020-21","defense",-0.1533,3.6735
+"smooth","Minnesota Timberwolves","2021-22","defense",-6.5837,3.3519
+"smooth","Minnesota Timberwolves","2022-23","defense",1.9596,3.4137
+"smooth","Minnesota Timberwolves","2023-24","defense",-1.1589,3.1992
+"smooth","Minnesota Timberwolves","2024-25","defense",0.7996,3.1767
+"smooth","Minnesota Timberwolves","2025-26","defense",-2.2823,3.3518
+"smooth","Minnesota Timberwolves","2016-17","net",0.1104,4.0232
+"smooth","Minnesota Timberwolves","2017-18","net",2.2716,3.9982
+"smooth","Minnesota Timberwolves","2018-19","net",2.3459,4.2471
+"smooth","Minnesota Timberwolves","2019-20","net",-2.017,4.564
+"smooth","Minnesota Timberwolves","2020-21","net",-8.5731,4.3939
+"smooth","Minnesota Timberwolves","2021-22","net",8.2492,3.9874
+"smooth","Minnesota Timberwolves","2022-23","net",0.1853,4.074
+"smooth","Minnesota Timberwolves","2023-24","net",-2.595,3.8086
+"smooth","Minnesota Timberwolves","2024-25","net",-0.8401,3.7695
+"smooth","Minnesota Timberwolves","2025-26","net",5.5088,3.99
+"smooth","New Orleans Pelicans","2016-17","offense",1.0618,3.387
+"smooth","New Orleans Pelicans","2017-18","offense",-1.4733,3.3969
+"smooth","New Orleans Pelicans","2018-19","offense",-1.2346,3.5687
+"smooth","New Orleans Pelicans","2019-20","offense",-2.2493,3.7106
+"smooth","New Orleans Pelicans","2020-21","offense",1.4976,3.7058
+"smooth","New Orleans Pelicans","2021-22","offense",0.3233,3.3317
+"smooth","New Orleans Pelicans","2022-23","offense",1.2954,3.5306
+"smooth","New Orleans Pelicans","2023-24","offense",-8.0082,3.3611
+"smooth","New Orleans Pelicans","2024-25","offense",0.4446,3.4285
+"smooth","New Orleans Pelicans","2025-26","offense",-2.0371,3.4969
+"smooth","New Orleans Pelicans","2016-17","defense",1.556,3.3869
+"smooth","New Orleans Pelicans","2017-18","defense",2.9762,3.3978
+"smooth","New Orleans Pelicans","2018-19","defense",2.86,3.5679
+"smooth","New Orleans Pelicans","2019-20","defense",3.6004,3.7099
+"smooth","New Orleans Pelicans","2020-21","defense",-3.0728,3.7045
+"smooth","New Orleans Pelicans","2021-22","defense",-2.3256,3.3324
+"smooth","New Orleans Pelicans","2022-23","defense",3.0933,3.5295
+"smooth","New Orleans Pelicans","2023-24","defense",-1.9766,3.362
+"smooth","New Orleans Pelicans","2024-25","defense",0.5349,3.4289
+"smooth","New Orleans Pelicans","2025-26","defense",2.5124,3.4974
+"smooth","New Orleans Pelicans","2016-17","net",-0.4942,4.0445
+"smooth","New Orleans Pelicans","2017-18","net",-4.4495,4.0487
+"smooth","New Orleans Pelicans","2018-19","net",-4.0946,4.2692
+"smooth","New Orleans Pelicans","2019-20","net",-5.8497,4.4375
+"smooth","New Orleans Pelicans","2020-21","net",4.5704,4.4338
+"smooth","New Orleans Pelicans","2021-22","net",2.649,3.965
+"smooth","New Orleans Pelicans","2022-23","net",-1.7979,4.2207
+"smooth","New Orleans Pelicans","2023-24","net",-6.0316,4.0076
+"smooth","New Orleans Pelicans","2024-25","net",-0.0904,4.0917
+"smooth","New Orleans Pelicans","2025-26","net",-4.5495,4.178
+"smooth","New York Knicks","2016-17","offense",0.0451,3.3844
+"smooth","New York Knicks","2017-18","offense",-4.4713,3.5524
+"smooth","New York Knicks","2018-19","offense",5.7964,3.5801
+"smooth","New York Knicks","2019-20","offense",2.8203,3.7691
+"smooth","New York Knicks","2020-21","offense",3.1191,3.5241
+"smooth","New York Knicks","2021-22","offense",-1.6684,3.5394
+"smooth","New York Knicks","2022-23","offense",-4.0094,3.3599
+"smooth","New York Knicks","2023-24","offense",-0.1329,3.2076
+"smooth","New York Knicks","2024-25","offense",-0.8081,3.1796
+"smooth","New York Knicks","2025-26","offense",8.5893,3.2258
+"smooth","New York Knicks","2016-17","defense",1.8608,3.3849
+"smooth","New York Knicks","2017-18","defense",0.143,3.554
+"smooth","New York Knicks","2018-19","defense",3.4264,3.579
+"smooth","New York Knicks","2019-20","defense",7.3356,3.7683
+"smooth","New York Knicks","2020-21","defense",1.3997,3.5244
+"smooth","New York Knicks","2021-22","defense",-3.8822,3.5404
+"smooth","New York Knicks","2022-23","defense",-3.3913,3.3604
+"smooth","New York Knicks","2023-24","defense",0.0652,3.2086
+"smooth","New York Knicks","2024-25","defense",3.2264,3.182
+"smooth","New York Knicks","2025-26","defense",-3.9749,3.2268
+"smooth","New York Knicks","2016-17","net",-1.8157,4.035
+"smooth","New York Knicks","2017-18","net",-4.6143,4.2379
+"smooth","New York Knicks","2018-19","net",2.3701,4.2866
+"smooth","New York Knicks","2019-20","net",-4.5153,4.5119
+"smooth","New York Knicks","2020-21","net",1.7194,4.2027
+"smooth","New York Knicks","2021-22","net",2.2138,4.2299
+"smooth","New York Knicks","2022-23","net",-0.6181,4.0057
+"smooth","New York Knicks","2023-24","net",-0.1981,3.8177
+"smooth","New York Knicks","2024-25","net",-4.0345,3.7814
+"smooth","New York Knicks","2025-26","net",12.5641,3.8292
+"smooth","Oklahoma City Thunder","2016-17","offense",-1.4103,3.3145
+"smooth","Oklahoma City Thunder","2017-18","offense",-1.3511,3.3702
+"smooth","Oklahoma City Thunder","2018-19","offense",-3.8258,3.4065
+"smooth","Oklahoma City Thunder","2019-20","offense",-2.3376,3.429
+"smooth","Oklahoma City Thunder","2020-21","offense",-0.6258,3.6755
+"smooth","Oklahoma City Thunder","2021-22","offense",3.7498,3.5097
+"smooth","Oklahoma City Thunder","2022-23","offense",9.4371,3.5463
+"smooth","Oklahoma City Thunder","2023-24","offense",0.2532,3.2415
+"smooth","Oklahoma City Thunder","2024-25","offense",-4.5511,3.044
+"smooth","Oklahoma City Thunder","2025-26","offense",4.2129,3.334
+"smooth","Oklahoma City Thunder","2016-17","defense",1.8863,3.3154
+"smooth","Oklahoma City Thunder","2017-18","defense",2.2112,3.3713
+"smooth","Oklahoma City Thunder","2018-19","defense",0.8875,3.4074
+"smooth","Oklahoma City Thunder","2019-20","defense",-1.4257,3.4285
+"smooth","Oklahoma City Thunder","2020-21","defense",-0.4939,3.6746
+"smooth","Oklahoma City Thunder","2021-22","defense",1.4618,3.5101
+"smooth","Oklahoma City Thunder","2022-23","defense",5.9223,3.5458
+"smooth","Oklahoma City Thunder","2023-24","defense",-1.8918,3.2419
+"smooth","Oklahoma City Thunder","2024-25","defense",-1.8845,3.0458
+"smooth","Oklahoma City Thunder","2025-26","defense",1.3224,3.3349
+"smooth","Oklahoma City Thunder","2016-17","net",-3.2966,3.9485
+"smooth","Oklahoma City Thunder","2017-18","net",-3.5623,4.0121
+"smooth","Oklahoma City Thunder","2018-19","net",-4.7133,4.0604
+"smooth","Oklahoma City Thunder","2019-20","net",-0.9119,4.0838
+"smooth","Oklahoma City Thunder","2020-21","net",-0.1319,4.3926
+"smooth","Oklahoma City Thunder","2021-22","net",2.288,4.1916
+"smooth","Oklahoma City Thunder","2022-23","net",3.5149,4.2416
+"smooth","Oklahoma City Thunder","2023-24","net",2.145,3.8552
+"smooth","Oklahoma City Thunder","2024-25","net",-2.6667,3.6079
+"smooth","Oklahoma City Thunder","2025-26","net",2.8905,3.9653
+"smooth","Orlando Magic","2016-17","offense",0.1874,3.4395
+"smooth","Orlando Magic","2017-18","offense",0.0573,3.5335
+"smooth","Orlando Magic","2018-19","offense",-4.7918,3.4345
+"smooth","Orlando Magic","2019-20","offense",7.5275,3.554
+"smooth","Orlando Magic","2020-21","offense",6.7197,3.6751
+"smooth","Orlando Magic","2021-22","offense",-4e-04,3.461
+"smooth","Orlando Magic","2022-23","offense",1.5096,3.5542
+"smooth","Orlando Magic","2023-24","offense",5.6518,3.3745
+"smooth","Orlando Magic","2024-25","offense",2.8397,3.4166
+"smooth","Orlando Magic","2025-26","offense",-2.7493,3.3671
+"smooth","Orlando Magic","2016-17","defense",8.0981,3.4398
+"smooth","Orlando Magic","2017-18","defense",-3.161,3.5347
+"smooth","Orlando Magic","2018-19","defense",-1.9484,3.4347
+"smooth","Orlando Magic","2019-20","defense",0.5702,3.554
+"smooth","Orlando Magic","2020-21","defense",0.6304,3.6737
+"smooth","Orlando Magic","2021-22","defense",2.8214,3.462
+"smooth","Orlando Magic","2022-23","defense",1.2561,3.5527
+"smooth","Orlando Magic","2023-24","defense",-0.7314,3.3753
+"smooth","Orlando Magic","2024-25","defense",-3.84,3.4181
+"smooth","Orlando Magic","2025-26","defense",0.5615,3.3675
+"smooth","Orlando Magic","2016-17","net",-7.9107,4.1093
+"smooth","Orlando Magic","2017-18","net",3.2183,4.2169
+"smooth","Orlando Magic","2018-19","net",-2.8435,4.0982
+"smooth","Orlando Magic","2019-20","net",6.9572,4.2408
+"smooth","Orlando Magic","2020-21","net",6.0894,4.4029
+"smooth","Orlando Magic","2021-22","net",-2.8219,4.1282
+"smooth","Orlando Magic","2022-23","net",0.2534,4.2584
+"smooth","Orlando Magic","2023-24","net",6.3832,4.0293
+"smooth","Orlando Magic","2024-25","net",6.6797,4.0729
+"smooth","Orlando Magic","2025-26","net",-3.3108,4.0046
+"smooth","Philadelphia 76ers","2016-17","offense",-0.2611,3.3961
+"smooth","Philadelphia 76ers","2017-18","offense",-0.7271,3.3085
+"smooth","Philadelphia 76ers","2018-19","offense",7.8253,3.3665
+"smooth","Philadelphia 76ers","2019-20","offense",1.6487,3.474
+"smooth","Philadelphia 76ers","2020-21","offense",-1.4202,3.4479
+"smooth","Philadelphia 76ers","2021-22","offense",-3.4941,3.2673
+"smooth","Philadelphia 76ers","2022-23","offense",4.4312,3.314
+"smooth","Philadelphia 76ers","2023-24","offense",0.9746,3.3014
+"smooth","Philadelphia 76ers","2024-25","offense",-2.1765,3.5121
+"smooth","Philadelphia 76ers","2025-26","offense",3.2323,3.3143
+"smooth","Philadelphia 76ers","2016-17","defense",-5.3805,3.3967
+"smooth","Philadelphia 76ers","2017-18","defense",0.8376,3.31
+"smooth","Philadelphia 76ers","2018-19","defense",1.7596,3.367
+"smooth","Philadelphia 76ers","2019-20","defense",4.9868,3.475
+"smooth","Philadelphia 76ers","2020-21","defense",-2.5054,3.4484
+"smooth","Philadelphia 76ers","2021-22","defense",3.7257,3.268
+"smooth","Philadelphia 76ers","2022-23","defense",9.4756,3.3139
+"smooth","Philadelphia 76ers","2023-24","defense",1.9095,3.3027
+"smooth","Philadelphia 76ers","2024-25","defense",2.1015,3.5128
+"smooth","Philadelphia 76ers","2025-26","defense",-2.4065,3.3152
+"smooth","Philadelphia 76ers","2016-17","net",5.1193,4.052
+"smooth","Philadelphia 76ers","2017-18","net",-1.5646,3.9401
+"smooth","Philadelphia 76ers","2018-19","net",6.0656,4.0141
+"smooth","Philadelphia 76ers","2019-20","net",-3.3381,4.1377
+"smooth","Philadelphia 76ers","2020-21","net",1.0852,4.106
+"smooth","Philadelphia 76ers","2021-22","net",-7.2198,3.8836
+"smooth","Philadelphia 76ers","2022-23","net",-5.0444,3.9521
+"smooth","Philadelphia 76ers","2023-24","net",-0.9349,3.9367
+"smooth","Philadelphia 76ers","2024-25","net",-4.278,4.1956
+"smooth","Philadelphia 76ers","2025-26","net",5.6388,3.9429
+"smooth","Phoenix Suns","2016-17","offense",2.6999,3.4449
+"smooth","Phoenix Suns","2017-18","offense",5.2237,3.4411
+"smooth","Phoenix Suns","2018-19","offense",2.2377,3.4971
+"smooth","Phoenix Suns","2019-20","offense",2.0105,3.6689
+"smooth","Phoenix Suns","2020-21","offense",-7.504,3.2271
+"smooth","Phoenix Suns","2021-22","offense",1.4668,3.2515
+"smooth","Phoenix Suns","2022-23","offense",-5.393,3.3254
+"smooth","Phoenix Suns","2023-24","offense",1.2392,3.3952
+"smooth","Phoenix Suns","2024-25","offense",-0.5118,3.4473
+"smooth","Phoenix Suns","2025-26","offense",2.7261,3.4613
+"smooth","Phoenix Suns","2016-17","defense",2.7179,3.4453
+"smooth","Phoenix Suns","2017-18","defense",-1.2699,3.4418
+"smooth","Phoenix Suns","2018-19","defense",2.3318,3.4963
+"smooth","Phoenix Suns","2019-20","defense",1.5124,3.6689
+"smooth","Phoenix Suns","2020-21","defense",-8.6555,3.2283
+"smooth","Phoenix Suns","2021-22","defense",-1.5636,3.2522
+"smooth","Phoenix Suns","2022-23","defense",-1.3922,3.326
+"smooth","Phoenix Suns","2023-24","defense",0.3166,3.3958
+"smooth","Phoenix Suns","2024-25","defense",-1.048,3.4475
+"smooth","Phoenix Suns","2025-26","defense",0.6753,3.4626
+"smooth","Phoenix Suns","2016-17","net",-0.0181,4.1164
+"smooth","Phoenix Suns","2017-18","net",6.4936,4.1043
+"smooth","Phoenix Suns","2018-19","net",-0.0941,4.1949
+"smooth","Phoenix Suns","2019-20","net",0.498,4.394
+"smooth","Phoenix Suns","2020-21","net",1.1515,3.8383
+"smooth","Phoenix Suns","2021-22","net",3.0303,3.8644
+"smooth","Phoenix Suns","2022-23","net",-4.0008,3.9668
+"smooth","Phoenix Suns","2023-24","net",0.9226,4.0529
+"smooth","Phoenix Suns","2024-25","net",0.5362,4.1136
+"smooth","Phoenix Suns","2025-26","net",2.0507,4.1221
+"smooth","Portland Trail Blazers","2016-17","offense",-3.3333,3.3622
+"smooth","Portland Trail Blazers","2017-18","offense",-0.5629,3.3655
+"smooth","Portland Trail Blazers","2018-19","offense",-1.8482,3.233
+"smooth","Portland Trail Blazers","2019-20","offense",-2.8693,3.5078
+"smooth","Portland Trail Blazers","2020-21","offense",3.1369,3.5338
+"smooth","Portland Trail Blazers","2021-22","offense",9.0954,3.4952
+"smooth","Portland Trail Blazers","2022-23","offense",1.4076,3.5142
+"smooth","Portland Trail Blazers","2023-24","offense",3.8067,3.4516
+"smooth","Portland Trail Blazers","2024-25","offense",-6.5472,3.5932
+"smooth","Portland Trail Blazers","2025-26","offense",-0.4002,3.4349
+"smooth","Portland Trail Blazers","2016-17","defense",2.0666,3.3632
+"smooth","Portland Trail Blazers","2017-18","defense",5.2222,3.3666
+"smooth","Portland Trail Blazers","2018-19","defense",2.6713,3.2348
+"smooth","Portland Trail Blazers","2019-20","defense",-1.8873,3.5077
+"smooth","Portland Trail Blazers","2020-21","defense",3.5846,3.5349
+"smooth","Portland Trail Blazers","2021-22","defense",-4.8988,3.4965
+"smooth","Portland Trail Blazers","2022-23","defense",-0.5158,3.5123
+"smooth","Portland Trail Blazers","2023-24","defense",-2.3652,3.4507
+"smooth","Portland Trail Blazers","2024-25","defense",0.0455,3.5942
+"smooth","Portland Trail Blazers","2025-26","defense",-0.2753,3.4357
+"smooth","Portland Trail Blazers","2016-17","net",-5.3999,4.0073
+"smooth","Portland Trail Blazers","2017-18","net",-5.7851,4.0067
+"smooth","Portland Trail Blazers","2018-19","net",-4.5195,3.8499
+"smooth","Portland Trail Blazers","2019-20","net",-0.982,4.1812
+"smooth","Portland Trail Blazers","2020-21","net",-0.4476,4.2163
+"smooth","Portland Trail Blazers","2021-22","net",13.9943,4.1688
+"smooth","Portland Trail Blazers","2022-23","net",1.9234,4.2073
+"smooth","Portland Trail Blazers","2023-24","net",6.1719,4.1245
+"smooth","Portland Trail Blazers","2024-25","net",-6.5928,4.2985
+"smooth","Portland Trail Blazers","2025-26","net",-0.1249,4.0909
+"smooth","Sacramento Kings","2016-17","offense",5.1184,3.4043
+"smooth","Sacramento Kings","2017-18","offense",0.2281,3.4408
+"smooth","Sacramento Kings","2018-19","offense",1.2125,3.5131
+"smooth","Sacramento Kings","2019-20","offense",6.8697,3.6956
+"smooth","Sacramento Kings","2020-21","offense",5.4239,3.7022
+"smooth","Sacramento Kings","2021-22","offense",1.4861,3.4439
+"smooth","Sacramento Kings","2022-23","offense",0.5901,3.3957
+"smooth","Sacramento Kings","2023-24","offense",-3.3175,3.4682
+"smooth","Sacramento Kings","2024-25","offense",-0.4278,3.4687
+"smooth","Sacramento Kings","2025-26","offense",-0.8157,3.5804
+"smooth","Sacramento Kings","2016-17","defense",3.9957,3.4035
+"smooth","Sacramento Kings","2017-18","defense",2.4031,3.4417
+"smooth","Sacramento Kings","2018-19","defense",2.6615,3.5117
+"smooth","Sacramento Kings","2019-20","defense",2.332,3.6944
+"smooth","Sacramento Kings","2020-21","defense",-0.331,3.7009
+"smooth","Sacramento Kings","2021-22","defense",5.2088,3.445
+"smooth","Sacramento Kings","2022-23","defense",-2,3.3957
+"smooth","Sacramento Kings","2023-24","defense",0.888,3.4681
+"smooth","Sacramento Kings","2024-25","defense",3.2516,3.4688
+"smooth","Sacramento Kings","2025-26","defense",2.3941,3.5809
+"smooth","Sacramento Kings","2016-17","net",1.1226,4.0706
+"smooth","Sacramento Kings","2017-18","net",-2.175,4.1055
+"smooth","Sacramento Kings","2018-19","net",-1.449,4.2041
+"smooth","Sacramento Kings","2019-20","net",4.5377,4.423
+"smooth","Sacramento Kings","2020-21","net",5.7549,4.4331
+"smooth","Sacramento Kings","2021-22","net",-3.7227,4.1066
+"smooth","Sacramento Kings","2022-23","net",2.5901,4.0521
+"smooth","Sacramento Kings","2023-24","net",-4.2055,4.138
+"smooth","Sacramento Kings","2024-25","net",-3.6795,4.1447
+"smooth","Sacramento Kings","2025-26","net",-3.2098,4.2752
+"smooth","San Antonio Spurs","2016-17","offense",-2.0215,3.1746
+"smooth","San Antonio Spurs","2017-18","offense",4.5028,3.3899
+"smooth","San Antonio Spurs","2018-19","offense",1.4552,3.4145
+"smooth","San Antonio Spurs","2019-20","offense",3.7744,3.7004
+"smooth","San Antonio Spurs","2020-21","offense",2.915,3.6481
+"smooth","San Antonio Spurs","2021-22","offense",-0.2349,3.4505
+"smooth","San Antonio Spurs","2022-23","offense",-0.1452,3.5743
+"smooth","San Antonio Spurs","2023-24","offense",3.8673,3.4183
+"smooth","San Antonio Spurs","2024-25","offense",4.964,3.5028
+"smooth","San Antonio Spurs","2025-26","offense",1.4907,3.1315
+"smooth","San Antonio Spurs","2016-17","defense",-3.5489,3.1749
+"smooth","San Antonio Spurs","2017-18","defense",6.2505,3.3912
+"smooth","San Antonio Spurs","2018-19","defense",-0.4183,3.4148
+"smooth","San Antonio Spurs","2019-20","defense",6.3535,3.6983
+"smooth","San Antonio Spurs","2020-21","defense",5.7022,3.6471
+"smooth","San Antonio Spurs","2021-22","defense",4.8151,3.4516
+"smooth","San Antonio Spurs","2022-23","defense",-1.8189,3.5725
+"smooth","San Antonio Spurs","2023-24","defense",7.3775,3.418
+"smooth","San Antonio Spurs","2024-25","defense",7.0678,3.5029
+"smooth","San Antonio Spurs","2025-26","defense",3.3154,3.1324
+"smooth","San Antonio Spurs","2016-17","net",1.5274,3.7766
+"smooth","San Antonio Spurs","2017-18","net",-1.7477,4.0381
+"smooth","San Antonio Spurs","2018-19","net",1.8735,4.0725
+"smooth","San Antonio Spurs","2019-20","net",-2.5791,4.4261
+"smooth","San Antonio Spurs","2020-21","net",-2.7872,4.3739
+"smooth","San Antonio Spurs","2021-22","net",-5.0501,4.1139
+"smooth","San Antonio Spurs","2022-23","net",1.6737,4.2826
+"smooth","San Antonio Spurs","2023-24","net",-3.5102,4.0868
+"smooth","San Antonio Spurs","2024-25","net",-2.1039,4.1827
+"smooth","San Antonio Spurs","2025-26","net",-1.8247,3.713
+"smooth","Toronto Raptors","2016-17","offense",2.9528,3.3077
+"smooth","Toronto Raptors","2017-18","offense",-3.1526,3.3393
+"smooth","Toronto Raptors","2018-19","offense",0.3161,3.0985
+"smooth","Toronto Raptors","2019-20","offense",-4.9697,3.416
+"smooth","Toronto Raptors","2020-21","offense",-1.3856,3.6884
+"smooth","Toronto Raptors","2021-22","offense",-1.8797,3.3582
+"smooth","Toronto Raptors","2022-23","offense",-0.9173,3.5771
+"smooth","Toronto Raptors","2023-24","offense",-2.2968,3.4174
+"smooth","Toronto Raptors","2024-25","offense",-2.104,3.436
+"smooth","Toronto Raptors","2025-26","offense",-1.0816,3.3873
+"smooth","Toronto Raptors","2016-17","defense",5.0006,3.3087
+"smooth","Toronto Raptors","2017-18","defense",2.9177,3.3402
+"smooth","Toronto Raptors","2018-19","defense",1.1656,3.0996
+"smooth","Toronto Raptors","2019-20","defense",1.028,3.4163
+"smooth","Toronto Raptors","2020-21","defense",-1.047,3.6873
+"smooth","Toronto Raptors","2021-22","defense",2.4861,3.3591
+"smooth","Toronto Raptors","2022-23","defense",1.7354,3.5758
+"smooth","Toronto Raptors","2023-24","defense",-6.9719,3.4165
+"smooth","Toronto Raptors","2024-25","defense",-1.8311,3.4366
+"smooth","Toronto Raptors","2025-26","defense",0.9299,3.3878
+"smooth","Toronto Raptors","2016-17","net",-2.0478,3.9397
+"smooth","Toronto Raptors","2017-18","net",-6.0703,3.9753
+"smooth","Toronto Raptors","2018-19","net",-0.8495,3.6782
+"smooth","Toronto Raptors","2019-20","net",-5.9977,4.0741
+"smooth","Toronto Raptors","2020-21","net",-0.3386,4.4061
+"smooth","Toronto Raptors","2021-22","net",-4.3658,4.0137
+"smooth","Toronto Raptors","2022-23","net",-2.6527,4.2846
+"smooth","Toronto Raptors","2023-24","net",4.675,4.0849
+"smooth","Toronto Raptors","2024-25","net",-0.2729,4.0975
+"smooth","Toronto Raptors","2025-26","net",-2.0115,4.0388
+"smooth","Utah Jazz","2016-17","offense",1.0431,3.279
+"smooth","Utah Jazz","2017-18","offense",2.9561,3.2931
+"smooth","Utah Jazz","2018-19","offense",-3.7258,3.4256
+"smooth","Utah Jazz","2019-20","offense",-2.7404,3.4102
+"smooth","Utah Jazz","2020-21","offense",3.6932,3.4752
+"smooth","Utah Jazz","2021-22","offense",-0.6625,3.3918
+"smooth","Utah Jazz","2022-23","offense",4.0288,3.5286
+"smooth","Utah Jazz","2023-24","offense",-5.94,3.5515
+"smooth","Utah Jazz","2024-25","offense",8.7876,3.4185
+"smooth","Utah Jazz","2025-26","offense",-6.7656,3.5034
+"smooth","Utah Jazz","2016-17","defense",0.8663,3.2799
+"smooth","Utah Jazz","2017-18","defense",-2.0973,3.2935
+"smooth","Utah Jazz","2018-19","defense",-4.5989,3.4263
+"smooth","Utah Jazz","2019-20","defense",0.2041,3.4095
+"smooth","Utah Jazz","2020-21","defense",1.8295,3.4751
+"smooth","Utah Jazz","2021-22","defense",-4.5637,3.3932
+"smooth","Utah Jazz","2022-23","defense",1.7868,3.5271
+"smooth","Utah Jazz","2023-24","defense",-1.1414,3.5504
+"smooth","Utah Jazz","2024-25","defense",4.1622,3.419
+"smooth","Utah Jazz","2025-26","defense",-3.3816,3.5046
+"smooth","Utah Jazz","2016-17","net",0.1768,3.9066
+"smooth","Utah Jazz","2017-18","net",5.0533,3.9186
+"smooth","Utah Jazz","2018-19","net",0.8731,4.0895
+"smooth","Utah Jazz","2019-20","net",-2.9445,4.0597
+"smooth","Utah Jazz","2020-21","net",1.8637,4.1368
+"smooth","Utah Jazz","2021-22","net",3.9012,4.0415
+"smooth","Utah Jazz","2022-23","net",2.242,4.2214
+"smooth","Utah Jazz","2023-24","net",-4.7987,4.2524
+"smooth","Utah Jazz","2024-25","net",4.6254,4.0778
+"smooth","Utah Jazz","2025-26","net",-3.3841,4.177
+"smooth","Washington Wizards","2016-17","offense",0.7955,3.2446
+"smooth","Washington Wizards","2017-18","offense",-0.8038,3.3737
+"smooth","Washington Wizards","2018-19","offense",-4.5953,3.5824
+"smooth","Washington Wizards","2019-20","offense",-8.6918,3.721
+"smooth","Washington Wizards","2020-21","offense",0.7559,3.4823
+"smooth","Washington Wizards","2021-22","offense",-2.6612,3.4587
+"smooth","Washington Wizards","2022-23","offense",-4.2822,3.54
+"smooth","Washington Wizards","2023-24","offense",-1.0016,3.3949
+"smooth","Washington Wizards","2024-25","offense",3.5642,3.4623
+"smooth","Washington Wizards","2025-26","offense",-0.3058,3.4682
+"smooth","Washington Wizards","2016-17","defense",2.442,3.2458
+"smooth","Washington Wizards","2017-18","defense",-1.655,3.3744
+"smooth","Washington Wizards","2018-19","defense",-0.1766,3.581
+"smooth","Washington Wizards","2019-20","defense",-6.911,3.72
+"smooth","Washington Wizards","2020-21","defense",3.4748,3.4827
+"smooth","Washington Wizards","2021-22","defense",1.3939,3.4597
+"smooth","Washington Wizards","2022-23","defense",3.3131,3.539
+"smooth","Washington Wizards","2023-24","defense",0.8348,3.3949
+"smooth","Washington Wizards","2024-25","defense",2.0349,3.4637
+"smooth","Washington Wizards","2025-26","defense",7.5842,3.4697
+"smooth","Washington Wizards","2016-17","net",-1.6465,3.8593
+"smooth","Washington Wizards","2017-18","net",0.8512,4.0169
+"smooth","Washington Wizards","2018-19","net",-4.4187,4.2884
+"smooth","Washington Wizards","2019-20","net",-1.7807,4.4529
+"smooth","Washington Wizards","2020-21","net",-2.7189,4.1487
+"smooth","Washington Wizards","2021-22","net",-4.0551,4.1265
+"smooth","Washington Wizards","2022-23","net",-7.5953,4.2368
+"smooth","Washington Wizards","2023-24","net",-1.8364,4.0513
+"smooth","Washington Wizards","2024-25","net",1.5294,4.1354
+"smooth","Washington Wizards","2025-26","net",-7.89,4.137

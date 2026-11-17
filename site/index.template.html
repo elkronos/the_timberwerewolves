@@ -1,0 +1,225 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Timberwerewolves</title>
+<meta name="description" content="Do the Minnesota Timberwolves play better under a full moon? Ten NBA seasons, {{games}} games, tested in R.">
+<meta name="color-scheme" content="dark">
+<meta property="og:title" content="The Timberwerewolves">
+<meta property="og:description" content="The Wolves are {{near_record}} near a full moon and {{far_record}} otherwise. Ten seasons of NBA games say what that is worth.">
+<meta property="og:image" content="{{site_url}}assets/figures/games-by-moon.png">
+<meta property="og:type" content="article">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23eeeadb'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/im-fell-english-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+<a class="skip" href="#record">Skip to the analysis</a>
+
+<div class="dial" aria-hidden="true">
+  <svg id="dial" width="56" height="56" viewBox="0 0 56 56">
+    <circle cx="28" cy="28" r="27.5" fill="#243056" stroke="#4a5a8a" stroke-width="1"/>
+    <path id="dial-lit" d="M 28 0 A 28 28 0 0 1 28 56 A 28 28 0 0 1 28 0 Z" fill="#eeeadb"/>
+  </svg>
+</div>
+
+<header class="top">
+  <h1>The Timber&shy;werewolves</h1>
+  <p class="deck">Do the Minnesota Timberwolves play better under a full moon?</p>
+</header>
+
+<main>
+
+<section id="record" data-phase="{{phase_1}}">
+  <h2>{{moon_1}}The record</h2>
+  <p>Over the last ten seasons the Timberwolves are {{near_record}} in games played within a day and a half of a full moon. In every other game they are {{far_record}}. That is a {{near_pct}}% team under a full moon and a {{far_pct}}% team the rest of the month.</p>
+  <figure>
+    <img src="assets/figures/games-by-moon.png" width="2000" height="1440" alt="Dot chart of {{wolves_games}} Timberwolves games arranged by days from the nearest full moon. Wins stack above the line and losses below. The three columns inside the shaded full-moon window hold {{near_wins}} wins and {{near_losses}} losses.">
+    <figcaption>Every Wolves game from {{first_season}} through {{last_season}}, placed by its distance from the nearest full moon. The game-by-game table is in <a href="{{repo_url}}/blob/main/results/wolves_games.csv">results/wolves_games.csv</a>.</figcaption>
+  </figure>
+  <p>I tested that gap with {{games}} NBA games, the position of the moon at every tip-off, and a model that compares the Wolves with the other 29 teams.</p>
+  <p class="short">Once the model accounts for opponents, home court and rest, the Wolves' point margin is {{window_net_plain}} points better near a full moon, with a 95% interval from {{window_net_lo}} to {{window_net_hi}}. The moon shows no effect on their scoring. Fake moons, cycles of made-up lengths, produce a record as good as {{near_record}} about {{fake_share}}% of the time. In the {{second_seasons}} seasons before these ten, the Wolves won {{second_near_pct}}% of their games near a full moon and {{second_far_pct}}% of the rest.</p>
+</section>
+
+<section id="games" data-phase="{{phase_2}}">
+  <h2>{{moon_2}}The games</h2>
+  <p>The scores come from ESPN by way of the <a href="https://github.com/sportsdataverse/hoopR-nba-raw">sportsdataverse</a> project, which publishes one schedule file per NBA season. I used the ten seasons from {{first_season}} through {{last_season}}: {{games}} completed games, {{wolves_games}} of them Wolves games, counting the regular season, the play-in and the playoffs. The {{next_season}} season was under way when I ran this, and I left it out. I pinned the files to one commit of the source repository, so every run reads the same bytes.</p>
+  <p>Four things needed cleaning before any modeling.</p>
+  <ul>
+    <li>All-Star exhibitions are out. They use one-off teams such as Team LeBron, and {{exhibitions}} of them were in the files.</li>
+    <li>{{time_fixed}} games from February 2020 carry tip-off times about ten hours late, before 11 a.m. Eastern. I moved them back twelve hours so each sits on the date it was played.</li>
+    <li>{{neutral_games}} games count as neutral sites with no home-court advantage: the 2020 Orlando bubble, the NBA Cup games in Las Vegas and the games played abroad.</li>
+    <li>A team's days of rest come from its previous game in the same season. Zero means the second night of a back-to-back.</li>
+  </ul>
+  <p>Those ten seasons hold {{lunar_cycles}} lunar months with games in them.</p>
+</section>
+
+<section id="moon" data-phase="{{phase_3}}">
+  <h2>{{moon_3}}The moon</h2>
+  <p>The R package <a href="https://cran.r-project.org/package=suncalc">suncalc</a> gives the moon's illuminated fraction, its phase and its distance from Earth at any instant. I computed all three at each tip-off. Checked against <a href="https://rhodesmill.org/pyephem/">PyEphem</a>, a high-precision ephemeris, suncalc's illuminated fraction correlates {{frac_cor}} over these ten years, which is plenty for something that takes {{synodic_days}} days to cycle.</p>
+  <p>The exact instant of each full moon is the one thing I took from PyEphem directly. suncalc's full-moon times run up to {{max_hours_off}} hours off, and a window with a hard edge at a day and a half should not move by a few hours.</p>
+  <p>Phase is a position on a circle. The night before a new moon and the night after it are neighbors, yet one has phase 0.98 and the other 0.02. A regression given phase as a plain number would treat those two nights as opposites. Cosine and sine fix that, because together they describe a position on a circle with two ordinary numbers.</p>
+  <figure>
+    <img src="assets/figures/moon-variables.png" width="2000" height="1120" loading="lazy" alt="Line chart of one lunar month. The moon_cos line rises from minus one at new moon to plus one at full moon and falls back. The moon_sin line is negative before the full moon and positive after it. A shaded band three nights wide marks the near_full window.">
+    <figcaption>One lunar month, new moon to new moon, and the variables built from it.</figcaption>
+  </figure>
+  <p>Four variables go into the models.</p>
+  <dl>
+    <dt><code>moon_cos</code></dt>
+    <dd>+1 at full moon and −1 at new moon. It is the illuminated fraction rescaled, so it measures how full the moon is.</dd>
+    <dt><code>moon_sin</code></dt>
+    <dd>−1 at first quarter and +1 at last quarter. It tells the nights before a full moon from the nights after. With both terms in a model, a monthly rhythm that peaks anywhere in the cycle shows up in one or the other.</dd>
+    <dt><code>near_full</code></dt>
+    <dd>1 when tip-off is within {{near_full_days}} days of the full-moon instant, the three nights the moon looks full, and 0 otherwise. I set that width in the first script, before any results existed.</dd>
+    <dt><code>moon_dist</code></dt>
+    <dd>Distance from Earth in thousands of kilometers. It runs on its own {{anomalistic_days}}-day cycle and is the supermoon variable. suncalc's distance is the roughest of its three outputs, correlating {{dist_cor}} with PyEphem.</dd>
+  </dl>
+  <p>The first versions of this analysis used illuminated fraction and days from the full moon as separate variables. Their correlation was {{frac_days_cor}}, which makes them one variable entered twice, and a model cannot tell two copies of one thing apart.</p>
+</section>
+
+<section id="model" data-phase="{{phase_4}}">
+  <h2>{{moon_4}}The model</h2>
+  <p>Comparing full-moon games with all the others is not a fair fight. The Wolves played {{near_home_pct}}% of their full-moon games at home and {{far_home_pct}}% of the rest. In 2021-22, when they went {{s22_record}} under full moons, {{s22_home}} of those {{s22_games}} games were in Minneapolis.</p>
+  <p>So the model starts by predicting every team's score in every game from things that have nothing to do with the moon:</p>
+  <ul>
+    <li>the season, since league scoring rose about {{season_rise}} points per team over the decade</li>
+    <li>home court, estimated separately for each season</li>
+    <li>days of rest for both teams</li>
+    <li>whether the game is a play-in or playoff game</li>
+    <li>overtime periods</li>
+    <li>day of the week</li>
+  </ul>
+  <p>It also learns how good each offense and each defense was in each season, which teams ran hot or cold in a given month, how league scoring drifted from month to month, and how fast each individual game was played. In lme4 those are random intercepts.</p>
+  <figure>
+    <img src="assets/figures/covariates.png" width="2000" height="1720" loading="lazy" alt="Dot-and-interval chart of the model's estimates. Home court is worth between {{home_min}} and {{home_max}} points depending on the season, lowest in 2020-21. A day or more of rest adds {{rest_min}} to {{rest_max}} points, a rested opponent takes away {{opp_rest_min}} to {{opp_rest_max}}, and playoff games run {{playoff_drop}} points lower.">
+    <figcaption>The model's estimates before any moon variable is added. The numbers are in <a href="{{repo_url}}/blob/main/results/covariates.csv">results/covariates.csv</a>.</figcaption>
+  </figure>
+  <p>Before the moon enters, the model's estimates look like basketball. Home court is worth about {{home_typical}} points and fell to {{home_2021}} in 2020-21. A team with one day of rest scores {{rest1}} more than a team on the second night of a back-to-back. Playoff games run {{playoff_drop}} points lower per team, and each overtime period adds {{overtime_pts}}.</p>
+  <p>Then each moon variable goes in three times: once for the whole league, once for the Wolves when they have the ball, and once for the Wolves on defense. The league term is there because the other 29 teams played under the same moon. If scoring dips everywhere on full-moon nights, the Wolves get no credit for it. What remains is how the Wolves differ from everyone else.</p>
+<pre><code>points ~ moon + moon:is_wolves + moon:vs_wolves
+       + is_wolves + vs_wolves + season + season:home_court
+       + rest + opp_rest + game_type + overtimes + dow
+       + (1 | season_month) + (1 | team_season) + (1 | opp_season)
+       + (1 | team_month)   + (1 | opp_month)   + (1 | game_id)</code></pre>
+  <p>The model has {{team_games}} rows, two per game, one for each team's score.</p>
+</section>
+
+<section id="result" data-phase="{{phase_5}}">
+  <h2>{{moon_5}}The result</h2>
+  <figure>
+    <img src="assets/figures/estimates.png" width="2000" height="1640" loading="lazy" alt="Sixteen estimates with 95 percent intervals in four groups: the league, Wolves points scored, Wolves points allowed and Wolves margin. Fourteen intervals include zero. The two that do not are the league-wide distance effect and the Wolves' points allowed inside the full-moon window.">
+    <figcaption>Each estimate is the change in points from the low end of a moon variable to the high end.</figcaption>
+    <details>
+      <summary>Show these numbers as a table</summary>
+      <div class="scroll">{{estimates_table}}</div>
+    </details>
+  </figure>
+  <p>The figure holds sixteen estimates: four moon variables, each measured for the league, for the Wolves' scoring, for the Wolves' points allowed and for the Wolves' margin.</p>
+  <p>The moon does nothing visible to the Wolves' scoring. From new moon to full, it changes by {{off_cos}} points relative to the league, with an interval from {{off_cos_lo}} to {{off_cos_hi}}.</p>
+  <p>Defense is where {{near_record}} comes from. Inside the full-moon window, opponents score {{def_win_abs}} fewer points against the Wolves than the model expects (p = {{def_win_p}}).</p>
+  <p>Scoring and defense together give the margin. The Wolves are {{window_net_plain}} points better inside the window, with an interval from {{window_net_lo}} to {{window_net_hi}}. Measured the smooth way, from new moon to full moon, the edge is {{cos_net}} points ({{cos_net_lo}} to {{cos_net_hi}}).</p>
+  <p>The other small p-value has nothing to do with Minnesota. Across the league, teams score {{dist_league_abs}} fewer points when the moon is at its farthest than when it is nearest (p = {{dist_league_p}}).</p>
+  <p>Two estimates out of sixteen under 0.05 is about what luck produces. With no moon effect at all I would expect {{expected_flags}} of them, and two or more would show up roughly one time in five. Holm's correction, applied within each group of four, moves those two p-values to {{dist_league_holm}} and {{def_win_holm}}. One test of all eight Wolves scoring and defense terms together gives p = {{omni_wolves_p}}. The same test of the four league-wide terms gives p = {{omni_league_p}}, which is the distance effect again.</p>
+  <figure>
+    <img src="assets/figures/phases.png" width="2000" height="1200" loading="lazy" alt="The Wolves' average margin against expectation in each of the eight named moon phases, with 95 percent intervals. Full moon and new moon are both above zero. All eight intervals include zero.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/phase_wolves.csv">results/phase_wolves.csv</a>.</figcaption>
+  </figure>
+  <p>Split the month into its eight named phases and the Wolves are {{full_phase}} points better than expected at the full moon and {{new_phase}} better at the new moon. If moonlight were the cause, those two phases should sit at opposite ends.</p>
+  <p>The simpler analysis uses only the Wolves' own {{wolves_games}} games and tries every combination of the four moon variables, sixteen models per outcome, ranked by AIC. For points scored and for margin, the best model contains no moon variable. For points allowed and for wins, the best model adds the full-moon window and nothing else. Alone, the window's p-value is {{wo_allowed_p}} for points allowed and {{wo_win_p}} for wins, or {{wo_allowed_holm}} and {{wo_win_holm}} after Holm's correction for the four variables. Of the four moon variables the window is the best predictor, and what it predicts is defense.</p>
+</section>
+
+<section id="fake-moons" data-phase="{{phase_6}}">
+  <h2>{{moon_6}}Fake moons</h2>
+  <p>Every p-value above depends on the model's error bars, and basketball gives reasons to doubt them. Teams run hot and cold for weeks. A variable that rises and falls once a month could ride those streaks and look meaningful.</p>
+  <p>So I invented moons. A fake moon is a cycle of some other length, anywhere from {{fake_min_days}} to {{fake_max_days}} days. There are {{fake_moons}} of them here, spaced so that each is a separate test. None of them exists, so whatever effect the model finds for one is noise, and the whole set shows how much noise to expect.</p>
+  <figure>
+    <img src="assets/figures/fake-records.png" width="2000" height="1120" loading="lazy" alt="Histogram of the Wolves' win rate inside {{fake_windows}} fake full-moon windows, centered near {{fake_center}} percent. A line marks the real full moon at {{near_pct}} percent, in the right tail. {{fake_better}} fake windows are as high or higher.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/fake_records.csv">results/fake_records.csv</a>.</figcaption>
+  </figure>
+  <p>The first test uses the raw record a fan would quote. On every fake cycle I marked a window covering {{window_share}}% of the cycle, the same share the real full-moon window takes of a lunar month. I placed it at four points in the cycle and counted the Wolves' wins and losses inside. Of {{fake_windows}} fake windows, {{fake_share}}% hold a record as good as {{near_record}}. The best belongs to a cycle of {{best_fake_days}} days, on which the Wolves went {{best_fake_record}}.</p>
+  <figure>
+    <img src="assets/figures/fake-estimates.png" width="2000" height="1200" loading="lazy" alt="Scatter of fake-moon estimates for the Wolves' margin against cycle length from {{fake_min_days}} to {{fake_max_days}} days, spread evenly around zero. The real moon's estimate sits inside the cloud. The same estimate with a {{inj_swing}}-point swing added sits near the top edge.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/periodogram.csv">results/periodogram.csv</a> and <a href="{{repo_url}}/blob/main/results/fake_summary.csv">results/fake_summary.csv</a>.</figcaption>
+  </figure>
+  <p>Every fake moon also went through the same model as the real one, twice, starting at two different points in its cycle. For the Wolves' margin, the fake estimates have a standard deviation of {{fake_sd_net}} points and the model's standard error is {{model_se_net}}, so the error bars are the right size. The real moon lands in the middle of the cloud. Of the fake estimates, {{p_fake_net}}% are larger.</p>
+  <p>One term does worse. For points allowed, the fake estimates spread {{def_cos_excess}}% wider than the model's standard error allows when measured from new moon to full, and {{def_excess_pct}}% wider for the window, so the {{def_win_p}} above is too small. Measured against the fake windows it is {{def_win_p_fake}}.</p>
+  <p>The test can also say yes. I added a {{inj_swing}}-point swing to the Wolves' real scores, timed to the real moon, and ran it again. The estimate for margin moved to {{inj_net}}, beyond {{inj_beyond}} of the {{fake_estimates}} fake estimates.</p>
+</section>
+
+<section id="limits" data-phase="{{phase_7}}">
+  <h2>{{moon_7}}What ten seasons cannot see</h2>
+  <p>This analysis would catch a {{detect_net}}-point swing in the Wolves' margin between new and full moon four times in five. Home court is worth about {{home_typical}} points. A moon effect the size of home court could exist and this data would probably miss it.</p>
+  <p>The window estimate of {{window_net_plain}} points could be real too. Confirming an edge that size at the usual standard would take about {{seasons_needed}} seasons of games in all, which puts the answer somewhere around {{answer_year}}.</p>
+  <p>There is a cheaper test than waiting. The source has {{second_seasons}} earlier seasons, {{second_first}} through {{second_last}}, that nothing above touched: {{second_games}} games, {{second_wolves_games}} of them the Wolves'. I ran the same model on them, unchanged, and asked first about the two estimates that stood out. The {{second_local_seasons}} oldest of those seasons record tip-off in the home arena's local time, which I converted first.</p>
+  <figure>
+    <img src="assets/figures/second-sample.png" width="2000" height="880" loading="lazy" alt="The two estimates with p below 0.05 in the main sample, each shown beside its value in the second sample of {{second_seasons}} earlier seasons. Both second-sample intervals include zero.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/second_sample.csv">results/second_sample.csv</a>.</figcaption>
+  </figure>
+  <p>The league-wide distance effect did not come back. In the second sample it is {{second_dist}} points ({{second_dist_lo}} to {{second_dist_hi}}). The Wolves' defense inside the window kept its direction and lost most of its size. Opponents scored {{second_def_abs}} fewer points, {{second_def_ratio}}% of the first estimate, with an interval from {{second_def_lo}} to {{second_def_hi}}.</p>
+  <p>The record that started all this did worse. In those {{second_seasons}} seasons the Wolves went {{second_near_record}} near a full moon and {{second_far_record}} otherwise, which is {{second_near_pct}}% and {{second_far_pct}}%.</p>
+  <figure>
+    <img src="assets/figures/sensitivity.png" width="2000" height="920" loading="lazy" alt="The Wolves' full-moon effect on margin under {{all_versions}} versions of the model, each with a 95 percent interval. All {{all_versions}} intervals include zero.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/sensitivity.csv">results/sensitivity.csv</a>.</figcaption>
+  </figure>
+  <p>The Wolves' estimate keeps its shape under {{other_versions}} other versions of the model: regular season only, without the two pandemic seasons, recent seasons only, points per 48 minutes in place of an overtime term, and two simpler structures. The margin swing ranges from {{sens_min}} to {{sens_max}} and every interval includes zero.</p>
+  <p>The width of the window is a choice as well. I tried {{window_widths}}, from half a day to three days either side of the full moon, and the margin estimate ran from {{window_min}} to {{window_max}} points. The two-day window is the only one whose interval excludes zero. I had set a day and a half before seeing any of them. The numbers are in <a href="{{repo_url}}/blob/main/results/windows.csv">results/windows.csv</a>.</p>
+</section>
+
+<section id="seasons" data-phase="{{phase_8}}">
+  <h2>{{moon_8}}Season by season, team by team</h2>
+  <p>A full-moon effect that belonged to the Wolves should show up in most seasons. Here is each season on its own, with the {{second_seasons}} earlier seasons above the ten main ones.</p>
+  <figure>
+    <img src="assets/figures/wolves-seasons.png" width="2000" height="2080" loading="lazy" alt="Dot-and-interval chart of the Wolves' margin inside the full-moon window in each of {{all_seasons}} seasons, with the record inside the window beside each season. {{season_intervals}} The highest of the ten main seasons is {{season_max_name}} at {{season_max}} points.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/wolves_seasons.csv">results/wolves_seasons.csv</a> and <a href="{{repo_url}}/blob/main/results/wolves_samples.csv">results/wolves_samples.csv</a>.</figcaption>
+  </figure>
+  <p>Among the ten main seasons the estimate runs from {{season_min}} points in {{season_min_name}} to {{season_max}} in {{season_max_name}}. A season holds about {{near_per_season}} full-moon games, so each estimate is rough. {{season_intervals}} Luck alone would give about one. A test of whether the seasons differ from one another gives p = {{season_test_p}} for the ten and p = {{early_season_test_p}} for the earlier {{second_seasons}}. Swings this size are what luck produces.</p>
+  <p>The record says the same thing more plainly. The Wolves went {{best_record}} inside the window in {{best_season_1}} and again in {{best_season_2}}. In the other {{other_seasons}} seasons they are {{rest_record}}.</p>
+  <p>The best-looking slice is the recent one. Since 2021-22 the Wolves are {{recent_record}} near a full moon. I found that by cutting the data after seeing it, so it proves nothing, but it is the stat I would bring to a bar.</p>
+  <p>The {{second_seasons}} earlier seasons, taken together, put the Wolves' margin inside the window at {{early_net}} points ({{early_net_lo}} to {{early_net_hi}}).</p>
+  <p>The {{now_season}} season is not in any model here. Through {{now_through}} the Wolves are {{now_record}}. {{now_sentence}} The next full moon is on {{now_next}}.</p>
+  <p>The same breakdown works for every team.</p>
+  <figure>
+    <img src="assets/figures/team-seasons.png" width="2000" height="2050" loading="lazy" alt="Grid of 30 teams by ten seasons. Each cell is colored by that team's margin inside the full-moon window in that season, gold for better and blue for worse. {{cells_off}} of the {{cells}} cells are ringed because their interval excludes zero. The Wolves' row is outlined.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/team_seasons.csv">results/team_seasons.csv</a>.</figcaption>
+  </figure>
+  <p>Each cell is one team in one season, and the teams are in order of their ten-season estimate. The Wolves are {{window_rank}} of 30 by that measure, and the {{window_top_team}} are first at {{window_top}} points. Of {{cells}} cells, {{cells_off}} have an interval that excludes zero, and luck alone would produce about {{cells_expected}}. A team's number in one season says nothing about the next. The correlation between consecutive seasons is {{carry_r}} over {{carry_pairs}} pairs. A model that lets every team have its own full-moon effect in every season puts the spread of those effects at {{ts_spread}} (p = {{ts_p}}).</p>
+  <figure>
+    <img src="assets/figures/every-team.png" width="2000" height="1880" loading="lazy" alt="Full-moon effect on point margin for all 30 NBA teams with 95 percent intervals, sorted from highest to lowest. The Timberwolves, drawn in gold, rank {{wolves_rank}}. {{team_include_zero}} of the 30 intervals include zero.">
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/every_team.csv">results/every_team.csv</a>.</figcaption>
+  </figure>
+  <p>With all ten seasons together and the moon measured from new to full, every team can be put through the Wolves' test. The Wolves rank {{wolves_rank}} of 30. The team most affected by the moon is the {{extreme_team}}, whose margin moves {{extreme_swing}} points from new moon to full (p = {{extreme_p}}), and nobody has a theory about them. A model that gives each team its own moon effect puts the spread across teams at {{slope_sd}} points and cannot tell it from zero (p = {{slope_p}}).</p>
+  <h3>Pick a team</h3>
+  <p>This chart holds the breakdown for all thirty teams. Pick a team, then switch between margin, points scored and points allowed, measured inside the window or from new moon to full. Every number is that team's change beyond the league's own.</p>
+  <figure class="live">
+    <div class="explorer" id="explorer"><p class="fallback">This chart needs JavaScript. The same numbers are in the two files linked under it.</p></div>
+    <figcaption>The numbers are in <a href="{{repo_url}}/blob/main/results/team_seasons.csv">results/team_seasons.csv</a> and <a href="{{repo_url}}/blob/main/results/team_effects.csv">results/team_effects.csv</a>.</figcaption>
+  </figure>
+  <p>I read the record as luck. Two seasons carry it, a second sample shows no gap in wins, and what is left is a possible edge of a point or so on defense that {{all_seasons}} seasons can neither confirm nor kill.</p>
+</section>
+
+<section id="run" data-phase="{{phase_9}}">
+  <h2>{{moon_9}}Run it yourself</h2>
+<pre><code>git clone {{repo_url}}
+cd the_timberwerewolves
+Rscript run_all.R</code></pre>
+  <p>The run needs R with the packages lme4, suncalc, ggplot2, ragg and jsonlite. It downloads {{season_files}} season files, fits the models, redraws the figures and rebuilds this page in six to ten minutes. The script fills in every result on this page from its own output. This copy was built with R {{r_version}} and lme4 {{lme4_version}} from data commit <code>{{data_commit}}</code>.</p>
+  <h3>What changed from earlier drafts</h3>
+  <p>The first versions of this analysis tested the moon by sliding the lunar calendar forward a random number of days and refitting. I removed that test. A cosine slid by any amount is a mix of the same cosine and sine, so the test's answer depended on where in the month the effect peaked and ignored how big it was. In a check, an effect twenty times larger barely moved the p-value. The fake moons replaced it.</p>
+  <p>Those versions also treated each team as equally good for all ten seasons and measured only the Wolves' scoring. This one lets team quality change every season and measures defense as well. The full list is in the <a href="{{repo_url}}/blob/main/CHANGELOG.md">changelog</a>.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Scores from ESPN via <a href="https://github.com/sportsdataverse/hoopR-nba-raw">sportsdataverse</a>. Moon positions from <a href="https://cran.r-project.org/package=suncalc">suncalc</a>, full-moon times from <a href="https://rhodesmill.org/pyephem/">PyEphem</a>. Models fitted with <a href="https://cran.r-project.org/package=lme4">lme4</a>, figures drawn with <a href="https://ggplot2.tidyverse.org">ggplot2</a>. The typefaces are IM Fell English and Archivo, both under the SIL Open Font License.</p>
+  <p>This is a fan project. It is not affiliated with the Minnesota Timberwolves or the NBA. The code is on <a href="{{repo_url}}">GitHub</a> under the MIT license.</p>
+</footer>
+
+<script src="assets/explorer-data.js"></script>
+<script src="assets/explorer.js"></script>
+<script src="assets/moon.js"></script>
+<script src="assets/scroll.js"></script>
+</body>
+</html>

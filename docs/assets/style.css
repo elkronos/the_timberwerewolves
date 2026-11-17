@@ -1,0 +1,257 @@
+/* The Timberwerewolves: moonlight on a midnight sky.
+   Colors match R/theme_moon.R so the figures sit flush with the page. */
+
+@font-face {
+  font-family: "IM Fell English";
+  src: url("fonts/im-fell-english-latin-400-normal.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "IM Fell English";
+  src: url("fonts/im-fell-english-latin-400-italic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("fonts/archivo-latin-400-normal.woff2") format("woff2");
+  font-weight: 400; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("fonts/archivo-latin-400-italic.woff2") format("woff2");
+  font-weight: 400; font-style: italic; font-display: swap;
+}
+@font-face {
+  font-family: "Archivo";
+  src: url("fonts/archivo-latin-600-normal.woff2") format("woff2");
+  font-weight: 600; font-style: normal; font-display: swap;
+}
+
+:root {
+  color-scheme: dark;
+  --sky: #0b1632;
+  --sky-raised: #101d40;
+  --rule: #24325a;
+  --ink: #eeeadb;
+  --body: #d8d6ca;
+  --ink-2: #b4b9cc;
+  --muted: #8089a6;
+  --gold: #d2a63c;
+  /* chart colors, the same values as moon_pal in R/theme_moon.R */
+  --mark-gold: #b88c27;
+  --mark-gray: #6b7594;
+  --grid: #1b2747;
+  --axis: #33416b;
+  --band: #14204a;
+  --old-type: "IM Fell English", "Iowan Old Style", Georgia, serif;
+  --sans: "Archivo", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --gutter: clamp(1rem, 8vw, 9rem);
+  --marker: 4rem;
+  --column: 40rem;
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--sky);
+  color: var(--body);
+  font: 400 1.125rem/1.66 var(--sans);
+}
+
+a { color: var(--ink); text-decoration-color: var(--gold); text-underline-offset: 0.18em; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 2px; }
+
+.skip { position: absolute; left: -999rem; top: 0.5rem; background: var(--sky-raised); padding: 0.5rem 0.75rem; }
+.skip:focus { left: 0.5rem; z-index: 3; }
+
+/* ---- The dial: a moon that follows the reader through the month ---- */
+.dial { position: fixed; top: 1.25rem; left: 1.25rem; z-index: 2; line-height: 0; }
+
+/* ---- Title ---- */
+.top, main > section, footer {
+  margin-left: calc(var(--gutter) + var(--marker));
+  margin-right: 1rem;
+  max-width: var(--column);
+}
+.top { padding-top: clamp(4.5rem, 14vh, 9rem); max-width: none; }
+
+h1 {
+  font: 400 clamp(2.7rem, 11.2vw, 8.5rem)/0.95 var(--old-type);
+  color: var(--ink);
+  letter-spacing: -0.01em;
+  margin: 0;
+  hyphens: manual;
+  overflow-wrap: anywhere;
+}
+.deck {
+  font: italic 400 clamp(1.3rem, 3vw, 2rem)/1.25 var(--old-type);
+  color: var(--ink-2);
+  max-width: 26em;
+  margin: 1.2rem 0 0;
+}
+
+/* ---- Sections ---- */
+main > section { padding-top: clamp(3.5rem, 9vh, 6rem); }
+
+h2 {
+  position: relative;
+  font: 400 clamp(1.9rem, 4.4vw, 2.7rem)/1.1 var(--old-type);
+  color: var(--ink);
+  margin: 0 0 1.1rem;
+}
+h2 .moon { position: absolute; left: calc(-1 * var(--marker) + 0.6rem); top: 0.18em; }
+
+h3 {
+  font: 600 1.05rem/1.3 var(--sans);
+  color: var(--ink);
+  margin: 2.4rem 0 0.6rem;
+}
+
+p, ul, dl { margin: 0 0 1.15rem; }
+ul { padding-left: 1.2rem; }
+li { margin-bottom: 0.45rem; }
+li::marker { color: var(--muted); }
+
+.short { font-size: 1.22rem; line-height: 1.55; color: var(--ink); }
+
+dt { margin-top: 0.9rem; }
+dd { margin: 0.15rem 0 0; }
+
+code { font: 0.92em/1.5 ui-monospace, "SF Mono", Menlo, Consolas, monospace; color: var(--ink); }
+pre {
+  background: var(--sky-raised);
+  padding: 1rem 1.1rem;
+  overflow-x: auto;
+  margin: 0 0 1.15rem;
+  border-radius: 4px;
+}
+pre code { font-size: 0.86rem; }
+
+/* ---- Figures: wider than the text, and scrollable sideways on a phone ---- */
+figure {
+  margin: 2.2rem 0 2.2rem;
+  width: min(62rem, calc(100vw - var(--gutter) - var(--marker) - 1.5rem));
+}
+figure img { display: block; width: 100%; height: auto; }
+figcaption { color: var(--muted); font-size: 0.9rem; line-height: 1.5; max-width: var(--column); margin-top: 0.6rem; }
+figcaption a { color: var(--ink-2); }
+
+details { margin-top: 0.8rem; max-width: 100%; }
+summary { cursor: pointer; color: var(--ink-2); font-size: 0.95rem; width: fit-content; }
+.scroll { overflow-x: auto; margin-top: 0.8rem; }
+table { border-collapse: collapse; font-size: 0.88rem; font-variant-numeric: tabular-nums; min-width: 40rem; }
+th, td { text-align: left; padding: 0.4rem 0.9rem 0.4rem 0; border-bottom: 1px solid var(--rule); white-space: nowrap; }
+th { color: var(--ink-2); font-weight: 600; }
+td:nth-child(n+3), th:nth-child(n+3) { text-align: right; padding-right: 0; padding-left: 0.9rem; }
+
+footer {
+  margin-top: 5rem;
+  padding: 1.6rem 0 4rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+footer a { color: var(--ink-2); }
+
+/* ---- The interactive chart ---- */
+.explorer { position: relative; }
+.explorer .fallback { color: var(--ink-2); max-width: var(--column); }
+
+.controls { display: flex; flex-wrap: wrap; gap: 0.9rem 1.5rem; align-items: flex-end; margin: 0; }
+.choice { display: block; }
+.choice .legend { display: block; color: var(--muted); font-size: 0.82rem; margin-bottom: 0.3rem; }
+.controls select {
+  font: inherit; font-size: 0.95rem; color: var(--ink);
+  background: var(--sky-raised); border: 1px solid var(--rule); border-radius: 4px;
+  height: 2.4rem; padding: 0 0.6rem; max-width: 100%;
+}
+/* separate buttons, so a row that wraps on a phone still looks whole */
+.options { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+.options input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+.options span {
+  display: flex; align-items: center; height: 2.4rem; padding: 0 0.7rem;
+  font-size: 0.95rem; color: var(--ink-2); cursor: pointer;
+  border: 1px solid var(--rule); border-radius: 4px;
+}
+.options input:checked + span { background: var(--sky-raised); color: var(--ink); border-color: var(--muted); }
+.options input:focus-visible + span { outline: 2px solid var(--gold); outline-offset: 2px; }
+
+/* The selected team's chart stays put while the list of thirty scrolls under it. */
+.explorer .pinned {
+  position: sticky; top: 0; z-index: 2;
+  background: var(--sky);
+  margin-top: 1.2rem; padding: 0.6rem 0 0.4rem;
+  border-bottom: 1px solid var(--rule);
+}
+.explorer .pinned + .hint { margin-top: 0.7rem; }
+@media (max-height: 40rem) { .explorer .pinned { position: static; } }
+
+.explorer h4 { font: 600 1rem/1.3 var(--sans); color: var(--ink); margin: 1.6rem 0 0.3rem; }
+.explorer .pinned h4 { margin: 0 0 0.5rem; }
+.explorer .hint { color: var(--ink-2); font-size: 0.9rem; line-height: 1.5; margin: 0 0 0.5rem; max-width: var(--column); }
+.explorer .key { white-space: nowrap; margin-left: 0.5rem; }
+.explorer .swatch { display: inline-block; width: 0.62rem; height: 0.62rem; border-radius: 50%; margin-right: 0.35rem; background: var(--mark-gray); }
+.explorer .swatch.is-focus { background: var(--mark-gold); }
+.explorer .swatch.is-picked { background: var(--ink); }
+.explorer .swatch.is-band {
+  width: 1.5rem; height: 0.75rem; border-radius: 0; margin-right: 0.45rem; vertical-align: -0.08em;
+  background: repeating-linear-gradient(to right, var(--ink-2) 0 4px, transparent 4px 8px) center / 100% 1px no-repeat, var(--band);
+}
+.explorer svg { display: block; max-width: 100%; height: auto; font-family: var(--sans); }
+.explorer svg text { font-size: 13px; font-variant-numeric: tabular-nums; }
+.explorer.is-narrow svg text { font-size: 12px; }
+.explorer svg text.strong { font-weight: 600; }
+
+.explorer .grid { stroke: var(--grid); stroke-width: 1; }
+.explorer .zero { stroke: var(--axis); stroke-width: 1.4; }
+.explorer .tick, .explorer .value { fill: var(--muted); }
+.explorer .record, .explorer .axis-title, .explorer .name { fill: var(--ink-2); }
+.explorer .band { fill: var(--band); }
+.explorer .pooled { stroke: var(--ink-2); stroke-width: 1.2; stroke-dasharray: 4 4; }
+.explorer .interval { stroke: var(--mark-gray); stroke-width: 2; }
+.explorer .dot { fill: var(--mark-gray); stroke: var(--sky); stroke-width: 2; }
+.explorer .hit, .explorer .row { fill: transparent; }
+
+.explorer .is-picked .interval { stroke: var(--ink); }
+.explorer .is-picked .dot { fill: var(--ink); }
+.explorer .is-focus .interval { stroke: var(--mark-gold); }
+.explorer .is-focus .dot { fill: var(--mark-gold); }
+.explorer .season:hover .dot { stroke: var(--ink); }
+.explorer .team { cursor: pointer; }
+.explorer .team:hover .row, .explorer .team.is-picked .row { fill: var(--sky-raised); }
+.explorer .team.is-picked .dot { stroke: var(--sky-raised); }
+.explorer .team.is-picked .name, .explorer .team.is-picked .value { fill: var(--ink); font-weight: 600; }
+
+.explorer .tip {
+  position: absolute; z-index: 3; pointer-events: none; max-width: 19rem;
+  background: #060d20; border: 1px solid var(--rule); border-radius: 4px;
+  padding: 0.45rem 0.65rem; font-size: 0.85rem; line-height: 1.45; color: var(--body);
+}
+.explorer .tip strong, .explorer .tip span { display: block; }
+.explorer .tip strong { color: var(--ink); font-weight: 600; }
+.explorer table { min-width: 0; width: 100%; max-width: 30rem; }
+.explorer th { white-space: normal; vertical-align: bottom; }
+.explorer td:nth-child(n+2), .explorer th:nth-child(n+2) { text-align: right; padding-right: 0; padding-left: 0.9rem; }
+
+/* ---- Narrow screens ---- */
+@media (max-width: 52rem) {
+  :root { --gutter: 0rem; --marker: 1rem; }
+  .dial { display: none; }   /* no empty margin for it on a phone */
+  h2 .moon { position: static; display: inline-block; vertical-align: -0.12em; margin-right: 0.55rem; }
+  figure { width: auto; margin-right: -1rem; overflow-x: auto; }
+  figure img { width: 46rem; max-width: none; }
+  figcaption, details { padding-right: 1rem; }
+  /* the interactive chart is drawn to fit, so its figure stays inside the page */
+  figure.live { margin-right: 0; overflow-x: visible; }
+  figure.live figcaption, figure.live details { padding-right: 0; }
+}
+
+@media print {
+  .dial, .skip { display: none; }
+  body { background: #fff; color: #000; }
+}

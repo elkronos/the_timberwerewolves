@@ -1,0 +1,181 @@
+"measure","team","outcome","chisq","df","p"
+"window","Atlanta Hawks","offense",7.9237,9,0.5418
+"window","Atlanta Hawks","defense",7.1711,9,0.6193
+"window","Atlanta Hawks","net",10.563,9,0.3069
+"window","Boston Celtics","offense",15.0044,9,0.0908
+"window","Boston Celtics","defense",17.2324,9,0.0452
+"window","Boston Celtics","net",14.4316,9,0.1078
+"window","Brooklyn Nets","offense",9.0177,9,0.4356
+"window","Brooklyn Nets","defense",4.359,9,0.8862
+"window","Brooklyn Nets","net",7.1167,9,0.625
+"window","Charlotte Hornets","offense",9.458,9,0.3961
+"window","Charlotte Hornets","defense",9.574,9,0.3861
+"window","Charlotte Hornets","net",10.0537,9,0.3462
+"window","Chicago Bulls","offense",9.782,9,0.3684
+"window","Chicago Bulls","defense",7.7978,9,0.5546
+"window","Chicago Bulls","net",12.7123,9,0.1761
+"window","Cleveland Cavaliers","offense",8.8631,9,0.45
+"window","Cleveland Cavaliers","defense",4.613,9,0.8667
+"window","Cleveland Cavaliers","net",7.1999,9,0.6163
+"window","Dallas Mavericks","offense",4.8495,9,0.8472
+"window","Dallas Mavericks","defense",6.1672,9,0.7231
+"window","Dallas Mavericks","net",1.5248,9,0.997
+"window","Denver Nuggets","offense",6.0895,9,0.7309
+"window","Denver Nuggets","defense",14.4163,9,0.1083
+"window","Denver Nuggets","net",8.8296,9,0.4532
+"window","Detroit Pistons","offense",7.2724,9,0.6088
+"window","Detroit Pistons","defense",4.2228,9,0.8961
+"window","Detroit Pistons","net",5.9082,9,0.7491
+"window","Golden State Warriors","offense",6.44,9,0.6952
+"window","Golden State Warriors","defense",6.9764,9,0.6396
+"window","Golden State Warriors","net",10.0071,9,0.3499
+"window","Houston Rockets","offense",7.3307,9,0.6027
+"window","Houston Rockets","defense",7.9552,9,0.5387
+"window","Houston Rockets","net",2.5599,9,0.9792
+"window","Indiana Pacers","offense",11.8308,9,0.223
+"window","Indiana Pacers","defense",5.2606,9,0.811
+"window","Indiana Pacers","net",5.5829,9,0.7808
+"window","LA Clippers","offense",8.3068,9,0.5035
+"window","LA Clippers","defense",5.6687,9,0.7726
+"window","LA Clippers","net",3.6436,9,0.9333
+"window","Los Angeles Lakers","offense",8.9252,9,0.4442
+"window","Los Angeles Lakers","defense",11.578,9,0.2382
+"window","Los Angeles Lakers","net",7.7082,9,0.5638
+"window","Memphis Grizzlies","offense",6.6326,9,0.6753
+"window","Memphis Grizzlies","defense",4.9879,9,0.8354
+"window","Memphis Grizzlies","net",4.4783,9,0.8772
+"window","Miami Heat","offense",6.9997,9,0.6371
+"window","Miami Heat","defense",7.7256,9,0.562
+"window","Miami Heat","net",11.0498,9,0.2723
+"window","Milwaukee Bucks","offense",5.722,9,0.7674
+"window","Milwaukee Bucks","defense",4.1244,9,0.903
+"window","Milwaukee Bucks","net",6.5055,9,0.6885
+"window","Minnesota Timberwolves","offense",8.2753,9,0.5067
+"window","Minnesota Timberwolves","defense",10.0661,9,0.3452
+"window","Minnesota Timberwolves","net",8.9307,9,0.4437
+"window","New Orleans Pelicans","offense",12.656,9,0.1788
+"window","New Orleans Pelicans","defense",3.5981,9,0.9358
+"window","New Orleans Pelicans","net",8.2462,9,0.5095
+"window","New York Knicks","offense",9.2436,9,0.4151
+"window","New York Knicks","defense",4.7265,9,0.8575
+"window","New York Knicks","net",6.0873,9,0.7312
+"window","Oklahoma City Thunder","offense",7.4457,9,0.5908
+"window","Oklahoma City Thunder","defense",7.7395,9,0.5606
+"window","Oklahoma City Thunder","net",6.8865,9,0.6489
+"window","Orlando Magic","offense",5.0684,9,0.8283
+"window","Orlando Magic","defense",8.4139,9,0.493
+"window","Orlando Magic","net",7.0489,9,0.632
+"window","Philadelphia 76ers","offense",14.5764,9,0.1032
+"window","Philadelphia 76ers","defense",8.191,9,0.515
+"window","Philadelphia 76ers","net",9.6907,9,0.3761
+"window","Phoenix Suns","offense",13.3775,9,0.1463
+"window","Phoenix Suns","defense",10.8352,9,0.2872
+"window","Phoenix Suns","net",8.9217,9,0.4445
+"window","Portland Trail Blazers","offense",9.9041,9,0.3583
+"window","Portland Trail Blazers","defense",14.9402,9,0.0926
+"window","Portland Trail Blazers","net",18.3537,9,0.0313
+"window","Sacramento Kings","offense",5.9828,9,0.7416
+"window","Sacramento Kings","defense",6.8901,9,0.6486
+"window","Sacramento Kings","net",5.4575,9,0.7927
+"window","San Antonio Spurs","offense",4.7234,9,0.8577
+"window","San Antonio Spurs","defense",15.0476,9,0.0896
+"window","San Antonio Spurs","net",10.492,9,0.3121
+"window","Toronto Raptors","offense",5.2105,9,0.8156
+"window","Toronto Raptors","defense",8.9088,9,0.4457
+"window","Toronto Raptors","net",3.8366,9,0.9218
+"window","Utah Jazz","offense",7.4706,9,0.5882
+"window","Utah Jazz","defense",4.9819,9,0.8359
+"window","Utah Jazz","net",4.3977,9,0.8833
+"window","Washington Wizards","offense",5.1124,9,0.8244
+"window","Washington Wizards","defense",14.2963,9,0.1122
+"window","Washington Wizards","net",7.6175,9,0.5731
+"smooth","Atlanta Hawks","offense",13.3345,9,0.148
+"smooth","Atlanta Hawks","defense",8.5543,9,0.4794
+"smooth","Atlanta Hawks","net",11.4105,9,0.2486
+"smooth","Boston Celtics","offense",17.0336,9,0.0482
+"smooth","Boston Celtics","defense",12.2998,9,0.1969
+"smooth","Boston Celtics","net",12.3974,9,0.1918
+"smooth","Brooklyn Nets","offense",7.5358,9,0.5815
+"smooth","Brooklyn Nets","defense",15.3432,9,0.0819
+"smooth","Brooklyn Nets","net",7.3341,9,0.6024
+"smooth","Charlotte Hornets","offense",11.8781,9,0.2203
+"smooth","Charlotte Hornets","defense",15.4633,9,0.079
+"smooth","Charlotte Hornets","net",13.1305,9,0.1568
+"smooth","Chicago Bulls","offense",10.3641,9,0.3218
+"smooth","Chicago Bulls","defense",6.5316,9,0.6858
+"smooth","Chicago Bulls","net",8.7648,9,0.4593
+"smooth","Cleveland Cavaliers","offense",8.2853,9,0.5057
+"smooth","Cleveland Cavaliers","defense",4.1438,9,0.9017
+"smooth","Cleveland Cavaliers","net",15.2653,9,0.0839
+"smooth","Dallas Mavericks","offense",8.8665,9,0.4497
+"smooth","Dallas Mavericks","defense",7.4162,9,0.5939
+"smooth","Dallas Mavericks","net",4.89,9,0.8438
+"smooth","Denver Nuggets","offense",4.005,9,0.9111
+"smooth","Denver Nuggets","defense",15.2217,9,0.085
+"smooth","Denver Nuggets","net",6.6425,9,0.6743
+"smooth","Detroit Pistons","offense",4.4073,9,0.8826
+"smooth","Detroit Pistons","defense",4.4611,9,0.8785
+"smooth","Detroit Pistons","net",1.4093,9,0.9978
+"smooth","Golden State Warriors","offense",9.5377,9,0.3892
+"smooth","Golden State Warriors","defense",8.165,9,0.5176
+"smooth","Golden State Warriors","net",10.6398,9,0.3012
+"smooth","Houston Rockets","offense",7.8996,9,0.5443
+"smooth","Houston Rockets","defense",14.3224,9,0.1113
+"smooth","Houston Rockets","net",6.4941,9,0.6896
+"smooth","Indiana Pacers","offense",5.1192,9,0.8238
+"smooth","Indiana Pacers","defense",6.2838,9,0.7112
+"smooth","Indiana Pacers","net",2.8922,9,0.9684
+"smooth","LA Clippers","offense",14.4343,9,0.1077
+"smooth","LA Clippers","defense",4.6293,9,0.8653
+"smooth","LA Clippers","net",14.4901,9,0.1059
+"smooth","Los Angeles Lakers","offense",7.4027,9,0.5953
+"smooth","Los Angeles Lakers","defense",2.6846,9,0.9755
+"smooth","Los Angeles Lakers","net",2.8996,9,0.9681
+"smooth","Memphis Grizzlies","offense",3.8836,9,0.9189
+"smooth","Memphis Grizzlies","defense",20.4997,9,0.0151
+"smooth","Memphis Grizzlies","net",9.6956,9,0.3757
+"smooth","Miami Heat","offense",6.4898,9,0.6901
+"smooth","Miami Heat","defense",4.7397,9,0.8564
+"smooth","Miami Heat","net",2.1981,9,0.9879
+"smooth","Milwaukee Bucks","offense",11.3584,9,0.2519
+"smooth","Milwaukee Bucks","defense",9.0982,9,0.4283
+"smooth","Milwaukee Bucks","net",12.5533,9,0.1839
+"smooth","Minnesota Timberwolves","offense",12.2412,9,0.2001
+"smooth","Minnesota Timberwolves","defense",12.6424,9,0.1795
+"smooth","Minnesota Timberwolves","net",11.1014,9,0.2688
+"smooth","New Orleans Pelicans","offense",6.1508,9,0.7247
+"smooth","New Orleans Pelicans","defense",4.6706,9,0.862
+"smooth","New Orleans Pelicans","net",6.6742,9,0.671
+"smooth","New York Knicks","offense",13.6119,9,0.1368
+"smooth","New York Knicks","defense",9.7484,9,0.3712
+"smooth","New York Knicks","net",14.9386,9,0.0926
+"smooth","Oklahoma City Thunder","offense",14.1345,9,0.1176
+"smooth","Oklahoma City Thunder","defense",4.4334,9,0.8806
+"smooth","Oklahoma City Thunder","net",5.0774,9,0.8275
+"smooth","Orlando Magic","offense",12.001,9,0.2133
+"smooth","Orlando Magic","defense",8.6971,9,0.4657
+"smooth","Orlando Magic","net",14.9238,9,0.093
+"smooth","Philadelphia 76ers","offense",9.2853,9,0.4114
+"smooth","Philadelphia 76ers","defense",14.1877,9,0.1158
+"smooth","Philadelphia 76ers","net",12.8522,9,0.1694
+"smooth","Phoenix Suns","offense",12.5874,9,0.1822
+"smooth","Phoenix Suns","defense",8.5631,9,0.4785
+"smooth","Phoenix Suns","net",3.877,9,0.9193
+"smooth","Portland Trail Blazers","offense",14.2581,9,0.1134
+"smooth","Portland Trail Blazers","defense",7.0818,9,0.6286
+"smooth","Portland Trail Blazers","net",21.3702,9,0.0111
+"smooth","Sacramento Kings","offense",7.2317,9,0.613
+"smooth","Sacramento Kings","defense",3.2904,9,0.9517
+"smooth","Sacramento Kings","net",6.6518,9,0.6733
+"smooth","San Antonio Spurs","offense",4.2878,9,0.8915
+"smooth","San Antonio Spurs","defense",12.5364,9,0.1847
+"smooth","San Antonio Spurs","net",3.036,9,0.9628
+"smooth","Toronto Raptors","offense",3.5633,9,0.9377
+"smooth","Toronto Raptors","defense",8.3362,9,0.5006
+"smooth","Toronto Raptors","net",5.4699,9,0.7916
+"smooth","Utah Jazz","offense",18.3231,9,0.0316
+"smooth","Utah Jazz","defense",6.7201,9,0.6662
+"smooth","Utah Jazz","net",6.4417,9,0.695
+"smooth","Washington Wizards","offense",8.4529,9,0.4892
+"smooth","Washington Wizards","defense",9.9911,9,0.3512
+"smooth","Washington Wizards","net",5.1461,9,0.8214

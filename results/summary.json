@@ -1,0 +1,107 @@
+{
+  "counts": {
+    "games": 12852,
+    "team_games": 25704,
+    "wolves_games": 854,
+    "teams": 30,
+    "seasons": 10,
+    "first_game": "2016-10-25",
+    "last_game": "2026-06-13",
+    "lunar_cycles": 88,
+    "neutral_games": 203,
+    "overtime_games": 676,
+    "time_fixed": 4,
+    "exhibitions_dropped": 18,
+    "near_home_share": 0.56044,
+    "far_home_share": 0.491481,
+    "s22_wins": 10,
+    "s22_losses": 1,
+    "s22_home": 9,
+    "recent_near_wins": 36,
+    "recent_near_losses": 11,
+    "wolves_near_full": 91,
+    "wolves_wins": 428,
+    "wolves_losses": 426,
+    "near_wins": 55,
+    "near_losses": 36,
+    "far_wins": 373,
+    "far_losses": 390,
+    "near_points": 111.362637,
+    "far_points": 112.760157,
+    "near_margin": 2.857143,
+    "far_margin": 0.525557,
+    "near_resid_margin": 1.476746,
+    "far_resid_margin": -0.176126,
+    "new_wins": 41,
+    "new_losses": 47,
+    "new_resid_margin": 0.508081,
+    "fake_moons": 166
+  },
+  "second_sample": {
+    "games": 18078,
+    "wolves_games": 1156,
+    "local_clock_seasons": 6,
+    "first_season": "2002-03",
+    "last_season": "2015-16",
+    "seasons": 14,
+    "near_wins": 45,
+    "near_losses": 70,
+    "far_wins": 405,
+    "far_losses": 636
+  },
+  "this_season": {
+    "season": "2026-27",
+    "through": "2026-11-15",
+    "league_games": 197,
+    "wolves_games": 13,
+    "wins": 9,
+    "losses": 4,
+    "near_wins": 1,
+    "near_losses": 1,
+    "full_moons": 1,
+    "next_full_moon": "2026-11-24"
+  },
+  "team_slopes": {
+    "sd_offense": 0,
+    "sd_defense": 0.102592,
+    "chisq": 0.023699,
+    "p": 0.988221,
+    "singular": true
+  },
+  "team_season_slopes": {
+    "sd_offense": 0,
+    "sd_defense": 0,
+    "chisq": 1.513399e-09,
+    "p": 1,
+    "singular": true
+  },
+  "carryover": {
+    "r": -0.099237,
+    "pairs": 270
+  },
+  "cells_off_zero": {
+    "cells": 300,
+    "off_zero": 9,
+    "expected": 15
+  },
+  "moon_check": {
+    "full_moons_checked": 121,
+    "max_hours_off": 4.442492,
+    "mean_hours_off": -0.770087,
+    "fraction_cor": 0.99982,
+    "fraction_max_diff": 0.022237,
+    "distance_cor": 0.974864
+  },
+  "swing": {
+    "moon_cos": 2,
+    "moon_sin": 2,
+    "near_full": 1,
+    "moon_dist": 41.81
+  },
+  "session": {
+    "r": "R version 4.5.3 (2026-03-11)",
+    "lme4": "2.0.6",
+    "suncalc": "0.5.4",
+    "data_commit": "4890b4ef0f945dbfe0e5788a6b56e271ac24f61f"
+  }
+}
