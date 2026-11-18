@@ -141,7 +141,7 @@
 
   var teamsTitle = html("h4", null, "All thirty teams, ten seasons together");
   var teamsHint = html("p", { "class": "hint" }, "Select a row to see that team's seasons. ");
-  [["focus", "Timberwolves"], ["picked", "Selected team"], ["other", "Other teams"]].forEach(function (k) {
+  [["focus", "Timberwolves"], ["picked", "Your pick"], ["other", "Other teams"]].forEach(function (k) {
     var item = html("span", { "class": "key" });
     item.appendChild(html("i", { "class": "swatch is-" + k[0] }));
     item.appendChild(document.createTextNode(k[1]));
@@ -152,7 +152,7 @@
   [teamsTitle, teamsHint, teamsBox].forEach(function (n) { root.appendChild(n); });
 
   var details = html("details");
-  details.appendChild(html("summary", null, "Show the selected team's numbers as a table"));
+  details.appendChild(html("summary", null, "Show this team's numbers as a table"));
   var tableBox = html("div", { "class": "scroll" });
   details.appendChild(tableBox);
   root.appendChild(details);
@@ -192,7 +192,7 @@
     seasonsTitle.textContent = D.teams[team] + ", season by season";
     var text = "All ten seasons together: " + signed(all.est) + " points (" + range(all) + ").";
     if (state.measure === "window") {
-      text += " Under each season is the record inside the window, " + record(team, ALL) + " in all.";
+      text += " Under each season is its record inside the window, " + record(team, ALL) + " in all.";
     }
     if (state.outcome === "defense") text += " Fewer points allowed is better defense.";
     if (seasonNames[0].length < 5) text += " " + seasonNames[0] + " is the " + D.seasons[0] + " season.";
@@ -280,8 +280,8 @@
 
     var chart = svg("svg", {
       role: "img",
-      "aria-label": "All thirty teams ranked by " + D.outcomes[state.outcome].toLowerCase() + ", " +
-        D.measures[state.measure].toLowerCase() + ", over ten seasons. " + D.teams[state.team] + " is selected."
+      "aria-label": "All thirty teams in order of " + D.outcomes[state.outcome].toLowerCase() + ", " +
+        D.measures[state.measure].toLowerCase() + ", over ten seasons. You picked the " + D.short[state.team] + "."
     });
     teamsBox.textContent = "";
     teamsBox.appendChild(chart);

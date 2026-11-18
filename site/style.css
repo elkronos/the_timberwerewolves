@@ -72,7 +72,7 @@ a:hover { text-decoration-thickness: 2px; }
 .dial { position: fixed; top: 1.25rem; left: 1.25rem; z-index: 2; line-height: 0; }
 
 /* ---- Title ---- */
-.top, main > section, footer {
+.top, main > section, main > nav, footer {
   margin-left: calc(var(--gutter) + var(--marker));
   margin-right: 1rem;
   max-width: var(--column);
@@ -131,12 +131,14 @@ pre {
 }
 pre code { font-size: 0.86rem; }
 
-/* ---- Figures: wider than the text, and scrollable sideways on a phone ---- */
+/* ---- Figures: wider than the text. A phone gets its own drawing of each,
+   half as wide at the same type size (R/figures.R draws both). ---- */
 figure {
   margin: 2.2rem 0 2.2rem;
   width: min(62rem, calc(100vw - var(--gutter) - var(--marker) - 1.5rem));
 }
-figure img { display: block; width: 100%; height: auto; }
+figure picture, figure img { display: block; }
+figure img { width: 100%; height: auto; }
 figcaption { color: var(--muted); font-size: 0.9rem; line-height: 1.5; max-width: var(--column); margin-top: 0.6rem; }
 figcaption a { color: var(--ink-2); }
 
@@ -157,6 +159,47 @@ footer {
   line-height: 1.6;
 }
 footer a { color: var(--ink-2); }
+
+/* ---- Contents: a block after the first section, a rail at the right on wide screens ---- */
+.contents {
+  margin-top: 3.2rem; padding: 1rem 0 0.5rem;
+  border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+  scroll-margin-top: 1rem;
+}
+.contents-label { color: var(--muted); font-size: 0.82rem; margin: 0 0 0.7rem; }
+.contents ol { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 2rem; }
+.contents li { margin: 0 0 0.6rem; break-inside: avoid; }
+.contents a {
+  display: inline-flex; align-items: center; gap: 0.6rem;
+  color: var(--ink-2); font-size: 0.98rem; line-height: 1.3; text-decoration: none;
+}
+.contents a:hover { color: var(--ink); text-decoration: underline; text-decoration-color: var(--gold); }
+.contents a[aria-current] { color: var(--ink); }
+.contents .moon { flex: none; }
+
+@media (min-width: 88rem) {
+  main > nav.contents {
+    position: fixed; top: 6.5rem; right: 2rem; width: 11.5rem; z-index: 1;
+    margin: 0; padding: 0; border: 0; max-height: calc(100vh - 8rem); overflow-y: auto;
+  }
+  .contents ol { columns: 1; }
+  .contents li { margin-bottom: 0.55rem; }
+  .contents a { color: var(--muted); font-size: 0.86rem; }
+  .contents a[aria-current] { color: var(--ink); font-weight: 600; }
+}
+
+/* The way back to the contents where there is no rail. It carries the same
+   moon as the dial, which a phone has no margin for. */
+.pill {
+  position: fixed; right: 1rem; bottom: 1rem; z-index: 4;
+  display: none; align-items: center; gap: 0.45rem;
+  background: #060d20; border: 1px solid var(--rule); border-radius: 999px;
+  padding: 0.5rem 0.9rem 0.5rem 0.6rem;
+  color: var(--ink); font-size: 0.88rem; line-height: 1; text-decoration: none;
+}
+.pill.is-on { display: inline-flex; }
+.pill:hover { border-color: var(--muted); }
+@media (min-width: 88rem) { .pill.is-on { display: none; } }
 
 /* ---- The interactive chart ---- */
 .explorer { position: relative; }
@@ -243,15 +286,18 @@ footer a { color: var(--ink-2); }
   :root { --gutter: 0rem; --marker: 1rem; }
   .dial { display: none; }   /* no empty margin for it on a phone */
   h2 .moon { position: static; display: inline-block; vertical-align: -0.12em; margin-right: 0.55rem; }
-  figure { width: auto; margin-right: -1rem; overflow-x: auto; }
-  figure img { width: 46rem; max-width: none; }
-  figcaption, details { padding-right: 1rem; }
-  /* the interactive chart is drawn to fit, so its figure stays inside the page */
-  figure.live { margin-right: 0; overflow-x: visible; }
-  figure.live figcaption, figure.live details { padding-right: 0; }
+  figure { width: calc(100vw - 3rem); }
+  .contents ol { columns: 1; }
+  .top { padding-top: clamp(3rem, 9vh, 6rem); }
+}
+
+/* ---- Phones: the narrow drawings, the same width as in R/site.R ---- */
+@media (max-width: 44rem) {
+  figure { width: auto; }
+  figure picture { max-width: 28rem; }   /* past this the type in a drawing outgrows the page's */
 }
 
 @media print {
-  .dial, .skip { display: none; }
+  .dial, .skip, .pill, .contents { display: none; }
   body { background: #fff; color: #000; }
 }

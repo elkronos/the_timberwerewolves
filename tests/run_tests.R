@@ -149,3 +149,38 @@ test_that("a team's nickname is its last word, except Portland's", {
                c("Timberwolves", "Clippers", "76ers"))
   expect_equal(nickname("Portland Trail Blazers"), "Trail Blazers")
 })
+
+test_that("the narrow layout wraps a figure's text and the wide layout leaves it alone", {
+  long <- "Each dot is one game from 2016-17 to 2025-26,\na win above the line or a loss below it."
+  expect_identical(fit_text(long, narrow = FALSE), long)
+  lines <- strsplit(fit_text(long, narrow = TRUE, width = 30), "\n", fixed = TRUE)[[1]]
+  expect_true(all(nchar(lines) < 30))
+  expect_identical(paste(lines, collapse = " "), gsub("\n", " ", long, fixed = TRUE))
+  # balancing keeps the number of lines and takes words off the longest one
+  title <- "Sixteen estimates, two with p below 0.05"
+  plain <- strsplit(fit_text(title, narrow = TRUE, width = 39), "\n", fixed = TRUE)[[1]]
+  even  <- strsplit(fit_title(title, narrow = TRUE), "\n", fixed = TRUE)[[1]]
+  expect_length(even, length(plain))
+  expect_lt(max(nchar(even)), max(nchar(plain)))
+  expect_identical(fit_title("30 teams, ten seasons", narrow = TRUE), "30 teams, ten seasons")
+})
+
+test_that("a figure on the page gets its size from the file and a narrow drawing for phones", {
+  dir <- tempfile("figures")
+  dir.create(dir)
+  blank <- function(name, width, height) {
+    ragg::agg_png(file.path(dir, name), width = width, height = height, units = "px")
+    grid::grid.newpage()
+    grDevices::dev.off()
+  }
+  blank("demo.png", 200, 120)
+  blank("demo-narrow.png", 100, 130)
+  expect_equal(png_size(file.path(dir, "demo-narrow.png")), c(100, 130))
+  page <- add_narrow_figures('<figure><img src="assets/figures/demo.png" loading="lazy" alt="A demo."></figure>',
+                             list(dir_figures = dir))
+  expect_match(page, '<source media="(max-width: 44rem)" srcset="assets/figures/demo-narrow.png" width="100" height="130">',
+               fixed = TRUE)
+  expect_match(page, '<img src="assets/figures/demo.png" width="200" height="120" loading="lazy" alt="A demo.">',
+               fixed = TRUE)
+  expect_match(page, "^<figure><picture>")
+})

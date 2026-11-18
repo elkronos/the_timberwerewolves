@@ -37,7 +37,9 @@ moon_font <- function() {
   family
 }
 
-theme_moon <- function(base_size = 13) {
+# `narrow` is the layout for a phone: the same type sizes on a figure half as
+# wide, so it trims the margins at the sides.
+theme_moon <- function(base_size = 13, narrow = FALSE) {
   p <- moon_pal
   ggplot2::theme_minimal(base_size = base_size, base_family = moon_font()) +
     ggplot2::theme(
@@ -54,7 +56,8 @@ theme_moon <- function(base_size = 13) {
                                                  margin = ggplot2::margin(t = 12)),
       plot.title.position   = "plot",
       plot.caption.position = "plot",
-      plot.margin        = ggplot2::margin(18, 22, 14, 18),
+      plot.margin        = if (narrow) ggplot2::margin(14, 12, 10, 10)
+                           else ggplot2::margin(18, 22, 14, 18),
       panel.grid.major   = ggplot2::element_line(colour = p$grid, linewidth = 0.3),
       panel.grid.minor   = ggplot2::element_blank(),
       axis.text          = ggplot2::element_text(colour = p$muted),
@@ -139,6 +142,28 @@ tick_signed <- function(v) signed(v, digits = 0)
 
 # A win-loss record with an en dash: 55\u201336.
 record <- function(wins, losses) paste0(wins, "\u2013", losses)
+
+# Each figure is drawn in two layouts: ten inches wide for a computer screen
+# and five inches wide for a phone. The wide layout keeps the line breaks
+# written in the code. The narrow one wraps the same words to `width`
+# characters. With `balance` it then evens out the lines, which suits a title.
+fit_text <- function(text, narrow, width = 50, balance = FALSE) {
+  if (!narrow) return(text)
+  wrap <- function(s) {
+    s <- gsub("\n", " ", s, fixed = TRUE)
+    lines <- strwrap(s, width = width)
+    if (balance) for (w in seq(width - 1, 8)) {
+      tighter <- strwrap(s, width = w)
+      if (length(tighter) > length(lines)) break
+      lines <- tighter
+    }
+    paste(lines, collapse = "\n")
+  }
+  vapply(text, wrap, "", USE.NAMES = FALSE)
+}
+fit_title <- function(text, narrow) fit_text(text, narrow, width = 39, balance = TRUE)
+WIDE_INCHES   <- 10
+NARROW_INCHES <- 5
 
 save_figure <- function(plot, name, cfg, width = 10, height = 6) {
   dir.create(cfg$dir_figures, showWarnings = FALSE, recursive = TRUE)

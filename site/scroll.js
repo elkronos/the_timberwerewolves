@@ -1,9 +1,9 @@
-// On a narrow screen the figures, code blocks and tables scroll sideways.
-// While one of them overflows it gets a tab stop, so the keyboard can reach
-// it and the arrow keys can scroll it.
+// On a narrow screen the code blocks and the tables scroll sideways. While
+// one of them overflows it gets a tab stop, so the keyboard can reach it and
+// the arrow keys can scroll it.
 (function () {
   function update() {
-    var regions = document.querySelectorAll("figure, pre, .scroll");
+    var regions = document.querySelectorAll("pre, .scroll");
     Array.prototype.forEach.call(regions, function (el) {
       if (el.scrollWidth > el.clientWidth + 1) el.setAttribute("tabindex", "0");
       else el.removeAttribute("tabindex");

@@ -23,21 +23,18 @@ long_date <- function(iso) {
   paste(month.name[as.integer(format(d, "%m"))], as.integer(format(d, "%d")))
 }
 
-# The phase each section of the page starts at: new moon at the top, full at
-# "The result", and back toward new by the end. The section markers and the
-# moon in the corner (site/moon.js) both use these.
-SECTION_PHASES <- c(0, 1 / 8, 2 / 8, 3 / 8, 4 / 8, 0.6, 0.7, 0.8, 0.9)
+# The phase each section of the page starts at, by section id: new moon at the
+# top, full at "The result", and back toward new by the end. The moon beside
+# each heading, the list of contents and the moon in the corner (site/moon.js)
+# all use these.
+SECTION_PHASES <- c(record = 0, games = 1 / 8, moon = 2 / 8, model = 3 / 8, result = 4 / 8,
+                    "fake-moons" = 0.57, seasons = 0.64, teams = 0.71, models = 0.78,
+                    verdict = 0.86, run = 0.93)
 
 # Everything the interactive chart needs, as one list that becomes JSON: for
 # each measure and outcome, a row per team holding its estimate in each season
 # and then for all seasons together, with standard errors in the same layout
 # and each team's record inside the window.
-# "Minnesota Timberwolves" becomes "Timberwolves". Every team's nickname is
-# its last word, except Portland's.
-nickname <- function(team) {
-  ifelse(grepl("Trail Blazers$", team), "Trail Blazers", sub("^.* ", "", team))
-}
-
 explorer_data <- function(r, cfg) {
   b <- r$breakdown
   teams   <- sort(unique(b$pooled$team))
@@ -132,6 +129,9 @@ site_facts <- function(out, cfg) {
   fake_ratio <- function(d, which) d$fake_sd[d$term == which] / d$model_se[d$term == which]
   rate   <- function(wins, losses) wins / (wins + losses)
   fixed  <- out$games$game_date[out$games$time_fixed]
+  # the 2020 restart in Orlando ran from 30 July to 11 October
+  in_bubble <- out$games$game_date >= as.Date("2020-07-30") &
+    out$games$game_date <= as.Date("2020-10-11")
   # p_fake is (1 + count) / (1 + n), so this recovers the count
   inj_larger <- round(fi$p_fake[fi$term == "net"] * (fi$n_fake[fi$term == "net"] + 1)) - 1
   # chance that two or more of the estimates fall under 0.05 with no effect anywhere
@@ -196,6 +196,8 @@ site_facts <- function(out, cfg) {
       all(tt$p[tt$term == "offense"] > 0.05),
     "text says the corrected tip-off times are all in February 2020" =
       all(format(fixed, "%Y-%m") == "2020-02"),
+    "text says the bubble games are neutral sites, and most of the neutral sites" =
+      all(out$games$neutral[in_bubble]) && sum(in_bubble) > n$neutral_games / 2,
     "text says home court was smallest in 2020-21" =
       cv$term[grepl(":home_court$", cv$term)][which.min(home)] == "season2020-21:home_court",
     "text says rest helps, a rested opponent hurts, and playoff games score lower" =
@@ -266,7 +268,8 @@ site_facts <- function(out, cfg) {
     next_season = season_label(last_year + 1L),
     games = big(n$games), team_games = big(n$team_games), wolves_games = big(n$wolves_games),
     lunar_cycles = n$lunar_cycles, exhibitions = n$exhibitions_dropped,
-    time_fixed = tools::toTitleCase(number_word(n$time_fixed)), neutral_games = n$neutral_games,
+    time_fixed = number_word(n$time_fixed), neutral_games = n$neutral_games,
+    bubble_games = sum(in_bubble),
     near_full_days = cfg$near_full_days,
     near_record = record(n$near_wins, n$near_losses),
     far_record = record(n$far_wins, n$far_losses),
@@ -383,13 +386,66 @@ site_facts <- function(out, cfg) {
     r_version = sub("^R version ([0-9.]+).*$", "\\1", r$session$r),
     lme4_version = r$session$lme4, data_commit = substr(cfg$data_commit, 1, 7)
   )
-  # the section markers, and the phase each section starts at
-  marks  <- stats::setNames(lapply(SECTION_PHASES, moon_svg),
-                            paste0("moon_", seq_along(SECTION_PHASES)))
-  phases <- stats::setNames(as.list(format(SECTION_PHASES)),
-                            paste0("phase_", seq_along(SECTION_PHASES)))
-  c(facts, marks, phases)
+  facts
 }
+
+# Give each <section> of the page its phase, put a moon of that phase beside
+# its heading, and build the list of contents from the headings. The template
+# marks the place for the list with <!-- contents -->.
+add_section_marks <- function(page) {
+  ids <- regmatches(page, gregexpr('(?<=<section id=")[^"]+', page, perl = TRUE))[[1]]
+  if (!identical(ids, names(SECTION_PHASES))) {
+    stop("The template has the sections ", paste(ids, collapse = ", "),
+         " and SECTION_PHASES names ", paste(names(SECTION_PHASES), collapse = ", "), call. = FALSE)
+  }
+  items <- character(length(ids))
+  for (i in seq_along(ids)) {
+    opening <- sprintf('<section id="%s">[[:space:]]*<h2>([^<]+)</h2>', ids[i])
+    found   <- regmatches(page, regexec(opening, page))[[1]]
+    if (length(found) != 2) stop("Section ", ids[i], " must open with a plain <h2>", call. = FALSE)
+    phase <- SECTION_PHASES[[i]]
+    page  <- sub(found[1], sprintf('<section id="%s" data-phase="%s">\n  <h2>%s%s</h2>',
+                                   ids[i], format(phase), moon_svg(phase), found[2]),
+                 page, fixed = TRUE)
+    items[i] <- sprintf('    <li><a href="#%s">%s%s</a></li>', ids[i], moon_svg(phase, size = 14), found[2])
+  }
+  nav <- paste0('<nav class="contents" id="contents" aria-label="Contents">\n',
+                '  <p class="contents-label">Contents</p>\n  <ol>\n',
+                paste(items, collapse = "\n"), "\n  </ol>\n</nav>")
+  place <- "<!-- contents -->"
+  if (lengths(regmatches(page, gregexpr(place, page, fixed = TRUE))) != 1) {
+    stop("The template needs one ", place, " line", call. = FALSE)
+  }
+  sub(place, nav, page, fixed = TRUE)
+}
+
+# Width and height of a PNG file in pixels, read from its header.
+png_size <- function(path) {
+  con <- file(path, "rb")
+  on.exit(close(con))
+  readBin(con, "raw", 16)                                   # the signature and the start of the first chunk
+  readBin(con, "integer", n = 2, size = 4, endian = "big")
+}
+
+# The template names the wide drawing of each figure in a plain <img>. Give
+# each one its size in pixels, read from the file, and wrap it in a <picture>
+# that hands a phone the narrow drawing instead.
+add_narrow_figures <- function(page, cfg) {
+  imgs <- unique(regmatches(page, gregexpr('<img src="assets/figures/[^>]+>', page))[[1]])
+  for (img in imgs) {
+    name   <- sub('^<img src="assets/figures/([a-z-]+)\\.png".*$', "\\1", img)
+    wide   <- png_size(file.path(cfg$dir_figures, paste0(name, ".png")))
+    narrow <- png_size(file.path(cfg$dir_figures, paste0(name, "-narrow.png")))
+    sized  <- sub(".png\"", sprintf(".png\" width=\"%d\" height=\"%d\"", wide[1], wide[2]), img, fixed = TRUE)
+    source <- sprintf('<source media="(max-width: %s)" srcset="assets/figures/%s-narrow.png" width="%d" height="%d">',
+                      NARROW_SCREEN, name, narrow[1], narrow[2])
+    page <- gsub(img, paste0("<picture>\n      ", source, "\n      ", sized, "\n    </picture>"),
+                 page, fixed = TRUE)
+  }
+  page
+}
+# Screens up to this wide get the narrow drawings. site/style.css uses the same width.
+NARROW_SCREEN <- "44rem"
 
 # Replace every {{placeholder}} in a template file with its value.
 fill_template <- function(path, facts) {
@@ -411,8 +467,9 @@ write_utf8 <- function(text, path) {
 build_site <- function(out, cfg) {
   facts <- site_facts(out, cfg)
   dir.create(file.path("docs", "assets"), showWarnings = FALSE, recursive = TRUE)
-  write_utf8(fill_template(file.path("site", "index.template.html"), facts),
-             file.path("docs", "index.html"))
+  page <- add_section_marks(fill_template(file.path("site", "index.template.html"), facts))
+  page <- add_narrow_figures(page, cfg)
+  write_utf8(page, file.path("docs", "index.html"))
   write_utf8(fill_template(file.path("site", "README.template.md"), facts), "README.md")
   file.copy(file.path("site", c("style.css", "moon.js", "explorer.js", "scroll.js")),
             file.path("docs", "assets"), overwrite = TRUE)
